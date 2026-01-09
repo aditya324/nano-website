@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .orbit-ring {
+      animation: rotate 30s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .feature-card {
+      transition: all 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+  </style>      
+</head>
+
+<body class="bg-[#f5f5f5] font-sans">
+  <?php require "./header.php" ?>
+
+  <?php require "./components/call-nano.php" ?>
+  
+  <section class="w-full hidden md:block ">
+    <div
+      class="relative w-full mx-auto
+         h-auto
+        
+         bg-cover bg-center overflow-hidden"
+      style="background-image: url('./assets/banners/blur.jpg');">
+
+      <!-- <div
+      class="relative w-full mx-auto
+         h-auto
+         md:h-[360px]
+         lg:h-[300px]
+         xl:h-[200px]
+         bg-cover bg-center overflow-hidden"
+      style="background-image: url('./assets/banners/blur.jpg');"> -->
+
+      <!-- TOP SEARCH PILL (DESKTOP ONLY) -->
+      <div class="hidden md:flex justify-center w-full pt-3 z-50 relative">
+        <div
+          class="flex w-full max-w-[1020px] items-center
+               bg-white shadow-md rounded-full p-3 mx-4">
+          <div class="relative w-full">
+            <input
+              type="text"
+              placeholder="Search for Doctors Specialty, Condition..."
+              class="w-full rounded-full border border-gray-200
+                   py-3 pl-5 pr-12 text-sm md:text-base
+                   text-[#737373] placeholder-gray-400
+                   focus:outline-none focus:ring-2 focus:ring-red-400" />
+
+            <button
+              class="absolute right-2 top-1/2 -translate-y-1/2
+                   w-9 h-9 flex items-center justify-center
+                   rounded-full bg-red-500 hover:bg-red-600 transition">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                class="w-4 h-4 text-white"
+                fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENT WRAPPER -->
+      <div class="relative z-20 px-4 lg:px-0
+                flex flex-col lg:flex-row
+                items-center lg:items-start
+                max-w-[1400px] mx-auto">
+
+        <!-- LEFT CONTENT -->
+        <div
+          class="w-full lg:w-1/2
+               text-center lg:text-left
+               flex flex-col justify-center h-full
+                mt-10">
+
+          <p class="text-xl sm:text-2xl md:text-3xl
+                  text-[#555555] font-semibold uppercase mb-1">
+            World-Class Doctors
+          </p>
+
+          <h1
+            class="text-2xl sm:text-3xl md:text-3xl xl:text-4xl
+                 font-extrabold text-red-600 drop-shadow-lg
+                 leading-tight mb-1">
+            COMPLETE HEALTH CHECKUPS
+          </h1>
+
+          <p
+            class="text-xl sm:text-2xl md:text-3xl
+                 font-semibold text-red-600 mb-6">
+            Total Peace of Mind
+          </p>
+
+          <!-- APPOINTMENT CARD -->
+          <div class="inline-block bg-white rounded-xl overflow-hidden w-full max-w-[420px] mx-auto lg:mx-0">
+            <div
+              class="text-white font-bold py-3 px-6 text-center text-sm sm:text-lg"
+              style="background: linear-gradient(90deg, #FF4848 0%, #992B2B 100%);">
+              FOR APPOINTMENTS
+            </div>
+
+            <div class="flex items-center justify-between gap-4 px-4 py-4">
+              <div class="text-left">
+                <p class="flex items-center gap-1 text-gray-600 text-lg">
+                  <img loading="lazy"src="./assets/icons/Vector (4).png" alt="">
+                  Uttarahalli
+                </p>
+                <p class="text-red-500 font-semibold text-lg">
+                  +91 87672 00300
+                </p>
+              </div>
+
+              <div class="w-10 h-10 rounded-full bg-gray-100 shadow-inner flex items-center justify-center shrink-0">
+                <img loading="lazy"src="./assets/icons/phone.png" class="w-5 h-5" alt="">
+              </div>
+
+              <div class="text-left">
+                <p class="flex items-center gap-1 text-gray-600 text-lg">
+                  <img loading="lazy"src="./assets/icons/Vector (4).png" alt="">
+                  Hulimavu
+                </p>
+                <p class="text-red-500 font-semibold text-lg">
+                  +91 89295 00500
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div
+          class="w-full lg:w-1/2
+              
+               flex items-end h-full">
+          <img
+            src="./assets/banners/family-home (2).png"
+            class="w-full max-w-[420px]
+                 md:max-w-[520px]
+                 lg:max-w-[617px]
+                 h-auto object-contain"
+            alt="">
+        </div>
+      </div>
+
+      <!-- ⛔ COMMENTED CODE KEPT AS REQUESTED (UNCHANGED) -->
+      <!--
+      YOUR ENTIRE COMMENTED PILL NAV CODE REMAINS HERE
+      EXACTLY AS YOU PROVIDED
+    -->
+
+    </div>
+  </section>
+
+
+
+
+  <!-- MOBILE HERO -->
+  <!-- MOBILE HERO -->
+  <section class="w-full md:hidden">
+    <div
+      class="relative w-full 
+           bg-cover bg-center overflow-hidden"
+      style="background-image: url('./assets/banners/blur.jpg');">
+      <p class="text-lg uppercase font-semibold text-[#666] text-center">
+        World-Class Doctors
+      </p>
+
+      <h1 class="text-lg font-extrabold text-red-400 leading-tight mt-1 text-center">
+        COMPLETE HEALTH CHECKUPS
+      </h1>
+
+      <p class="text-base font-semibold text-red-400 mt-0.5 text-center">
+        Total Peace of Mind
+      </p>
+      <div class="relative z-10 h-full px-4 
+                flex items-center justify-between">
+
+        <!-- LEFT CONTENT -->
+        <div class="w-[56%]">
+
+
+
+          <!-- APPOINTMENT CARD -->
+          <div class="mt-3 bg-white rounded-md shadow-md overflow-hidden">
+            <div class="bg-[#FF4B4B] text-white text-xs font-bold px-3 py-1.5">
+              FOR APPOINTMENTS
+            </div>
+
+            <div class="px-3 py-2 text-xs space-y-1">
+              <div>
+                <p class="flex items-center gap-1 text-gray-600">
+                  <svg class="w-3 h-3 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 2a6 6 0 00-6 6c0 4.5 6 10 6 10s6-5.5 6-10a6 6 0 00-6-6z" />
+                  </svg>
+                  Uttarahalli
+                </p>
+                <p class="text-red-500 font-semibold">
+                  +91 87672 00300
+                </p>
+              </div>
+
+              <div>
+                <p class="flex items-center gap-1 text-gray-600">
+                  <svg class="w-3 h-3 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 2a6 6 0 00-6 6c0 4.5 6 10 6 10s6-5.5 6-10a6 6 0 00-6-6z" />
+                  </svg>
+                  Hulimavu
+                </p>
+                <p class="text-red-500 font-semibold">
+                  +91 89295 00500
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="  flex justify-end items-end ">
+          <img
+            src="./assets/banners/family-home (2).png"
+            alt="Family"
+            class="h-[262px] w-[398px]  object-contain">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="w-full py-6 bg-[#F6F6F6] hidden md:block">
+    <div class="container mx-auto px-4">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 gap-x-5">
+
+        <!-- Book Appointment (Primary Card) -->
+        <a href="#"
+          class="group bg-[#FF4B4B] rounded-2xl p-6 flex justify-between items-center
+                shadow-lg
+                hover:-translate-y-2 hover:shadow-2xl
+                transition-all duration-300 ease-out">
+
+          <div>
+            <h3 class="text-white text-xl font-semibold">
+              Book An Appointment
+            </h3>
+            <p class="text-white/90 text-sm mt-1">
+              Your health, just one step away
+            </p>
+          </div>
+
+          <div class="w-12 h-12 flex items-center justify-center">
+            <img
+              src="./assets/icons/book-appointment (2).png"
+              alt=""
+              class="group-hover:scale-110 transition-transform duration-300">
+          </div>
+        </a>
+
+        <!-- Doctors -->
+
+        <a href="./doctor-profile.php">
+          <div
+            class="group bg-white rounded-2xl p-6 flex justify-between items-center
+               shadow-md text-[#6A6A6A]
+               bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
+               [background-size:12px_12px]
+               hover:-translate-y-2 hover:shadow-xl
+               transition-all duration-300 ease-out cursor-pointer">
+
+            <div>
+              <h3 class="text-lg font-semibold">Doctors</h3>
+              <p class="text-sm mt-1">
+                Top Experts for your Health
+              </p>
+            </div>
+
+            <img
+              src="./assets/icons/doctor.png"
+              alt=""
+              class="group-hover:scale-110 transition-transform duration-300">
+          </div>
+        </a>
+
+        <!-- Specialities -->
+        <div
+          class="group bg-white rounded-2xl p-6 flex justify-between items-center
+               shadow-md text-[#6A6A6A]
+               bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
+               [background-size:12px_12px]
+               hover:-translate-y-2 hover:shadow-xl
+               transition-all duration-300 ease-out cursor-pointer">
+
+          <div>
+            <h3 class="text-lg font-semibold">Specialities</h3>
+            <p class="text-sm mt-1">
+              Expert care across every Specialty
+            </p>
+          </div>
+
+          <img
+            src="./assets/icons/specialities.png"
+            alt=""
+            class="group-hover:scale-110 transition-transform duration-300">
+        </div>
+
+        <!-- Procedures -->
+        <div
+          class="group bg-white rounded-2xl p-6 flex justify-between items-center
+               shadow-md text-[#6A6A6A]
+               bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
+               [background-size:12px_12px]
+               hover:-translate-y-2 hover:shadow-xl
+               transition-all duration-300 ease-out cursor-pointer">
+
+          <div>
+            <h3 class="text-lg font-semibold">Procedures</h3>
+            <p class="text-sm mt-1">
+              Safe, Proven Medical Procedures
+            </p>
+          </div>
+
+          <img
+            src="./assets/icons/procedures.png"
+            alt=""
+            class="group-hover:scale-110 transition-transform duration-300">
+        </div>
+
+        <!-- Conditions -->
+        <div
+          class="group bg-white rounded-2xl p-6 flex justify-between items-center
+               shadow-md text-[#6A6A6A]
+               bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
+               [background-size:12px_12px]
+               hover:-translate-y-2 hover:shadow-xl
+               transition-all duration-300 ease-out cursor-pointer">
+
+          <div>
+            <h3 class="text-lg font-semibold">Conditions</h3>
+            <p class="text-sm mt-1">
+              Health Conditions and Ailments we Treat
+            </p>
+          </div>
+
+          <img
+            src="./assets/icons/stethescope.png"
+            alt=""
+            class="group-hover:scale-110 transition-transform duration-300">
+        </div>
+
+        <!-- Health Packages -->
+        <a href="./health-packages.php">
+          <div
+            class="group bg-white rounded-2xl p-6 flex justify-between items-center
+               shadow-md text-[#6A6A6A]
+               bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
+               [background-size:12px_12px]
+               hover:-translate-y-2 hover:shadow-xl
+               transition-all duration-300 ease-out cursor-pointer">
+
+            <div>
+              <h3 class="text-lg font-semibold">Health Packages</h3>
+              <p class="text-sm mt-1">
+                Health Conditions we Treat
+              </p>
+            </div>
+
+            <img
+              src="./assets/icons/health-packages.png"
+              alt=""
+              class="group-hover:scale-110 transition-transform duration-300">
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MOBILE ACTION MENU -->
+  <section class="md:hidden w-full px-4 py-6 bg-white">
+    <div class="flex flex-col gap-4 max-w-md mx-auto">
+
+      <!-- Book Appointment -->
+      <a href="/hospitals"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              bg-[#FF4B4B] text-white font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/book-appointment (2).png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300  w-10 h-10">
+        Book Appointments
+      </a>
+
+      <!-- Our Hospitals -->
+      <a href="/hospitals"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              text-gray-500 font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/doctor.png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
+        Conditions
+      </a>
+
+      <!-- Specialities -->
+      <a href="/specialities"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              text-gray-500 font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/specialities.png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
+        Specialities
+      </a>
+
+      <!-- Doctors -->
+      <a href="./doctor-profile.php"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              text-gray-500 font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/doctor.png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
+        Doctors
+      </a>
+
+      <!-- Facilities -->
+      <a href="#"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              text-gray-500 font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/procedures.png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
+        procedures
+      </a>
+
+      <!-- Second Opinion -->
+      <a href="/second-opinion"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              text-gray-500 font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/health-packages.png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
+        Health Package
+      </a>
+
+    </div>
+  </section>
+
+
+
+  <div class="hidden md:block">
+    <section class=" flex items-center justify-center p-4  mt-10">
+      <div class="max-w-5xl w-full ">
+
+        <div class="text-center mb-8">
+          <h1 class="text-4xl md:text-3xl font-bold mb-3">
+            <span class="text-red-500">Nano.</span>
+            <span class="text-[#737373]"> The Patient's Choice</span>
+          </h1>
+          <p class="font-semibold text-[#737373] text-lg mb-1 ">World Class Infrastructure</p>
+          <a href="./why-nano.php" class="inline-flex items-center gap-2 text-red-500 mt-2 hover:gap-3 transition-all">
+            Know More
+            <svg class="w-5 h-5 bg-red-500 text-white rounded-full p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+
+
+        <div class="relative w-full mx-auto" style="height: 600px; max-width: 700px;">
+
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+            <div class="w-[450px] h-[450px] rounded-full overflow-hidden shadow-2xl border-8 border-white">
+
+              <img loading="lazy"id="centerImage"
+                src="./assets/banners/patients-choice.webp"
+                alt="Hospital"
+                class="w-full h-full object-cover transition-opacity duration-500">
+            </div>
+          </div>
+
+
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" style="width: 560px; height: 560px;">
+            <svg class="w-full h-full" viewBox="0 0 560 560">
+              <circle cx="280" cy="280" r="275" fill="none" stroke="#d1d5db" stroke-width="2" stroke-dasharray="10,10" />
+            </svg>
+          </div>
+
+          <div class="absolute left-1/2 -translate-x-1/2 z-20" style="top: 5px;">
+            <div class="flex flex-col items-center">
+              <button onclick="changeFeature(0)" class="orb w-12 h-12 rounded-full bg-red-500 border-4 border-red-500 shadow-lg hover:scale-110 transition-all duration-300"></button>
+
+            </div>
+          </div>
+
+          <div class="absolute z-20" style="right: 50px; top: 50%; transform: translateY(-50%);">
+            <button onclick="changeFeature(1)" class="orb w-12 h-12 rounded-full bg-white border-4 border-gray-300 shadow-lg hover:scale-110 transition-all duration-300"></button>
+            <div class="absolute left-16 top-1/2 -translate-y-1/2 text-left w-36">
+              <h3 class="font-semibold text-[#737373] text-lg mb-1 ">Leading Medical<br>Doctors</h3>
+              <a href="./doctor-profile.php" class="inline-flex items-center gap-1 text-red-500 text-xs hover:gap-2 transition-all">
+                Know More
+                <svg class="w-4 h-4 bg-red-500 text-white rounded-full p-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="absolute z-20" style="right: 130px; bottom: 80px;">
+            <button onclick="changeFeature(2)" class="orb w-12 h-12 rounded-full bg-white border-4 border-gray-300 shadow-lg hover:scale-110 transition-all duration-300"></button>
+            <div class="absolute left-16 top-1/2 -translate-y-1/2 text-left w-32">
+              <h3 class="font-semibold text-[#737373] text-lg mb-1">Latest high-end Facilities</h3>
+              <a href="./health-facilities.php" class="inline-flex items-center gap-1 text-red-500 text-xs hover:gap-2 transition-all">
+                Know More
+                <svg class="w-4 h-4 bg-red-500 text-white rounded-full p-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="absolute z-20" style="left: 130px; bottom: 80px;">
+            <button onclick="changeFeature(3)" class="orb w-12 h-12 rounded-full bg-white border-4 border-gray-300 shadow-lg hover:scale-110 transition-all duration-300"></button>
+            <div class="absolute right-16 top-1/2 -translate-y-1/2 text-right w-32">
+              <h3 class="font-semibold text-[#737373] text-lg mb-1">Patient-First<br>Care Team</h3>
+              <a href="./patient-testimonials.php" class="inline-flex items-center justify-end gap-1 text-red-500 text-xs hover:gap-2 transition-all">
+                Know More
+                <svg class="w-4 h-4 bg-red-500 text-white rounded-full p-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="absolute z-20" style="left: 50px; top: 50%; transform: translateY(-50%);">
+            <button onclick="changeFeature(4)" class="orb w-12 h-12 rounded-full bg-white border-4 border-gray-300 shadow-lg hover:scale-110 transition-all duration-300"></button>
+            <div class="absolute right-16 top-1/2 -translate-y-1/2 text-right w-36">
+              <h3 class="font-semibold text-[#737373] text-lg mb-1">Trusted Quality<br>Care</h3>
+              <a href="#" class="inline-flex items-center justify-end gap-1 text-red-500 text-xs hover:gap-2 transition-all">
+                Know More
+                <svg class="w-4 h-4 bg-red-500 text-white rounded-full p-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </section>
+  </div>
+
+
+  <!-- MOBILE ONLY -->
+  <section class="md:hidden px-4 py-6 bg-white">
+
+    <!-- ITEM 1 -->
+    <div class="border-b border-gray-300">
+      <button onclick="toggleAccordion(0)"
+        class="w-full flex justify-between items-center py-4 text-[#737373] font-medium text-sm">
+        World Class Infrastructure
+        <span id="icon-0" class="text-xl">˄</span>
+      </button>
+
+      <div id="content-0" class="pb-6">
+        <div class="flex justify-center my-6">
+          <div class="w-[260px] h-[260px] rounded-full overflow-hidden shadow-lg">
+            <img
+              src="./assets/banners/patients-choice.webp"
+              class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+            Know More
+            <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="border-b border-gray-300">
+      <button onclick="toggleAccordion(1)"
+        class="w-full flex justify-between items-center py-4 text-gray-500 text-sm">
+        Leading Medical Doctors
+        <span id="icon-1" class="text-xl">˅</span>
+      </button>
+
+      <div id="content-1" class="hidden pb-6">
+        <div class="flex justify-center my-6">
+          <div class="w-[260px] h-[260px] rounded-full overflow-hidden shadow-lg">
+            <img
+              src="./assets/banners/leading-doctors.webp"
+              class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+            Know More
+            <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="border-b border-gray-300">
+      <button onclick="toggleAccordion(2)"
+        class="w-full flex justify-between items-center py-4 text-gray-500 text-sm">
+        Latest high-end Facilities
+        <span id="icon-2" class="text-xl">˅</span>
+      </button>
+
+      <div id="content-2" class="hidden pb-6">
+        <div class="flex justify-center my-6">
+          <div class="w-[260px] h-[260px] rounded-full overflow-hidden shadow-lg">
+            <img
+              src="./assets/banners/high-end.jpg"
+              class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+            Know More
+            <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ITEM 4 -->
+    <div class="border-b border-gray-300">
+      <button onclick="toggleAccordion(3)"
+        class="w-full flex justify-between items-center py-4 text-gray-500 text-sm">
+        Patient-First Care Team
+        <span id="icon-3" class="text-xl">˅</span>
+      </button>
+
+      <div id="content-3" class="hidden pb-6">
+        <div class="flex justify-center my-6">
+          <div class="w-[260px] h-[260px] rounded-full overflow-hidden shadow-lg">
+            <img
+              src="./assets/banners/patient-first.webp"
+              class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+            Know More
+            <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ITEM 5 -->
+    <div class="border-b border-gray-300">
+      <button onclick="toggleAccordion(4)"
+        class="w-full flex justify-between items-center py-4 text-gray-500 text-sm">
+        Trusted Quality Care
+        <span id="icon-4" class="text-xl">˅</span>
+      </button>
+
+      <div id="content-4" class="hidden pb-6">
+        <div class="flex justify-center my-6">
+          <div class="w-[260px] h-[260px] rounded-full overflow-hidden shadow-lg">
+            <img
+              src="./assets/banners/trusted-quality-care.webp"
+              class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+            Know More
+            <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="w-full py-10">
+
+    <!-- HEADING -->
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-semibold text-[#737373]">
+        Nano Centers of
+        <span class="text-red-500 font-semibold">Excellence</span>
+      </h2>
+
+      <!-- TABS -->
+      <div class="flex justify-center flex-wrap gap-24 mt-6 border-b border-gray-200">
+
+        <!-- SPECIALITIES (ACTIVE) -->
+        <button
+          class="tab-btn relative text-xl  pb-4 text-red-500 font-semibold hover:text-red-500 transition"
+          data-target="specialities">
+          Specialities
+
+          <!-- underline -->
+          <span
+            class="absolute left-1/2 -translate-x-1/2 bottom-0
+             w-32 h-[2px] bg-red-500 rounded-full">
+          </span>
+        </button>
+
+        <!-- PROCEDURES -->
+        <button
+          class="tab-btn relative text-xl  pb-4 text-gray-500 font-semibold hover:text-red-500 transition"
+          data-target="procedures">
+          Procedures
+        </button>
+
+        <!-- CONDITIONS -->
+        <button
+          class="tab-btn relative text-xl  pb-4 text-gray-500 font-semibold hover:text-red-500 transition"
+          data-target="conditions">
+          Conditions
+        </button>
+
+      </div>
+
+
+    </div>
+
+    <!-- ================= SPECIALITIES ================= -->
+    <div id="specialities"
+      class="tab-content show flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28"> <!-- 1. Anaesthesia -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Bone & <br /> Joint Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/bone-and-joint.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 2. Invasive & Non-Invasive Cardiology -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Heart <br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/heart-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 3. Cardiac Thoracic Surgery -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Brain <br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/brain-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 4. Critical Care Medicine -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Cancer<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/cancer-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 5. Dermatology -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Gastro<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/gastro-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 6. Emergency Medicine -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Lung<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/lung-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 7. Endocrine Surgery -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Radiology </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/radiology.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 8. Endocrinology -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Skin<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/skin-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 9. ENT --> <!-- 10. General Medicine -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Physical <br> Medicine <br> & Rehab </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/physical-rehab.png" alt="Bone and Joint" class="absolute left-20 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 11. General & Laparoscopic Surgery --> <!-- 12. Interventional Radiology -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Emergency<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/emergrncy-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 13. Surgical Gastroenterology -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Child<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/child-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 14. Oral & Maxillo Facial Surgery -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> General<br /> Surgery </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/genral-surgery.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 15. Nephrology & Dialysis --> <!-- 16. Neurology -->
+      <div
+        class="relative w-[260px] Dh-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Laboratory<br /> Medicine </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/laboratory-medicine.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 17. Neurosurgery -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3
+            class="text-red-500 font-semibold text-xl leading-snug"> Laboratory<br /> Medicine </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/reconstructive-surgery.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 18. Ophthalmology -->
+      <div
+        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div
+          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug"> General<br /> Medicine </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/general-medicine.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      </div> <!-- 19. Orthopedics & Joint Replacement -->
+      <div class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug"> Mind<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+
+      </div>
+      <div class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
+        <div class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
+        <div class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug"> kidney<br /> Care </h3>
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/kidney-care.png" alt="Bone and Joint" class="absolute left-24 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+
+      </div>
+
+      
+    </div>
+<div class="flex justify-center items-center font-semibold text-2xl text-[#848484] gap-2 pt-12">
+        <h3>View all Specialities</h3>
+        <img loading="lazy"src="./assets/arrow (2).png" alt="">
+      </div>
+    <!-- ================= PROCEDURES ================= -->
+    <div id="procedures"
+      class="tab-content hidden grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1
+           gap-6 justify-items-center mt-10 px-4">
+
+      <div class="rounded-2xl border p-5 w-[260px] shadow bg-white text-center">
+        <img loading="lazy"src="./assets/ct-scan.webp" class="h-40 w-full object-cover rounded-xl mb-4" />
+        <h3 class="font-semibold text-[#5c2c20]">CT Scan</h3>
+      </div>
+
+      <div class="rounded-2xl border p-5 w-[260px] shadow bg-white text-center">
+        <img loading="lazy"src="./assets/endoscopy.webp" class="h-40 w-full object-cover rounded-xl mb-4" />
+        <h3 class="font-semibold text-[#5c2c20]">Endoscopy</h3>
+      </div>
+
+    </div>
+
+    <!-- ================= CONDITIONS ================= -->
+    <div id="conditions"
+      class="tab-content hidden grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1
+           gap-6 justify-items-center mt-10 px-4">
+
+      <div class="rounded-2xl border p-5 w-[260px] shadow bg-white text-center">
+        <h3 class="text-lg font-semibold text-[#5c2c20] mb-2">Arthritis</h3>
+        <p class="text-sm text-gray-600">
+          Chronic joint inflammation causing pain and stiffness.
+        </p>
+      </div>
+
+      <div class="rounded-2xl border p-5 w-[260px] shadow bg-white text-center">
+        <h3 class="text-lg font-semibold text-[#5c2c20] mb-2">Hypertension</h3>
+        <p class="text-sm text-gray-600">
+          High blood pressure requiring long-term management.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="w-full py-20 bg-[#f9f9f9]">
+    <div class="container mx-auto px-4">
+
+      <!-- Section Heading -->
+      <h2 class="text-center text-2xl font-semibold text-[#737373] mb-14">
+        Our Medical Services
+      </h2>
+
+      <!-- MAIN GRID -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-stretch">
+
+        <!-- LEFT CARD (Tall) -->
+        <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col">
+          <img loading="lazy"src="./assets/Frame 84.png" class="w-full h-52 object-cover" />
+
+          <div class="p-6 flex flex-col justify-between flex-1">
+            <div>
+              <h3 class="text-lg font-semibold text-[#737373] mb-2">
+                Health Checkups
+              </h3>
+              <p class="text-sm text-gray-500 leading-relaxed">
+                take charge of your well being with a health experience customized for you
+              </p>
+            </div>
+
+            <div class="flex justify-between">
+              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+                Know More
+                <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
+              </a>
+              <img loading="lazy"src="./assets/icons/stethescope.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- CENTER COLUMN (2 STACKED CARDS) -->
+        <div class="grid grid-rows-2 gap-10 lg:px-10">
+
+          <!-- Center Card Top -->
+          <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] p-6 flex flex-col justify-between px-10">
+            <div>
+              <h3 class="text-lg font-semibold text-[#737373] mb-2">
+                24/7 Emergency Care
+              </h3>
+              <p class="text-sm text-gray-500 leading-relaxed">
+                Round-the-clock emergency treatment when every second counts
+              </p>
+            </div>
+
+            <div class="flex justify-between">
+              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+                Know More
+                <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
+              </a>
+              <img loading="lazy"src="./assets/icons/syren.png" alt="">
+            </div>
+          </div>
+
+          <!-- Center Card Bottom -->
+          <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] p-6 flex flex-col justify-between lg:px-10">
+            <div>
+              <h3 class="text-lg font-semibold text-[#737373] mb-2">
+                Specialized Surgical Care
+              </h3>
+              <p class="text-sm text-gray-500 leading-relaxed">
+                Expert-led surgeries using modern techniques for faster recovery
+              </p>
+            </div>
+
+            <div class="flex justify-between">
+              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+                Know More
+                <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
+              </a>
+              <img loading="lazy"src="./assets/icons/knife (2).png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT CARD (Tall) -->
+        <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col">
+          <img loading="lazy"src="./assets/second-opineon.png" class="w-full h-52 object-cover" />
+
+          <div class="p-6 flex flex-col justify-between flex-1">
+            <div>
+              <h3 class="text-lg font-semibold text-[#737373] mb-2">
+                Second Opinion
+              </h3>
+              <p class="text-sm text-gray-500 leading-relaxed">
+                Confirm diagnosis and take informed decision about your treatment plan
+              </p>
+            </div>
+
+            <div class="flex justify-between">
+              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+                Know More
+                <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
+              </a>
+              <img loading="lazy"src="./assets/icons/msg.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="relative w-full bg-[#E7484E] overflow-hidden h-[555px]">
+    <!-- dotted pattern -->
+    <div class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.25)_1px,transparent_1px)] bg-[size:14px_14px] opacity-40"></div>
+
+    <div class="relative container mx-auto px-6 py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-10">
+
+      <!-- LEFT CONTENT -->
+      <div class="w-full lg:w-1/2 text-white space-y-4">
+        <p class="text-xl tracking-wide font-semibold">
+          Nano Care Beyond Boundaries
+        </p>
+
+        <h1 class="text-3xl lg:text-4xl xl:text-5xl font-semibold leading-tight">
+          Fostering health with <br>
+          cutting-edge medical <br>
+          services trusted <br>
+          internationally
+        </h1>
+
+        <a
+          href="./international-patients.php"
+          class="inline-block mt-6 bg-white text-[#E7484E] font-medium px-6 py-3 rounded-full hover:bg-gray-100 transition">
+          Enquire Now
+        </a>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="w-full lg:w-1/2 flex justify-center">
+        <img
+          src="./assets/banners/map.png"
+          alt="Global Healthcare Network"
+          class="max-w-full h-auto object-contain" />
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="w-full py-24 bg-white">
+    <div class="container mx-auto px-4">
+
+      <!-- Heading -->
+      <h2 class="text-center text-2xl font-semibold text-gray-600 mb-14">
+        Patient Stories
+      </h2>
+
+      <!-- GRID WRAPPER -->
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 items-center">
+
+
+
+        <!-- MID LEFT COLUMN -->
+        <div class="space-y-6">
+          <!-- New Strength -->
+          <div
+            class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
+            data-instagram-url="https://www.instagram.com/reel/DQOIgt8E2Yq/">
+            <img loading="lazy"src="./assets/testimonials/Frame 747.png" class="w-full h-56 object-cover" />
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-white text-lg">
+                ▶
+              </div>
+            </div>
+
+            <div class="absolute bottom-4 left-4 text-white">
+              <p class="font-semibold">Healthy Start</p>
+              <p class="text-sm opacity-90">Hegde Family</p>
+            </div>
+          </div>
+
+        </div>
+        <!-- LEFT COLUMN -->
+        <div class="space-y-6">
+          <!-- Healthy Start -->
+          <div
+            class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
+            data-instagram-url="https://www.instagram.com/reel/DQOIgt8E2Yq/">
+            <img loading="lazy"src="./assets/testimonials/Frame 744.png" class="w-full h-56 object-cover" />
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <!-- Play -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-white text-lg">
+                ▶
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="absolute bottom-4 left-4 text-white">
+              <p class="font-semibold">Healthy Start</p>
+              <p class="text-sm opacity-90">Hegde Family</p>
+            </div>
+          </div>
+
+          <!-- Pain Free -->
+          <div
+            class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
+            data-instagram-url="https://www.instagram.com/reel/C6_WCBbt13G">
+            <img loading="lazy"src="./assets/testimonials/Frame 745.png" class="w-full h-44 object-cover" />
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-10 h-10 rounded-full bg-red-500 flex items-center justify-center text-white">
+                ▶
+              </div>
+            </div>
+
+            <div class="absolute bottom-3 left-3 text-white text-sm">
+              <p class="font-semibold">Pain Free</p>
+              <p class="opacity-90">Ms Anju Nadkarni</p>
+            </div>
+          </div>
+        </div>
+        <!-- CENTER LARGE CARD -->
+        <div class="relative rounded-3xl overflow-hidden lg:col-span-1 cursor-pointer video-card" data-instagram-url="https://www.instagram.com/reel/DQOIgt8E2Yq">
+          <img loading="lazy"src="./assets/testimonials/Frame 743.png" class="w-full h-[450px] object-cover" />
+          <div class="absolute inset-0 bg-black/20"></div>
+
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="w-14 h-14 rounded-full bg-red-500 flex items-center justify-center text-white text-xl">
+              ▶
+            </div>
+          </div>
+
+          <div class="absolute bottom-5 left-5 text-white">
+            <p class="font-semibold text-lg">Cardiac care</p>
+            <p class="text-sm opacity-90">Mrs Sudha Kumar</p>
+          </div>
+        </div>
+
+        <!-- MID RIGHT COLUMN -->
+        <div class="space-y-6">
+          <!-- Cancer Free -->
+          <div class="relative rounded-2xl overflow-hidden cursor-pointer video-card" data-instagram-url="https://www.instagram.com/reel/CrpafHty-Pz/">
+            <img loading="lazy"src="./assets/testimonials/Frame 746.png" class="w-full h-56 object-cover" />
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <!-- Play -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-white text-lg">
+                ▶
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="absolute bottom-4 left-4 text-white">
+              <p class="font-semibold">Healthy Start</p>
+              <p class="text-sm opacity-90">Hegde Family</p>
+            </div>
+          </div>
+
+          <!-- Pain Free -->
+          <div class="relative rounded-2xl overflow-hidden cursor-pointer video-card" data-instagram-url="https://www.youtube.com/shorts/H-uw003ra-M">
+            <img loading="lazy"src="./assets/testimonials/Frame 748.png" class="w-full h-44 object-cover" />
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-10 h-10 rounded-full bg-red-500 flex items-center justify-center text-white">
+                ▶
+              </div>
+            </div>
+
+            <div class="absolute bottom-3 left-3 text-white text-sm">
+              <p class="font-semibold">Pain Free</p>
+              <p class="opacity-90">Ms Anju Nadkarni</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div>
+          <!-- Heart Healed -->
+          <div class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
+            data-instagram-url="https://www.instagram.com/reel/DLmn0CySkY2/">>
+            <img loading="lazy"src="./assets/testimonials/Frame 749.png" class="w-full h-56 object-cover" />
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-white">
+                ▶
+              </div>
+            </div>
+
+            <div class="absolute bottom-4 left-4 text-white">
+              <p class="font-semibold">Heart Healed</p>
+              <p class="text-sm opacity-90">Mr Gaurav Kamath</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-14 flex justify-center">
+        <a href="./patient-testimonials.php" class="flex items-center gap-2 text-red-500 font-medium">
+          View All Patient Stories
+          <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">
+            →
+          </span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RED HEADER SECTION -->
+  <section class="relative w-full bg-[#E7484E] pt-16 pb-32 overflow-hidden">
+    <!-- dotted background -->
+    <div class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.25)_1px,transparent_1px)] bg-[size:14px_14px] opacity-40"></div>
+
+    <h2 class="relative text-center text-white text-2xl md:text-3xl font-semibold">
+      Latest Nano Updates
+    </h2>
+  </section>
+
+
+
+  <!-- FLOATING CARD SECTION -->
+  <section class="relative -mt-24 z-10">
+    <div class="container mx-auto px-4">
+      <div
+        class="bg-white rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)]
+             overflow-hidden grid grid-cols-1 md:grid-cols-3
+             divide-y md:divide-y-0 md:divide-x">
+
+        <!-- CARD 1 -->
+        <div class="p-8 text-center space-y-4">
+          <img loading="lazy"src="./assets/icons/x-ray.png" class="h-20 mx-auto" alt="">
+
+          <h3 class="text-2xl font-medium text-[#737373]">
+            New Digital X-Ray <br /> System Installed
+          </h3>
+
+          <p class="text-sm text-gray-500 leading-relaxed">
+            We’ve upgraded to a high-clarity Digital X-Ray system for faster
+            imaging and sharper diagnostic accuracy.
+          </p>
+
+          <a href="#" class="inline-flex items-center gap-2 font-medium text-[#737373]">
+            Know More
+            <span class="w-7 h-7 rounded-full bg-[#E7484E] text-white flex items-center justify-center">
+              →
+            </span>
+          </a>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="p-8 text-center space-y-4">
+          <img loading="lazy"src="./assets/icons/elder.png" class="h-20 mx-auto" alt="">
+
+          <h3 class="text-2xl font-medium text-[#737373]">
+            Elder Care Program
+          </h3>
+
+          <p class="text-sm text-gray-500 leading-relaxed">
+            Nano’s Elder Plan gives your loved ones an empowering plan for
+            their golden years.
+          </p>
+
+          <a href="#" class="inline-flex items-center gap-2 font-medium text-[#737373]">
+            Know More
+            <span class="w-7 h-7 rounded-full bg-[#E7484E] text-white flex items-center justify-center">
+              →
+            </span>
+          </a>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="p-8 text-center space-y-4">
+          <img loading="lazy"src="./assets/icons/child.png" class="h-20 mx-auto" alt="">
+
+          <h3 class="text-2xl font-medium text-[#737373]">
+            Neonatal Transport <br /> Incubator launched
+          </h3>
+
+          <p class="text-sm text-gray-500 leading-relaxed">
+            New mobile incubator enables safer newborn transfers.
+          </p>
+
+          <a href="#" class="inline-flex items-center gap-2 font-medium text-[#737373]">
+            Know More
+            <span class="w-7 h-7 rounded-full bg-[#E7484E] text-white flex items-center justify-center">
+              →
+            </span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="w-full py-20 ">
+    <h3 class="text-center text-2xl font-semibold text-gray-600 mb-14">
+      Notable Faces. Nano Care.
+    </h3>
+
+    <div class="flex justify-center gap-10   flex-wrap ">
+      <div class="max-w-sm  overflow-hidden shadow-lg rounded-2xl">
+        <img loading="lazy"class="w-full" src="./assets/actor.png" alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-[#FA424A]">Aasif Kshathriya</div>
+          <p class="text-[#737373] text-base">
+            Indian Film Actor, Director & Writer </p>
+          <p class="text-[#737373] text-base mt-5">
+            Nano Hospital feels like home. Dr. Mohan, Anand, Mahima, and the emergency team provide compassionate care with a healing touch. I vouch for Nano Hospitals. </p>
+        </div>
+
+      </div>
+      <div class="max-w-sm  overflow-hidden shadow-lg rounded-2xl">
+        <img loading="lazy"class="w-full" src="./assets/actor2.png" alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-[#FA424A]">Shwetha Srinivasa</div>
+          <p class="text-[#737373] text-base">
+            Kannada Film Actor</p>
+          <p class="text-[#737373] text-base mt-5">
+            After my hand treatment with Dr. Mohan, I feel pain-free, confident, and truly cared for — forever grateful.</p>
+        </div>
+
+      </div>
+      <div class="max-w-sm  overflow-hidden shadow-lg rounded-2xl">
+        <img loading="lazy"class="w-full" src="./assets/actor-3.png" alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-[#FA424A]">Aniish Tejeshwar</div>
+          <p class="text-[#737373] text-base">
+            Kannada Film Actor </p>
+          <p class="text-[#737373] text-base mt-5">
+            Grateful to experience care that’s honest, attentive, and truly human — Nano Hospital stands out. </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="w-full py-28 lg:mt-20 relative overflow-hidden">
+
+    <!-- Dotted Background -->
+    <div
+      class="absolute inset-0
+             bg-[#f5f5f5]
+             bg-[radial-gradient(circle,_#bdbdbd_1px,_transparent_1px)]
+             [background-size:22px_22px]">
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6">
+
+      <!-- Heading -->
+      <h2 class="text-center text-3xl font-semibold text-[#737373] mb-14">
+        Awards & Recognition
+      </h2>
+
+      <!-- Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-items-center">
+
+        <!-- Card 1 -->
+        <div class="bg-white w-full max-w-md rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] px-8 py-6 flex items-center gap-6">
+          <img loading="lazy"src="./assets/icons/Vector (1).png" class="w-10" alt="">
+          <div class="text-center flex-1">
+            <p class="text-red-500 font-medium">2023</p>
+            <p class="text-gray-600 mt-2">Times Health Excellence</p>
+            <p class="text-red-500 font-medium">
+              Excellence in Tertiary Care Hospital
+            </p>
+            <p class="text-[#737373] mt-1">Nano Hospitals</p>
+          </div>
+          <img loading="lazy"src="./assets/icons/Vector (2).png" class="w-10" alt="">
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white w-full max-w-md rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] px-8 py-6 flex items-center gap-6">
+          <img loading="lazy"src="./assets/icons/Vector (1).png" class="w-10" alt="">
+          <div class="text-center flex-1">
+            <p class="text-red-500 font-medium">2023</p>
+            <p class="text-gray-600 mt-2">Radio City Business Titans</p>
+            <p class="text-red-500 font-medium">
+              Best Healthcare Facility
+            </p>
+            <p class="text-[#737373] mt-1">Nano Hospitals</p>
+          </div>
+          <img loading="lazy"src="./assets/icons/Vector (2).png" class="w-10" alt="">
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white w-full max-w-md rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] px-8 py-6 flex items-center gap-6">
+          <img loading="lazy"src="./assets/icons/Vector (1).png" class="w-10" alt="">
+          <div class="text-center flex-1">
+            <p class="text-red-500 font-medium">2023</p>
+            <p class="text-gray-600 mt-2">Radio City Business Titans</p>
+            <p class="text-red-500 font-medium">
+              Best Healthcare Facility
+            </p>
+            <p class="text-[#737373] mt-1">Nano Hospitals</p>
+          </div>
+          <img loading="lazy"src="./assets/icons/Vector (2).png" class="w-10" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="w-full py-16 ">
+    <div class="container mx-auto px-4">
+
+      <!-- Section Title -->
+      <h2 class="text-2xl md:text-3xl font-semibold text-center text-[#737373] mb-12">
+        Hear from Us to Stay Healthy
+      </h2>
+
+      <!-- Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Card -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden cursor-pointer video-card"
+          data-video-id="mau8AAEBKS8">
+          <!-- Video Thumbnail -->
+          <div class="relative">
+            <img
+              src="./assets/thumbnail.png"
+              alt="Dr Mohan M R"
+              class="w-full h-56 object-cover" />
+
+            <!-- Play Button -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center">
+                <svg
+                  xmlns="./as"
+                  class="w-6 h-6 text-white ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 16 16">
+                  <path d="M6 3.993v8.014L11.993 8 6 3.993z" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Top Right Logo -->
+            <img
+              src="./assets/logo/nano-logo.png"
+              class="absolute top-3 right-3 w-14"
+              alt="" />
+          </div>
+
+          <!-- Content -->
+          <div class="p-4">
+            <h3 class="text-sm font-semibold text-[#737373]">
+              Greetings From Nano Hospitals | Dr. Mohan M.R | Bangalore
+            </h3>
+
+          </div>
+        </div>
+
+        <!-- Repeat Card -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden cursor-pointer video-card"
+          data-video-id="P0yS5rBA3w4">
+
+          <div class="relative">
+            <img
+              src="./assets/cirvical-cancer.png"
+              class="w-full h-56 object-cover"
+              alt="" />
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M6 3.993v8.014L11.993 8 6 3.993z" />
+                </svg>
+              </div>
+            </div>
+            <img loading="lazy"src="./assets/logo/nano-logo.png" class="absolute top-3 right-3 w-14" alt="">
+          </div>
+
+          <div class="p-4">
+            <h3 class="text-sm font-semibold text-[#737373]">
+              How to Prevent Cervical Cancer | HPV Vaccine Guide by Dr. Sanjana Kumar! Nano Hospital Bengaluru. </h3>
+
+          </div>
+        </div>
+
+        <!-- Repeat Card -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden cursor-pointer video-card"
+          data-video-id="C-3mgs7F5UM">
+          <div class="relative">
+            <img
+              src="./assets/signs-of-labour-pain.png"
+              class="w-full h-56 object-cover"
+              alt="" />
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M6 3.993v8.014L11.993 8 6 3.993z" />
+                </svg>
+              </div>
+            </div>
+            <img loading="lazy"src="./assets/logo/nano-logo.png" class="absolute top-3 right-3 w-14" alt="">
+          </div>
+
+          <div class="p-4">
+            <h3 class="text-sm font-semibold text-[#737373]">
+              Early signs of labor | Labor pain | Dr. Ramya K S | Nano hospitals bengaluru </h3>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <h2 class="text-2xl md:text-3xl font-semibold text-center text-[#737373] mb-12  pt-28">
+    Health Blogs & Articles
+  </h2>
+  <div class="container mx-auto grid md:grid-cols-3 grid-cols-1 justify-items-center gap- mt-5 lg:px-0 px-5  ">
+
+
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+      <div class="w-full relative">
+        <!-- Gradient Overlay -->
+
+        <!-- Image -->
+        <img loading="lazy"class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
+
+        <!-- Title -->
+        <p class="absolute bottom-10 text-center w-full bg-[#FFFFFF] text-sm p-2 text-[#FA424A] font-semibold">
+          Universal Blood Donor: <br>Which Blood Group can be donated to everyone?
+        </p>
+      </div>
+
+      <div class="px-6 py-4">
+        <div class=" text-xl font-medium mb-2 text-[#525252]">The “universal donor” blood type, O-negative...
+        </div>
+        <div class="flex justify-between  pt-10 gap-5 ">
+
+          <p class="text-[#6C3130] text-xl  font-medium ">
+            Nov 18, 2025 </p>
+          <p class="text-[#6C3130] text-xl  font-medium ">
+            Read post </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+      <div class="w-full relative">
+        <!-- Gradient Overlay -->
+
+        <!-- Image -->
+        <img loading="lazy"class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
+
+        <!-- Title -->
+        <p class="absolute bottom-10 text-center w-full bg-[#FFFFFF] text-sm p-2 text-[#FA424A] font-semibold">
+          Universal Blood Donor: <br>Which Blood Group can be donated to everyone?
+        </p>
+      </div>
+
+      <div class="px-6 py-4">
+        <div class=" text-xl font-medium mb-2 text-[#525252]">The “universal donor” blood type, O-negative...
+        </div>
+        <div class="flex justify-between  pt-10 gap-5 ">
+
+          <p class="text-[#6C3130] text-xl  font-medium ">
+            Nov 18, 2025 </p>
+          <p class="text-[#6C3130] text-xl  font-medium ">
+            Read post </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+      <div class="w-full relative">
+        <!-- Gradient Overlay -->
+
+        <!-- Image -->
+        <img loading="lazy"class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
+
+        <!-- Title -->
+        <p class="absolute bottom-10 text-center w-full bg-[#FFFFFF] text-sm p-2 text-[#FA424A] font-semibold">
+          Universal Blood Donor: <br>Which Blood Group can be donated to everyone?
+        </p>
+      </div>
+
+      <div class="px-6 py-4">
+        <div class=" text-xl font-medium mb-2 text-[#525252]">The “universal donor” blood type, O-negative...
+        </div>
+        <div class="flex justify-between  pt-10 gap-5 ">
+
+          <p class="text-[#6C3130] text-xl  font-medium ">
+            Nov 18, 2025 </p>
+          <p class="text-[#6C3130] text-xl  font-medium ">
+            Read post </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <section class="w-full  py-28">
+    <div class="container mx-auto px-6">
+
+      <!-- Heading -->
+      <h2 class="text-center text-2xl md:text-3xl font-semibold text-[#737373] mb-12">
+        Nano Hospitals at a Glance
+      </h2>
+
+      <!-- Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
+          <!-- dotted bg -->
+          <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
+
+          <div class="relative z-10 space-y-4">
+            <img loading="lazy"src="./assets/icons/stethescope.png" class="mx-auto h-12" alt="">
+            <p class="text-4xl font-bold text-red-500">10+</p>
+            <p class="text-red-500 text-xl font-medium">years</p>
+            <p class="text-gray-400 text-xl">of Medical Experience</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
+          <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
+
+          <div class="relative z-10 space-y-4">
+            <img loading="lazy"src="./assets/icons/doctor.png" class="mx-auto h-12" alt="">
+            <p class="text-4xl font-bold text-red-500">100+</p>
+            <p class="text-red-500 text-xl font-medium">Medical Specialists</p>
+            <p class="text-gray-400 text-xl">Caring for You</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
+          <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
+
+          <div class="relative z-10 space-y-4">
+            <img loading="lazy"src="./assets/icons/knife (2).png" class="mx-auto h-12" alt="">
+            <p class="text-4xl font-bold text-red-500">15000+</p>
+            <p class="text-red-500 text-xl font-medium">Surgeries</p>
+            <p class="text-gray-400 text-xl">performed</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
+          <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
+
+          <div class="relative z-10 space-y-4">
+            <img loading="lazy"src="./assets/icons/smile.png" class="mx-auto h-12" alt="">
+            <p class="text-4xl font-bold text-red-500">500000+</p>
+            <p class="text-red-500 text-xl font-medium">Happy</p>
+            <p class="text-gray-400 text-xl">Patients</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="w-full  py-24">
+    <div class="container mx-auto px-6">
+
+      <!-- Heading -->
+      <h2 class="text-center text-2xl md:text-3xl font-semibold text-gray-600 mb-14">
+        Nano Hospitals Near You
+      </h2>
+
+      <!-- Cards Wrapper -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
+          <!-- Image -->
+          <div class="h-[320px] overflow-hidden">
+            <img
+              src="./assets/uttarahalli.png"
+              alt="Nano Hospital Uttarahalli"
+              class="w-full h-full object-cover" />
+          </div>
+
+          <!-- Content -->
+          <div class="p-8 text-center space-y-4">
+            <!-- Location -->
+            <div class="flex justify-center items-center gap-2 text-gray-500 text-sm">
+              <span>📍</span>
+              <span>Uttarahalli, Bengaluru</span>
+            </div>
+
+            <!-- Title -->
+            <h3 class="text-2xl font-semibold text-[#737373] leading-snug">
+              Nano Hospitals,<br />Uttarahalli, Bengaluru
+            </h3>
+
+            <!-- CTA -->
+            <a
+              href="./uttarahalli.php"
+              class="inline-flex items-center gap-3 text-gray-500 font-medium group">
+              know more
+              <span
+                class="w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center
+                     transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
+          <!-- Image -->
+          <div class="h-[320px] overflow-hidden">
+            <img
+              src="./assets/hulimavu.png"
+              alt="Nano Hospital Hulimavu"
+              class="w-full h-full object-cover" />
+          </div>
+
+          <!-- Content -->
+          <div class="p-8 text-center space-y-4">
+            <!-- Location -->
+            <div class="flex justify-center items-center gap-2 text-gray-500 text-sm">
+              <span>📍</span>
+              <span>Hulimavu, Bengaluru</span>
+            </div>
+
+            <!-- Title -->
+            <h3 class="text-2xl font-semibold text-[#737373] leading-snug">
+              Nano Hospitals,<br />Hulimavu, Bengaluru
+            </h3>
+
+            <!-- CTA -->
+            <a
+              href="./hulimavu.php"
+              class="inline-flex items-center gap-3 text-gray-500 font-medium group">
+              know more
+              <span
+                class="w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center
+                     transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Instagram Video Modal -->
+  <!-- Video Modal -->
+  <!-- Video Modal -->
+  <div id="instaVideoModal"
+    class="fixed inset-0 hidden z-50 bg-black/70 flex items-center justify-center">
+
+    <div class="relative bg-white rounded-xl max-w-sm w-[90%] p-2">
+      <button id="instaCloseBtn"
+        class="absolute -top-3 -right-3 bg-black text-white w-8 h-8 rounded-full">
+        ✕
+      </button>
+
+      <div id="instaEmbed"></div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div id="videoModal"
+    class="fixed inset-0 bg-black/70 hidden z-50 flex items-center justify-center">
+
+    <div class="relative w-[90%] max-w-3xl bg-black rounded-xl overflow-hidden">
+
+      <!-- Close Button -->
+      <button id="closeModal"
+        class="absolute top-3 right-3 z-10 bg-white text-black
+             w-9 h-9 rounded-full flex items-center justify-center text-xl font-bold">
+        ×
+      </button>
+
+      <!-- Video -->
+      <iframe id="youtubePlayer"
+        class="w-full aspect-video"
+        src=""
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+  </div>
+
+
+<?php require "./components/phone-model.php" ?>
+  <!-- Floating Call & WhatsApp -->
+
+
+  <script>
+    const ytModal = document.getElementById('videoModal');
+    const ytPlayer = document.getElementById('youtubePlayer');
+    const ytClose = document.getElementById('closeModal');
+
+    const instaModal = document.getElementById('instaVideoModal');
+    const instaEmbed = document.getElementById('instaEmbed');
+    const instaClose = document.getElementById('instaCloseBtn');
+
+    document.querySelectorAll('.video-card').forEach(card => {
+      card.addEventListener('click', () => {
+
+        /* ---------- YOUTUBE ---------- */
+        if (card.dataset.videoId) {
+          const videoId = card.dataset.videoId;
+
+          ytPlayer.src =
+            `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&rel=0`;
+
+          ytModal.classList.remove('hidden');
+          return;
+        }
+
+        /* ---------- INSTAGRAM ---------- */
+        if (card.dataset.instagramUrl) {
+          const url = card.dataset.instagramUrl;
+
+          instaEmbed.innerHTML = `
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="${url}"
+            data-instgrm-version="14"
+            style="margin:0 auto; width:100%;">
+          </blockquote>
+        `;
+
+          instaModal.classList.remove('hidden');
+          processInstagram();
+        }
+      });
+    });
+
+    function processInstagram() {
+      if (window.instgrm?.Embeds) {
+        window.instgrm.Embeds.process();
+      } else {
+        setTimeout(processInstagram, 300);
+      }
+    }
+
+    /* ---------- CLOSE HANDLERS ---------- */
+    ytClose.addEventListener('click', closeYT);
+    ytModal.addEventListener('click', e => e.target === ytModal && closeYT());
+
+    function closeYT() {
+      ytModal.classList.add('hidden');
+      ytPlayer.src = '';
+    }
+
+    instaClose.addEventListener('click', closeInsta);
+    instaModal.addEventListener('click', e => e.target === instaModal && closeInsta());
+
+    function closeInsta() {
+      instaModal.classList.add('hidden');
+      instaEmbed.innerHTML = '';
+    }
+  </script>
+
+
+  <script async src="https://www.instagram.com/embed.js"></script>
+
+  <script>
+    const modalinsta = document.getElementById('instaVideoModal');
+    const embed = document.getElementById('instaEmbed');
+    const closeBtnInsta = document.getElementById('instaCloseBtn');
+
+    document.querySelectorAll('.video-card').forEach(card => {
+      card.addEventListener('click', () => {
+        if (!card.dataset.instagramUrl) return;
+
+        const url = card.dataset.instagramUrl;
+
+        embed.innerHTML = `
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="${url}"
+          data-instgrm-version="14"
+          style="width:100%; margin:0 auto;">
+        </blockquote>
+      `;
+
+        modalinsta.classList.remove('hidden');
+
+        waitForInstagram();
+      });
+    });
+
+    function waitForInstagram() {
+      if (window.instgrm && window.instgrm.Embeds) {
+        window.instgrm.Embeds.process();
+      } else {
+        setTimeout(waitForInstagram, 300);
+      }
+    }
+
+    closeBtnInsta.addEventListener('click', closeInsta);
+    modalinsta.addEventListener('click', e => e.target === modalinsta && closeInsta());
+
+    function closeInsta() {
+      embed.innerHTML = '';
+      modalinsta.classList.add('hidden');
+    }
+  </script>
+
+
+
+
+  <?php include __DIR__ . '/components/scroll-to-top.php'; ?>
+
+
+
+
+
+  <script>
+    const features = [{
+        title: "World Class Infrastructure",
+        image: "./assets/banners/patients-choice.webp"
+      },
+      {
+        title: "Leading Medical Doctors",
+        image: "./assets/banners/leading-doctors.webp"
+      },
+      {
+        title: "Latest high-end Facilities",
+        image: "./assets/banners/high-end.jpg"
+      },
+      {
+        title: "Patient-First Care Team",
+        image: "./assets/banners/patient-first.webp"
+      },
+      {
+        title: "Trusted Quality Care",
+        image: "./assets/banners/trusted-quality-care.webp"
+      }
+    ];
+
+    function changeFeature(index) {
+      const centerImage = document.getElementById('centerImage');
+      const orbs = document.querySelectorAll('.orb');
+
+      // Fade out
+      centerImage.style.opacity = '0';
+
+      setTimeout(() => {
+        centerImage.src = features[index].image;
+        centerImage.alt = features[index].title;
+        centerImage.style.opacity = '1';
+      }, 250);
+
+      // Update orbs
+      orbs.forEach((orb, i) => {
+        if (i === index) {
+          orb.classList.remove('bg-white', 'border-gray-300', 'w-10', 'h-10');
+          orb.classList.add('bg-red-500', 'border-red-500', 'w-10', 'h-10');
+        } else {
+          orb.classList.remove('bg-red-500', 'border-red-500', 'w-10', 'h-10');
+          orb.classList.add('bg-white', 'border-gray-300', 'w-10', 'h-10');
+        }
+      });
+    }
+  </script>
+
+  <script>
+    const tabs = document.querySelectorAll(".tab-btn");
+    const contents = document.querySelectorAll(".tab-content");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        const target = tab.dataset.target;
+
+        // reset tabs
+        tabs.forEach(t => {
+          t.classList.remove("text-red-500", "font-medium");
+          t.classList.add("text-gray-500");
+          const underline = t.querySelector("span");
+          if (underline) underline.remove();
+        });
+
+        // hide contents
+        contents.forEach(c => c.classList.add("hidden"));
+
+        // activate tab
+        tab.classList.remove("text-gray-500");
+        tab.classList.add("text-red-500", "font-medium");
+
+        const underline = document.createElement("span");
+        underline.className =
+          "absolute left-0 -bottom-[1px] w-full h-[2px] bg-red-500 rounded-full";
+        tab.appendChild(underline);
+
+        // show content
+        document.getElementById(target).classList.remove("hidden");
+      });
+    });
+  </script>
+
+  <script>
+    function toggleAccordion(index) {
+      const contents = document.querySelectorAll('[id^="content-"]');
+      const icons = document.querySelectorAll('[id^="icon-"]');
+
+      contents.forEach((el, i) => {
+        if (i === index) {
+          el.classList.toggle('hidden');
+          icons[i].textContent = el.classList.contains('hidden') ? '˅' : '˄';
+        } else {
+          el.classList.add('hidden');
+          icons[i].textContent = '˅';
+        }
+      });
+    }
+  </script>
+
+</html>

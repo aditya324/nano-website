@@ -1,0 +1,31 @@
+/* 1. Font Import (MUST be at the very top) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* 2. Tailwind Import */
+@import "tailwindcss";
+
+/* 3. Configure the variable */
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --gradient-brand: linear-gradient(90deg, #F58220, #6C3130);
+  --color-brand: #F58220;
+  --color-surface-soft: #F4F4F4;
+  --brown: #6C3130;
+  --orange: #F58220;
+
+
+    --breakpoint-sm: 600px;
+  --breakpoint-md: 820px;
+  --breakpoint-lg: 1100px;
+  --breakpoint-xl: 1400px;
+  --breakpoint-2xl: 1600px;
+}
+
+/* 4. Explicitly apply the variable globally */
+body {
+  font-family: var(--font-sans);
+}
+
+
