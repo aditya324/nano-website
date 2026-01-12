@@ -801,177 +801,214 @@
     <!-- ================= SPECIALITIES ================= -->
     <div id="specialities"
       class="tab-content show flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28"> <!-- 1. Anaesthesia -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Bone & <br /> Joint Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/bone-and-joint.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+
+        <div class="absolute inset-0 bg-cover bg-no-repeat"
+          style="background-image: url('./assets/background/Frame 134.png');"></div>
+
+        <!-- Default -->
+        <img src="./assets/specialities/bone-and-joint.webp"
+          class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain z-10
+                  transition-all duration-300 group-hover:opacity-0 group-hover:scale-95" />
+
+        <div class="absolute left-6 top-1/2 -translate-y-1/2 z-10
+                  transition-opacity duration-300 group-hover:opacity-0">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug">
+            Bone &<br />Joint Care
+          </h3>
+        </div>
+
+        <!-- Hover -->
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <div class="absolute inset-0 bg-red-600/80"></div>
+
+          <img src="./assets/specialities/bone-and-joint.webp"
+            class="absolute right-0 top-1/2 -translate-y-1/2 h-[260px]
+                    object-contain opacity-30 pointer-events-none
+                    filter brightness-200 saturate-0" />
+
+          <div class="relative z-20 h-full p-6 text-white flex flex-col justify-between">
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">Bone & Joint Care</h3>
+              <p class="text-sm leading-relaxed opacity-95">Advanced diagnosis and treatment for bone, joint and musculoskeletal disorders.</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium">Read More</span>
+              <span class="w-10 h-10 flex items-center justify-center rounded-full border border-white">→</span>
+            </div>
+          </div>
+        </div>
+
       </div> <!-- 2. Invasive & Non-Invasive Cardiology -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Heart <br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/heart-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+
+        <div class="absolute inset-0 bg-cover bg-no-repeat"
+          style="background-image: url('./assets/background/Frame 134.png');"></div>
+
+        <!-- Default -->
+        <img src="./assets/specialities/child-care.webp"
+          class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain z-10
+                  transition-all duration-300 group-hover:opacity-0 group-hover:scale-95" />
+
+        <div class="absolute left-6 top-1/2 -translate-y-1/2 z-10
+                  transition-opacity duration-300 group-hover:opacity-0">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug">
+            Child<br />Care
+          </h3>
+        </div>
+
+        <!-- Hover -->
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <div class="absolute inset-0 bg-red-600/80"></div>
+
+          <img src="./assets/specialities/child-care.webp"
+            class="absolute right-0 top-1/2 -translate-y-1/2 h-[260px]
+                    object-contain opacity-30 pointer-events-none
+                    filter brightness-200 saturate-0" />
+
+          <div class="relative z-20 h-full p-6 text-white flex flex-col justify-between">
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">Child Care</h3>
+              <p class="text-sm leading-relaxed opacity-95">Compassionate pediatric care focused on the health, growth, and well-being of children.</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium">Read More</span>
+              <span class="w-10 h-10 flex items-center justify-center rounded-full border border-white">→</span>
+            </div>
+          </div>
+        </div>
+
       </div> <!-- 3. Cardiac Thoracic Surgery -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Brain <br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/brain-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+
+        <div class="absolute inset-0 bg-cover bg-no-repeat"
+          style="background-image: url('./assets/background/Frame 134.png');"></div>
+
+        <!-- Default -->
+        <img src="./assets/specialities/women-care-removebg-preview.webp"
+          class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain z-10
+                  transition-all duration-300 group-hover:opacity-0 group-hover:scale-95" />
+
+        <div class="absolute left-6 top-1/2 -translate-y-1/2 z-10
+                  transition-opacity duration-300 group-hover:opacity-0">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug">
+            Women’s<br />Care
+          </h3>
+        </div>
+
+        <!-- Hover -->
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <div class="absolute inset-0 bg-red-600/80"></div>
+
+          <img src="./assets/specialities/women-care-removebg-preview.webp"
+            class="absolute right-0 top-1/2 -translate-y-1/2 h-[260px]
+                    object-contain opacity-30 pointer-events-none
+                    filter brightness-200 saturate-0" />
+
+          <div class="relative z-20 h-full p-6 text-white flex flex-col justify-between">
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">Women’s Care</h3>
+              <p class="text-sm leading-relaxed opacity-95">Comprehensive healthcare services addressing women’s health needs across all life stages.</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium">Read More</span>
+              <span class="w-10 h-10 flex items-center justify-center rounded-full border border-white">→</span>
+            </div>
+          </div>
+        </div>
+
       </div> <!-- 4. Critical Care Medicine -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Cancer<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/cancer-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+
+        <div class="absolute inset-0 bg-cover bg-no-repeat"
+          style="background-image: url('./assets/background/Frame 134.png');"></div>
+
+        <!-- Default -->
+        <img src="./assets/specialities/general-medicine.webp"
+          class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain z-10
+                  transition-all duration-300 group-hover:opacity-0 group-hover:scale-95" />
+
+        <div class="absolute left-6 top-1/2 -translate-y-1/2 z-10
+                  transition-opacity duration-300 group-hover:opacity-0">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug">
+            General<br />Medicine
+          </h3>
+        </div>
+
+        <!-- Hover -->
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <div class="absolute inset-0 bg-red-600/80"></div>
+
+          <img src="./assets/specialities/general-medicine.webp"
+            class="absolute right-0 top-1/2 -translate-y-1/2 h-[260px]
+                    object-contain opacity-30 pointer-events-none
+                    filter brightness-200 saturate-0" />
+
+          <div class="relative z-20 h-full p-6 text-white flex flex-col justify-between">
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">General Medicine</h3>
+              <p class="text-sm leading-relaxed opacity-95">Comprehensive healthcare services addressing women’s health needs across all life stages.</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium">Read More</span>
+              <span class="w-10 h-10 flex items-center justify-center rounded-full border border-white">→</span>
+            </div>
+          </div>
+        </div>
+
       </div> <!-- 5. Dermatology -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Gastro<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/gastro-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 6. Emergency Medicine -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Lung<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/lung-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 7. Endocrine Surgery -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Radiology </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/radiology.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 8. Endocrinology -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Skin<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/skin-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 9. ENT --> <!-- 10. General Medicine -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Physical <br> Medicine <br> & Rehab </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/physical-rehab.png" alt="Bone and Joint" class="absolute left-20 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 11. General & Laparoscopic Surgery --> <!-- 12. Interventional Radiology -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Emergency<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/emergrncy-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 13. Surgical Gastroenterology -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Child<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/child-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 14. Oral & Maxillo Facial Surgery -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> General<br /> Surgery </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/genral-surgery.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 15. Nephrology & Dialysis --> <!-- 16. Neurology -->
-      <div
-        class="relative w-[260px] Dh-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Laboratory<br /> Medicine </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/laboratory-medicine.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 17. Neurosurgery -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3
-            class="text-red-500 font-semibold text-xl leading-snug"> Laboratory<br /> Medicine </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/reconstructive-surgery.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 18. Ophthalmology -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div
-          class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div
-          class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3 class="text-red-500 font-semibold text-xl leading-snug"> General<br /> Medicine </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/general-medicine.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-      </div> <!-- 19. Orthopedics & Joint Replacement -->
-      <div class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3 class="text-red-500 font-semibold text-xl leading-snug"> Mind<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-        <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
 
-      </div>
-      <div class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
-        <div class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
-        <div class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
-          <h3 class="text-red-500 font-semibold text-xl leading-snug"> kidney<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/kidney-care.png" alt="Bone and Joint" class="absolute left-24 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        <div class="absolute inset-0 bg-cover bg-no-repeat"
+          style="background-image: url('./assets/background/Frame 134.png');"></div>
+
+        <!-- Default -->
+        <img src="./assets/specialities/heart-care.webp"
+          class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain z-10
+                  transition-all duration-300 group-hover:opacity-0 group-hover:scale-95" />
+
+        <div class="absolute left-6 top-1/2 -translate-y-1/2 z-10
+                  transition-opacity duration-300 group-hover:opacity-0">
+          <h3 class="text-red-500 font-semibold text-xl leading-snug">
+            Heart<br />Care
+          </h3>
+        </div>
+
+        <!-- Hover -->
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <div class="absolute inset-0 bg-red-600/80"></div>
+
+          <img src="./assets/specialities/heart-care.webp"
+            class="absolute right-0 top-1/2 -translate-y-1/2 h-[260px]
+                    object-contain opacity-30 pointer-events-none
+                    filter brightness-200 saturate-0" />
+
+          <div class="relative z-20 h-full p-6 text-white flex flex-col justify-between">
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">Heart Care</h3>
+              <p class="text-sm leading-relaxed opacity-95">Advanced cardiac care with diagnostics, interventions, and expert cardiologists.</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium">Read More</span>
+              <span class="w-10 h-10 flex items-center justify-center rounded-full border border-white">→</span>
+            </div>
+          </div>
+        </div>
+
 
       </div>
 
+      <a href="./specialties.php" class="flex justify-center items-center font-semibold text-2xl text-[#848484] gap-2 pt-12">
+        <h3>View all Specialities</h3>
+        <img loading="lazy" src="./assets/arrow (2).png" alt="">
+      </a>
+    </div>
 
-    </div>
-    <div class="flex justify-center items-center font-semibold text-2xl text-[#848484] gap-2 pt-12">
-      <h3>View all Specialities</h3>
-      <img loading="lazy" src="./assets/arrow (2).png" alt="">
-    </div>
     <!-- ================= PROCEDURES ================= -->
     <div id="procedures"
       class="tab-content hidden grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1
@@ -1332,9 +1369,7 @@
     </div>
   </section>
 
-  <!-- RED HEADER SECTION -->
-  <section class="relative w-full bg-[#E7484E] pt-16 pb-32 overflow-hidden">
-    <!-- dotted background -->
+  <!-- <section class="relative w-full bg-[#E7484E] pt-16 pb-32 overflow-hidden">
     <div class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.25)_1px,transparent_1px)] bg-[size:14px_14px] opacity-40"></div>
 
     <h2 class="relative text-center text-white text-2xl md:text-3xl font-semibold">
@@ -1344,7 +1379,6 @@
 
 
 
-  <!-- FLOATING CARD SECTION -->
   <section class="relative -mt-24 z-10">
     <div class="container mx-auto px-4">
       <div
@@ -1352,7 +1386,6 @@
              overflow-hidden grid grid-cols-1 md:grid-cols-3
              divide-y md:divide-y-0 md:divide-x">
 
-        <!-- CARD 1 -->
         <div class="p-8 text-center space-y-4">
           <img loading="lazy" src="./assets/icons/x-ray.png" class="h-20 mx-auto" alt="">
 
@@ -1373,7 +1406,6 @@
           </a>
         </div>
 
-        <!-- CARD 2 -->
         <div class="p-8 text-center space-y-4">
           <img loading="lazy" src="./assets/icons/elder.png" class="h-20 mx-auto" alt="">
 
@@ -1394,7 +1426,6 @@
           </a>
         </div>
 
-        <!-- CARD 3 -->
         <div class="p-8 text-center space-y-4">
           <img loading="lazy" src="./assets/icons/child.png" class="h-20 mx-auto" alt="">
 
@@ -1416,7 +1447,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="w-full py-20 ">
     <h3 class="text-center text-2xl font-semibold text-gray-600 mb-14">
       Notable Faces. Nano Care.
@@ -1721,61 +1752,58 @@
 
 
 
-  <section class="w-full  py-28">
+  <section id="stats-section" class="w-full py-28">
     <div class="container mx-auto px-6">
 
-      <!-- Heading -->
       <h2 class="text-center text-2xl md:text-3xl font-semibold text-[#737373] mb-12">
         Nano Hospitals at a Glance
       </h2>
 
-      <!-- Cards Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-        <!-- Card 1 -->
         <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
-          <!-- dotted bg -->
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
             <img loading="lazy" src="./assets/icons/stethescope.png" class="mx-auto h-12" alt="">
-            <p class="text-4xl font-bold text-red-500">10+</p>
+            <div class="counter text-4xl font-bold text-red-500" data-target="10">0</div>
+
             <p class="text-red-500 text-xl font-medium">years</p>
             <p class="text-gray-400 text-xl">of Medical Experience</p>
           </div>
         </div>
 
-        <!-- Card 2 -->
         <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
             <img loading="lazy" src="./assets/icons/doctor.png" class="mx-auto h-12" alt="">
-            <p class="text-4xl font-bold text-red-500">100+</p>
+            <div class="counter text-4xl font-bold text-red-500" data-target="100" data-suffix="+">0</div>
+
             <p class="text-red-500 text-xl font-medium">Medical Specialists</p>
             <p class="text-gray-400 text-xl">Caring for You</p>
           </div>
         </div>
 
-        <!-- Card 3 -->
         <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
             <img loading="lazy" src="./assets/icons/knife (2).png" class="mx-auto h-12" alt="">
-            <p class="text-4xl font-bold text-red-500">15000+</p>
+            <p class="counter text-4xl font-bold text-red-500" data-target="15000" data-suffix="+">0</p>
+
             <p class="text-red-500 text-xl font-medium">Surgeries</p>
             <p class="text-gray-400 text-xl">performed</p>
           </div>
         </div>
 
-        <!-- Card 4 -->
         <div class="bg-white rounded-2xl shadow-lg p-8 text-center relative overflow-hidden">
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
             <img loading="lazy" src="./assets/icons/smile.png" class="mx-auto h-12" alt="">
-            <p class="text-4xl font-bold text-red-500">500000+</p>
+            <p class="counter text-4xl font-bold text-red-500" data-target="500000" data-suffix="+">0</p>
+
             <p class="text-red-500 text-xl font-medium">Happy</p>
             <p class="text-gray-400 text-xl">Patients</p>
           </div>
@@ -2142,5 +2170,60 @@
       });
     }
   </script>
+
+
+  <script>
+    const counters = document.querySelectorAll(".counter");
+    const section = document.getElementById("stats-section");
+    let hasAnimated = false;
+
+    const startCounters = () => {
+      if (hasAnimated) return;
+      hasAnimated = true;
+
+      counters.forEach(counter => {
+        const target = +counter.dataset.target;
+        const suffix = counter.dataset.suffix || "";
+        let current = 0;
+
+        const duration = 1500; // animation time in ms
+        const increment = target / (duration / 16);
+
+        const updateCounter = () => {
+          current += increment;
+
+          if (current >= target) {
+            counter.innerText = target + suffix;
+          } else {
+            counter.innerText = Math.floor(current) + suffix;
+            requestAnimationFrame(updateCounter);
+          }
+        };
+
+        updateCounter();
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          startCounters();
+          observer.disconnect();
+        }
+      }, {
+        threshold: 0.4
+      }
+    );
+
+    observer.observe(section);
+  </script>
+
+
+
+
+
+
+
+
 
 </html>

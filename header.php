@@ -264,7 +264,7 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      width: 25%;
+      width: 30%;
     }
 
     .mega-col li {
@@ -422,10 +422,12 @@
 
           <!-- LOGO -->
           <div class="flex items-center gap-4">
-            <img
+            <a href="./">
+              <img
               src="./assets/logo/logo.png"
               alt="Nano Hospitals"
               class="h-14 w-auto object-contain" />
+            </a>
 
             <div class="relative inline-block lg:ml-10">
               <!-- Trigger Button -->
@@ -490,44 +492,52 @@
                 Specialities
               </a>
 
-              <div class="mega mega-specialities">
+             <div class="mega mega-specialities">
 
-                <!-- COLUMN 1 -->
-                <ul class="mega-col">
-                  <li><img src="./assets/icons/bone.svg"> Bone & Joint Care <span>›</span></li>
-                  <li><img src="./assets/icons/heart.svg"> Heart Care <span>›</span></li>
-                  <li><img src="./assets/icons/brain.svg"> Brain Care <span>›</span></li>
-                  <li><img src="./assets/icons/cancer.svg"> Cancer Care <span>›</span></li>
-                  <li><img src="./assets/icons/renal.svg"> Renal Care <span>›</span></li>
-                </ul>
+  <!-- COLUMN 1 -->
+  <ul class="mega-col">
+    <li><img src="./assets/icons/bone.svg"> Bone & Joint Care </li>
+    <li><img src="./assets/icons/child.svg"> Child Care </li>
+    <li><img src="./assets/icons/women.svg"> Women’s Care </li>
+    <li><img src="./assets/icons/general.svg"> General Medicine </li>
+    <li><img src="./assets/icons/heart.svg"> Heart Care </li>
+    <li><img src="./assets/icons/brain.svg"> Brain & Spine Care </li>
+    <li><img src="./assets/icons/lung.svg"> Lung Care </li>
+  </ul>
 
-                <!-- COLUMN 2 -->
-                <ul class="mega-col">
-                  <li><img src="./assets/icons/emergency.svg"> Emergency Care <span>›</span></li>
-                  <li><img src="./assets/icons/gastro.svg"> Gastroenterology <span>›</span></li>
-                  <li><img src="./assets/icons/mind.svg"> Mind Care <span>›</span></li>
-                  <li><img src="./assets/icons/women.svg"> Women Care <span>›</span></li>
-                  <li><img src="./assets/icons/child.svg"> Child Care <span>›</span></li>
-                </ul>
+  <!-- COLUMN 2 -->
+  <ul class="mega-col">
+    <li><img src="./assets/icons/renal.svg"> Kidney Care </li>
+    <li><img src="./assets/icons/urology.svg"> Urology Care </li>
+    <li><img src="./assets/icons/gastro.svg"> Digestive Care </li>
+    <li><img src="./assets/icons/diabetes.svg"> Diabetes & Hormone Care </li>
+    <li><img src="./assets/icons/cancer.svg"> Cancer Care </li>
+    <li><img src="./assets/icons/vascular.svg"> Vascular Care </li>
+    <li><img src="./assets/icons/skin.svg"> Skin Care </li>
+  </ul>
 
-                <!-- COLUMN 3 -->
-                <ul class="mega-col">
-                  <li><img src="./assets/icons/radiology.svg"> Radiology <span>›</span></li>
-                  <li><img src="./assets/icons/skin.svg"> Skin Care <span>›</span></li>
-                  <li><img src="./assets/icons/surgery.svg"> General Surgery & Allied <span>›</span></li>
-                  <li><img src="./assets/icons/lung.svg"> Lung Care <span>›</span></li>
-                  <li><img src="./assets/icons/vascular.svg"> Vascular Care <span>›</span></li>
-                </ul>
+  <!-- COLUMN 3 -->
+  <ul class="mega-col">
+    <li><img src="./assets/icons/eye.svg"> Eye Care </li>
+    <li><img src="./assets/icons/ent.svg"> ENT Care </li>
+    <li><img src="./assets/icons/mind.svg"> Mental Health & Mind Care </li>
+    <li><img src="./assets/icons/rheumatology.svg"> Rheumatology </li>
+    <li><img src="./assets/icons/reconstructive.svg"> Plastic, Reconstructive & Burn Care </li>
+    <li><img src="./assets/icons/oral.svg"> Oral & Facial Surgery </li>
+  </ul>
 
-                <!-- COLUMN 4 -->
-                <ul class="mega-col">
-                  <li><img src="./assets/icons/general.svg"> General Medicine & Allied <span>›</span></li>
-                  <li><img src="./assets/icons/rehab.svg"> Physical Medicine & Rehab <span>›</span></li>
-                  <li><img src="./assets/icons/reconstructive.svg"> Reconstructive Surgery <span>›</span></li>
-                  <li><img src="./assets/icons/lab.svg"> Laboratory Medicine <span>›</span></li>
-                </ul>
+  <!-- COLUMN 4 -->
+  <ul class="mega-col">
+    <li><img src="./assets/icons/surgery.svg"> General Surgery </li>
+    <li><img src="./assets/icons/emergency.svg"> Emergency & Critical Care </li>
+    <li><img src="./assets/icons/rehab.svg"> Rehabilitation & Physiotherapy </li>
+    <li><img src="./assets/icons/elder.svg"> Elder Care </li>
+    <li><img src="./assets/icons/radiology.svg"> Radiology & Imaging </li>
+    <li><img src="./assets/icons/lab.svg"> Laboratory & Diagnostic Services </li>
+  </ul>
 
-              </div>
+</div>
+
 
             </li>
 
@@ -579,7 +589,7 @@
 
     <!-- HEADER (FIXED HEIGHT) -->
     <div class="flex items-center justify-between px-5 py-4 border-b shrink-0">
-      <img src="./assets/logo/logo.png" alt="Nano Hospitals" class="h-8">
+      <a href="./"><img src="./assets/logo/logo.png" alt="Nano Hospitals" class="h-8"></a>
       <button id="closeMobileMenu" class="text-2xl font-light">✕</button>
     </div>
 
@@ -645,33 +655,33 @@
       <ul class="px-6 py-4 text-sm text-gray-800 space-y-4">
 
         <li class="flex items-center justify-between">
-          Hospital Facilities <span>›</span>
+          Hospital Facilities 
         </li>
 
         <a href="./second-opinion.php">
           <li class="flex items-center justify-between">
-            Second Opinion <span>›</span>
+            Second Opinion 
           </li>
         </a>
 
         <a href="./international-patients.php">
           <li class="flex items-center justify-between">
-            International Patients <span>›</span>
+            International Patients 
           </li>
         </a>
 
         <a href="./careers.php">
           <li class="flex items-center justify-between">
-            Careers <span>›</span>
+            Careers 
           </li>
         </a>
 
         <li class="flex items-center justify-between">
-          News and Awards <span>›</span>
+          News and Awards 
         </li>
 
         <li class="flex items-center justify-between">
-          Health Corner <span>›</span>
+          Health Corner 
         </li>
 
       </ul>

@@ -84,11 +84,10 @@
                                 Uttarahalli, Hulimavu
                             </p>
                         </div>
-
-                        <div class="bg-white rounded-xl px-5 py-4 sm:col-span-2">
-                            <p class="text-sm font-semibold text-gray-700">Languages Spoken:</p>
+                        <div class="bg-white rounded-xl px-5 py-4">
+                            <p class="text-sm font-semibold text-gray-700">KMC number:</p>
                             <p class="text-sm text-gray-600 mt-1">
-                                Kannada, English, Hindi
+                                63479
                             </p>
                         </div>
                     </div>
@@ -142,29 +141,7 @@
                     </div>
 
                     <!-- NEXT SLOT -->
-                    <div
-                        class="
-            flex flex-wrap gap-3
-            shadow-xl
-            justify-center xl:justify-start
-          ">
-                        <span
-                            class="bg-[#FF3B3B] text-white px-4 py-2 rounded-lg text-sm font-semibold">
-                            Next Slot :
-                        </span>
-
-                        <span
-                            class="bg-white px-4 py-2 rounded-lg text-sm text-gray-700 flex items-center gap-2">
-                            <img src="./assets/icons/calendar.png" class="w-4 h-4" />
-                            15 Dec’25 9:54 AM
-                        </span>
-
-                        <span
-                            class="bg-white px-4 py-2 rounded-lg text-sm text-gray-700 flex items-center gap-2">
-                            <img src="./assets/icons/location.png" class="w-4 h-4" />
-                            Nano Hospitals, Uttarahalli
-                        </span>
-                    </div>
+                  
 
                 </div>
             </div>

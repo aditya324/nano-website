@@ -57,7 +57,7 @@
         <div class="flex items-center justify-between gap-4 flex-wrap mb-10">
 
             <!-- LOCATION PILLS -->
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-3 flex-wrap">
                 <button class="location-filter pill active" data-location="All">All</button>
                 <button class="location-filter pill" data-location="Both">Both Locations</button>
                 <button class="location-filter pill" data-location="Uttarahalli">Uttarahalli</button>
