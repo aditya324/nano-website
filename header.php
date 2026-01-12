@@ -177,6 +177,8 @@
       position: absolute;
       left: 0;
       top: 100%;
+       right: 0;
+      transform: translateX(-8rem);
       margin-top: 5px;
       width: 1100px;
       background: #fff;
@@ -238,7 +240,11 @@
       min-height: unset !important;
       align-items: flex-start;
       top: 100%;
-      left: 0;
+      right: 0;
+      transform: translateX(-20rem);
+
+
+      right: 0;
       margin-top: 12px;
       width: 1050px;
       background: #fff;
@@ -315,7 +321,7 @@
   <nav class="fixed top-0 left-0 w-full ">
 
     <!-- ================= TOP GREY BAR ================= -->
-    <div class="w-full bg-[#e2e2e2]">
+    <div class="hidden min-[1200px]:block w-full bg-[#e2e2e2]">
       <div class="max-w-[1400px] mx-auto px-6">
         <div class="flex items-center justify-center h-10  text-sm text-gray-600">
           <ul class="hidden md:flex items-center gap-6">
@@ -475,7 +481,8 @@
           </div>
 
           <!-- MAIN MENU -->
-          <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-800">
+          <ul class="hidden min-[1200px]:flex items-center gap-8 text-sm font-medium text-gray-800">
+
             <li><a href="./doctor-profile.php">Doctors </a></li>
 
             <li class="special relative">
@@ -545,10 +552,12 @@
           </div>
 
           <!-- MOBILE TOGGLE -->
-          <button id="openMobileMenu"
-            class="md:hidden p-2 text-red-600 text-xl">
+          <button
+            id="openMobileMenu"
+            class="min-[1300px]:hidden p-2 text-red-600 text-xl">
             ☰
           </button>
+
 
         </div>
       </div>

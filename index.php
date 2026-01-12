@@ -28,14 +28,14 @@
     .feature-card:hover {
       transform: translateY(-5px);
     }
-  </style>      
+  </style>
 </head>
 
 <body class="bg-[#f5f5f5] font-sans">
   <?php require "./header.php" ?>
 
   <?php require "./components/call-nano.php" ?>
-  
+
   <section class="w-full hidden md:block ">
     <div
       class="relative w-full mx-auto
@@ -125,7 +125,7 @@
             <div class="flex items-center justify-between gap-4 px-4 py-4">
               <div class="text-left">
                 <p class="flex items-center gap-1 text-gray-600 text-lg">
-                  <img loading="lazy"src="./assets/icons/Vector (4).png" alt="">
+                  <img loading="lazy" src="./assets/icons/Vector (4).png" alt="">
                   Uttarahalli
                 </p>
                 <p class="text-red-500 font-semibold text-lg">
@@ -134,12 +134,12 @@
               </div>
 
               <div class="w-10 h-10 rounded-full bg-gray-100 shadow-inner flex items-center justify-center shrink-0">
-                <img loading="lazy"src="./assets/icons/phone.png" class="w-5 h-5" alt="">
+                <img loading="lazy" src="./assets/icons/phone.png" class="w-5 h-5" alt="">
               </div>
 
               <div class="text-left">
                 <p class="flex items-center gap-1 text-gray-600 text-lg">
-                  <img loading="lazy"src="./assets/icons/Vector (4).png" alt="">
+                  <img loading="lazy" src="./assets/icons/Vector (4).png" alt="">
                   Hulimavu
                 </p>
                 <p class="text-red-500 font-semibold text-lg">
@@ -242,7 +242,7 @@
           <img
             src="./assets/banners/family-home (2).png"
             alt="Family"
-            class="h-[262px] w-[398px]  object-contain">
+            class="h-fullx w-[398px]  object-contain">
         </div>
 
       </div>
@@ -535,7 +535,7 @@
           <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
             <div class="w-[450px] h-[450px] rounded-full overflow-hidden shadow-2xl border-8 border-white">
 
-              <img loading="lazy"id="centerImage"
+              <img loading="lazy" id="centerImage"
                 src="./assets/banners/patients-choice.webp"
                 alt="Hospital"
                 class="w-full h-full object-cover transition-opacity duration-500">
@@ -809,7 +809,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Bone & <br /> Joint Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/bone-and-joint.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/bone-and-joint.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 2. Invasive & Non-Invasive Cardiology -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -819,7 +819,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Heart <br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/heart-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/heart-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 3. Cardiac Thoracic Surgery -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -829,7 +829,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Brain <br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/brain-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/brain-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 4. Critical Care Medicine -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -839,7 +839,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Cancer<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/cancer-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/cancer-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 5. Dermatology -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -849,7 +849,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Gastro<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/gastro-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/gastro-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 6. Emergency Medicine -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -859,7 +859,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Lung<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/lung-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/lung-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 7. Endocrine Surgery -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -869,7 +869,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Radiology </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/radiology.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/radiology.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 8. Endocrinology -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -879,7 +879,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Skin<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/skin-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/skin-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 9. ENT --> <!-- 10. General Medicine -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -889,7 +889,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Physical <br> Medicine <br> & Rehab </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/physical-rehab.png" alt="Bone and Joint" class="absolute left-20 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/physical-rehab.png" alt="Bone and Joint" class="absolute left-20 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 11. General & Laparoscopic Surgery --> <!-- 12. Interventional Radiology -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -899,7 +899,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Emergency<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/emergrncy-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/emergrncy-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 13. Surgical Gastroenterology -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -909,7 +909,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Child<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/child-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/child-care.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 14. Oral & Maxillo Facial Surgery -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -919,7 +919,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> General<br /> Surgery </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/genral-surgery.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/genral-surgery.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 15. Nephrology & Dialysis --> <!-- 16. Neurology -->
       <div
         class="relative w-[260px] Dh-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -929,7 +929,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Laboratory<br /> Medicine </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/laboratory-medicine.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/laboratory-medicine.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 17. Neurosurgery -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -939,7 +939,7 @@
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3
             class="text-red-500 font-semibold text-xl leading-snug"> Laboratory<br /> Medicine </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/reconstructive-surgery.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/reconstructive-surgery.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 18. Ophthalmology -->
       <div
         class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
@@ -948,42 +948,42 @@
         <div
           class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3 class="text-red-500 font-semibold text-xl leading-snug"> General<br /> Medicine </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/general-medicine.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/general-medicine.png" alt="Bone and Joint" class="absolute left-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
       </div> <!-- 19. Orthopedics & Joint Replacement -->
       <div class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
         <div class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
         <div class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3 class="text-red-500 font-semibold text-xl leading-snug"> Mind<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
-        <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/mind-care.png" alt="Bone and Joint" class="absolute right-10 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
 
       </div>
       <div class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg bg-white"> <!-- Background -->
         <div class="absolute inset-0 bg-no-repeat bg-cover" style="background-image: url('./assets/background/Frame 134.png');"></div> <!-- Text (LEFT – vertically centered) -->
         <div class="relative z-10 absolute left-6 top-1/2 -translate-y-1/2 w-[140px]">
           <h3 class="text-red-500 font-semibold text-xl leading-snug"> kidney<br /> Care </h3>
-        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy"src="./assets/specialities/kidney-care.png" alt="Bone and Joint" class="absolute left-24 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
+        </div> <!-- Bone Image (RIGHT – centered) --> <img loading="lazy" src="./assets/specialities/kidney-care.png" alt="Bone and Joint" class="absolute left-24 top-1/2 -translate-y-1/2 h-[300px] object-contain" />
 
       </div>
 
-      
+
     </div>
-<div class="flex justify-center items-center font-semibold text-2xl text-[#848484] gap-2 pt-12">
-        <h3>View all Specialities</h3>
-        <img loading="lazy"src="./assets/arrow (2).png" alt="">
-      </div>
+    <div class="flex justify-center items-center font-semibold text-2xl text-[#848484] gap-2 pt-12">
+      <h3>View all Specialities</h3>
+      <img loading="lazy" src="./assets/arrow (2).png" alt="">
+    </div>
     <!-- ================= PROCEDURES ================= -->
     <div id="procedures"
       class="tab-content hidden grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1
            gap-6 justify-items-center mt-10 px-4">
 
       <div class="rounded-2xl border p-5 w-[260px] shadow bg-white text-center">
-        <img loading="lazy"src="./assets/ct-scan.webp" class="h-40 w-full object-cover rounded-xl mb-4" />
+        <img loading="lazy" src="./assets/ct-scan.webp" class="h-40 w-full object-cover rounded-xl mb-4" />
         <h3 class="font-semibold text-[#5c2c20]">CT Scan</h3>
       </div>
 
       <div class="rounded-2xl border p-5 w-[260px] shadow bg-white text-center">
-        <img loading="lazy"src="./assets/endoscopy.webp" class="h-40 w-full object-cover rounded-xl mb-4" />
+        <img loading="lazy" src="./assets/endoscopy.webp" class="h-40 w-full object-cover rounded-xl mb-4" />
         <h3 class="font-semibold text-[#5c2c20]">Endoscopy</h3>
       </div>
 
@@ -1027,7 +1027,7 @@
 
         <!-- LEFT CARD (Tall) -->
         <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col">
-          <img loading="lazy"src="./assets/Frame 84.png" class="w-full h-52 object-cover" />
+          <img loading="lazy" src="./assets/Frame 84.png" class="w-full h-52 object-cover" />
 
           <div class="p-6 flex flex-col justify-between flex-1">
             <div>
@@ -1044,7 +1044,7 @@
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
-              <img loading="lazy"src="./assets/icons/stethescope.png" alt="">
+              <img loading="lazy" src="./assets/icons/stethescope.png" alt="">
             </div>
           </div>
         </div>
@@ -1068,7 +1068,7 @@
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
-              <img loading="lazy"src="./assets/icons/syren.png" alt="">
+              <img loading="lazy" src="./assets/icons/syren.png" alt="">
             </div>
           </div>
 
@@ -1088,7 +1088,7 @@
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
-              <img loading="lazy"src="./assets/icons/knife (2).png" alt="">
+              <img loading="lazy" src="./assets/icons/knife (2).png" alt="">
             </div>
           </div>
 
@@ -1096,7 +1096,7 @@
 
         <!-- RIGHT CARD (Tall) -->
         <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col">
-          <img loading="lazy"src="./assets/second-opineon.png" class="w-full h-52 object-cover" />
+          <img loading="lazy" src="./assets/second-opineon.png" class="w-full h-52 object-cover" />
 
           <div class="p-6 flex flex-col justify-between flex-1">
             <div>
@@ -1113,7 +1113,7 @@
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
-              <img loading="lazy"src="./assets/icons/msg.png" alt="">
+              <img loading="lazy" src="./assets/icons/msg.png" alt="">
             </div>
           </div>
         </div>
@@ -1182,7 +1182,7 @@
           <div
             class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
             data-instagram-url="https://www.instagram.com/reel/DQOIgt8E2Yq/">
-            <img loading="lazy"src="./assets/testimonials/Frame 747.png" class="w-full h-56 object-cover" />
+            <img loading="lazy" src="./assets/testimonials/Frame 747.png" class="w-full h-56 object-cover" />
             <div class="absolute inset-0 bg-black/25"></div>
 
             <div class="absolute inset-0 flex items-center justify-center">
@@ -1204,7 +1204,7 @@
           <div
             class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
             data-instagram-url="https://www.instagram.com/reel/DQOIgt8E2Yq/">
-            <img loading="lazy"src="./assets/testimonials/Frame 744.png" class="w-full h-56 object-cover" />
+            <img loading="lazy" src="./assets/testimonials/Frame 744.png" class="w-full h-56 object-cover" />
             <div class="absolute inset-0 bg-black/25"></div>
 
             <!-- Play -->
@@ -1225,7 +1225,7 @@
           <div
             class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
             data-instagram-url="https://www.instagram.com/reel/C6_WCBbt13G">
-            <img loading="lazy"src="./assets/testimonials/Frame 745.png" class="w-full h-44 object-cover" />
+            <img loading="lazy" src="./assets/testimonials/Frame 745.png" class="w-full h-44 object-cover" />
             <div class="absolute inset-0 bg-black/25"></div>
 
             <div class="absolute inset-0 flex items-center justify-center">
@@ -1242,7 +1242,7 @@
         </div>
         <!-- CENTER LARGE CARD -->
         <div class="relative rounded-3xl overflow-hidden lg:col-span-1 cursor-pointer video-card" data-instagram-url="https://www.instagram.com/reel/DQOIgt8E2Yq">
-          <img loading="lazy"src="./assets/testimonials/Frame 743.png" class="w-full h-[450px] object-cover" />
+          <img loading="lazy" src="./assets/testimonials/Frame 743.png" class="w-full h-[450px] object-cover" />
           <div class="absolute inset-0 bg-black/20"></div>
 
           <div class="absolute inset-0 flex items-center justify-center">
@@ -1261,7 +1261,7 @@
         <div class="space-y-6">
           <!-- Cancer Free -->
           <div class="relative rounded-2xl overflow-hidden cursor-pointer video-card" data-instagram-url="https://www.instagram.com/reel/CrpafHty-Pz/">
-            <img loading="lazy"src="./assets/testimonials/Frame 746.png" class="w-full h-56 object-cover" />
+            <img loading="lazy" src="./assets/testimonials/Frame 746.png" class="w-full h-56 object-cover" />
             <div class="absolute inset-0 bg-black/25"></div>
 
             <!-- Play -->
@@ -1280,7 +1280,7 @@
 
           <!-- Pain Free -->
           <div class="relative rounded-2xl overflow-hidden cursor-pointer video-card" data-instagram-url="https://www.youtube.com/shorts/H-uw003ra-M">
-            <img loading="lazy"src="./assets/testimonials/Frame 748.png" class="w-full h-44 object-cover" />
+            <img loading="lazy" src="./assets/testimonials/Frame 748.png" class="w-full h-44 object-cover" />
             <div class="absolute inset-0 bg-black/25"></div>
 
             <div class="absolute inset-0 flex items-center justify-center">
@@ -1301,7 +1301,7 @@
           <!-- Heart Healed -->
           <div class="relative rounded-2xl overflow-hidden cursor-pointer video-card"
             data-instagram-url="https://www.instagram.com/reel/DLmn0CySkY2/">>
-            <img loading="lazy"src="./assets/testimonials/Frame 749.png" class="w-full h-56 object-cover" />
+            <img loading="lazy" src="./assets/testimonials/Frame 749.png" class="w-full h-56 object-cover" />
             <div class="absolute inset-0 bg-black/25"></div>
 
             <div class="absolute inset-0 flex items-center justify-center">
@@ -1354,7 +1354,7 @@
 
         <!-- CARD 1 -->
         <div class="p-8 text-center space-y-4">
-          <img loading="lazy"src="./assets/icons/x-ray.png" class="h-20 mx-auto" alt="">
+          <img loading="lazy" src="./assets/icons/x-ray.png" class="h-20 mx-auto" alt="">
 
           <h3 class="text-2xl font-medium text-[#737373]">
             New Digital X-Ray <br /> System Installed
@@ -1375,7 +1375,7 @@
 
         <!-- CARD 2 -->
         <div class="p-8 text-center space-y-4">
-          <img loading="lazy"src="./assets/icons/elder.png" class="h-20 mx-auto" alt="">
+          <img loading="lazy" src="./assets/icons/elder.png" class="h-20 mx-auto" alt="">
 
           <h3 class="text-2xl font-medium text-[#737373]">
             Elder Care Program
@@ -1396,7 +1396,7 @@
 
         <!-- CARD 3 -->
         <div class="p-8 text-center space-y-4">
-          <img loading="lazy"src="./assets/icons/child.png" class="h-20 mx-auto" alt="">
+          <img loading="lazy" src="./assets/icons/child.png" class="h-20 mx-auto" alt="">
 
           <h3 class="text-2xl font-medium text-[#737373]">
             Neonatal Transport <br /> Incubator launched
@@ -1424,7 +1424,7 @@
 
     <div class="flex justify-center gap-10   flex-wrap ">
       <div class="max-w-sm  overflow-hidden shadow-lg rounded-2xl">
-        <img loading="lazy"class="w-full" src="./assets/actor.png" alt="Sunset in the mountains">
+        <img loading="lazy" class="w-full" src="./assets/actor.png" alt="Sunset in the mountains">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2 text-[#FA424A]">Aasif Kshathriya</div>
           <p class="text-[#737373] text-base">
@@ -1435,7 +1435,7 @@
 
       </div>
       <div class="max-w-sm  overflow-hidden shadow-lg rounded-2xl">
-        <img loading="lazy"class="w-full" src="./assets/actor2.png" alt="Sunset in the mountains">
+        <img loading="lazy" class="w-full" src="./assets/actor2.png" alt="Sunset in the mountains">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2 text-[#FA424A]">Shwetha Srinivasa</div>
           <p class="text-[#737373] text-base">
@@ -1446,7 +1446,7 @@
 
       </div>
       <div class="max-w-sm  overflow-hidden shadow-lg rounded-2xl">
-        <img loading="lazy"class="w-full" src="./assets/actor-3.png" alt="Sunset in the mountains">
+        <img loading="lazy" class="w-full" src="./assets/actor-3.png" alt="Sunset in the mountains">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2 text-[#FA424A]">Aniish Tejeshwar</div>
           <p class="text-[#737373] text-base">
@@ -1481,7 +1481,7 @@
 
         <!-- Card 1 -->
         <div class="bg-white w-full max-w-md rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] px-8 py-6 flex items-center gap-6">
-          <img loading="lazy"src="./assets/icons/Vector (1).png" class="w-10" alt="">
+          <img loading="lazy" src="./assets/icons/Vector (1).png" class="w-10" alt="">
           <div class="text-center flex-1">
             <p class="text-red-500 font-medium">2023</p>
             <p class="text-gray-600 mt-2">Times Health Excellence</p>
@@ -1490,12 +1490,12 @@
             </p>
             <p class="text-[#737373] mt-1">Nano Hospitals</p>
           </div>
-          <img loading="lazy"src="./assets/icons/Vector (2).png" class="w-10" alt="">
+          <img loading="lazy" src="./assets/icons/Vector (2).png" class="w-10" alt="">
         </div>
 
         <!-- Card 2 -->
         <div class="bg-white w-full max-w-md rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] px-8 py-6 flex items-center gap-6">
-          <img loading="lazy"src="./assets/icons/Vector (1).png" class="w-10" alt="">
+          <img loading="lazy" src="./assets/icons/Vector (1).png" class="w-10" alt="">
           <div class="text-center flex-1">
             <p class="text-red-500 font-medium">2023</p>
             <p class="text-gray-600 mt-2">Radio City Business Titans</p>
@@ -1504,12 +1504,12 @@
             </p>
             <p class="text-[#737373] mt-1">Nano Hospitals</p>
           </div>
-          <img loading="lazy"src="./assets/icons/Vector (2).png" class="w-10" alt="">
+          <img loading="lazy" src="./assets/icons/Vector (2).png" class="w-10" alt="">
         </div>
 
         <!-- Card 3 -->
         <div class="bg-white w-full max-w-md rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] px-8 py-6 flex items-center gap-6">
-          <img loading="lazy"src="./assets/icons/Vector (1).png" class="w-10" alt="">
+          <img loading="lazy" src="./assets/icons/Vector (1).png" class="w-10" alt="">
           <div class="text-center flex-1">
             <p class="text-red-500 font-medium">2023</p>
             <p class="text-gray-600 mt-2">Radio City Business Titans</p>
@@ -1518,7 +1518,7 @@
             </p>
             <p class="text-[#737373] mt-1">Nano Hospitals</p>
           </div>
-          <img loading="lazy"src="./assets/icons/Vector (2).png" class="w-10" alt="">
+          <img loading="lazy" src="./assets/icons/Vector (2).png" class="w-10" alt="">
         </div>
 
       </div>
@@ -1590,7 +1590,7 @@
                 </svg>
               </div>
             </div>
-            <img loading="lazy"src="./assets/logo/nano-logo.png" class="absolute top-3 right-3 w-14" alt="">
+            <img loading="lazy" src="./assets/logo/nano-logo.png" class="absolute top-3 right-3 w-14" alt="">
           </div>
 
           <div class="p-4">
@@ -1615,7 +1615,7 @@
                 </svg>
               </div>
             </div>
-            <img loading="lazy"src="./assets/logo/nano-logo.png" class="absolute top-3 right-3 w-14" alt="">
+            <img loading="lazy" src="./assets/logo/nano-logo.png" class="absolute top-3 right-3 w-14" alt="">
           </div>
 
           <div class="p-4">
@@ -1642,7 +1642,7 @@
         <!-- Gradient Overlay -->
 
         <!-- Image -->
-        <img loading="lazy"class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
+        <img loading="lazy" class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
 
         <!-- Title -->
         <p class="absolute bottom-10 text-center w-full bg-[#FFFFFF] text-sm p-2 text-[#FA424A] font-semibold">
@@ -1669,7 +1669,7 @@
         <!-- Gradient Overlay -->
 
         <!-- Image -->
-        <img loading="lazy"class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
+        <img loading="lazy" class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
 
         <!-- Title -->
         <p class="absolute bottom-10 text-center w-full bg-[#FFFFFF] text-sm p-2 text-[#FA424A] font-semibold">
@@ -1696,7 +1696,7 @@
         <!-- Gradient Overlay -->
 
         <!-- Image -->
-        <img loading="lazy"class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
+        <img loading="lazy" class="w-full h-full object-cover" src="./assets/blogs/blog1.png" alt="Sunset in the mountains">
 
         <!-- Title -->
         <p class="absolute bottom-10 text-center w-full bg-[#FFFFFF] text-sm p-2 text-[#FA424A] font-semibold">
@@ -1738,7 +1738,7 @@
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
-            <img loading="lazy"src="./assets/icons/stethescope.png" class="mx-auto h-12" alt="">
+            <img loading="lazy" src="./assets/icons/stethescope.png" class="mx-auto h-12" alt="">
             <p class="text-4xl font-bold text-red-500">10+</p>
             <p class="text-red-500 text-xl font-medium">years</p>
             <p class="text-gray-400 text-xl">of Medical Experience</p>
@@ -1750,7 +1750,7 @@
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
-            <img loading="lazy"src="./assets/icons/doctor.png" class="mx-auto h-12" alt="">
+            <img loading="lazy" src="./assets/icons/doctor.png" class="mx-auto h-12" alt="">
             <p class="text-4xl font-bold text-red-500">100+</p>
             <p class="text-red-500 text-xl font-medium">Medical Specialists</p>
             <p class="text-gray-400 text-xl">Caring for You</p>
@@ -1762,7 +1762,7 @@
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
-            <img loading="lazy"src="./assets/icons/knife (2).png" class="mx-auto h-12" alt="">
+            <img loading="lazy" src="./assets/icons/knife (2).png" class="mx-auto h-12" alt="">
             <p class="text-4xl font-bold text-red-500">15000+</p>
             <p class="text-red-500 text-xl font-medium">Surgeries</p>
             <p class="text-gray-400 text-xl">performed</p>
@@ -1774,7 +1774,7 @@
           <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:12px_12px] opacity-60"></div>
 
           <div class="relative z-10 space-y-4">
-            <img loading="lazy"src="./assets/icons/smile.png" class="mx-auto h-12" alt="">
+            <img loading="lazy" src="./assets/icons/smile.png" class="mx-auto h-12" alt="">
             <p class="text-4xl font-bold text-red-500">500000+</p>
             <p class="text-red-500 text-xl font-medium">Happy</p>
             <p class="text-gray-400 text-xl">Patients</p>
@@ -1918,7 +1918,7 @@
   </div>
 
 
-<?php require "./components/phone-model.php" ?>
+  <?php require "./components/phone-model.php" ?>
   <!-- Floating Call & WhatsApp -->
 
 
