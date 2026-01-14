@@ -307,7 +307,7 @@
         </a>
 
         <!-- Specialities -->
-        <div
+        <a href="./specialties.php"
           class="group bg-white rounded-2xl p-6 flex justify-between items-center
                shadow-md text-[#6A6A6A]
                bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
@@ -326,7 +326,7 @@
             src="./assets/icons/specialities.png"
             alt=""
             class="group-hover:scale-110 transition-transform duration-300">
-        </div>
+        </a>
 
         <!-- Procedures -->
         <div
@@ -422,7 +422,7 @@
       </a>
 
       <!-- Our Hospitals -->
-      <a href="/hospitals"
+      <!-- <a href="/hospitals"
         class="group flex items-center gap-4
               w-full h-14 px-6
               rounded-2xl border border-gray-300
@@ -436,10 +436,10 @@
           alt=""
           class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
         Conditions
-      </a>
+      </a> -->
 
       <!-- Specialities -->
-      <a href="/specialities"
+      <a href="./specialties.php"
         class="group flex items-center gap-4
               w-full h-14 px-6
               rounded-2xl border border-gray-300
@@ -490,7 +490,7 @@
       </a>
 
       <!-- Second Opinion -->
-      <a href="/second-opinion"
+      <a href="./health-packages.php"
         class="group flex items-center gap-4
               w-full h-14 px-6
               rounded-2xl border border-gray-300
@@ -639,7 +639,7 @@
         </div>
 
         <div class="flex justify-center">
-          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+          <a href="./why-nano.php" class="flex items-center gap-2 text-red-500 text-sm font-medium">
             Know More
             <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
           </a>
@@ -665,7 +665,7 @@
         </div>
 
         <div class="flex justify-center">
-          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+          <a href="./why-nano.php" class="flex items-center gap-2 text-red-500 text-sm font-medium">
             Know More
             <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
           </a>
@@ -691,7 +691,7 @@
         </div>
 
         <div class="flex justify-center">
-          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+          <a href="./why-nano.php" class="flex items-center gap-2 text-red-500 text-sm font-medium">
             Know More
             <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
           </a>
@@ -717,7 +717,7 @@
         </div>
 
         <div class="flex justify-center">
-          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+          <a href="./why-nano.php" class="flex items-center gap-2 text-red-500 text-sm font-medium">
             Know More
             <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
           </a>
@@ -743,7 +743,7 @@
         </div>
 
         <div class="flex justify-center">
-          <a href="#" class="flex items-center gap-2 text-red-500 text-sm font-medium">
+          <a href="./why-nano.php" class="flex items-center gap-2 text-red-500 text-sm font-medium">
             Know More
             <span class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">→</span>
           </a>
@@ -1077,7 +1077,7 @@
             </div>
 
             <div class="flex justify-between">
-              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+              <a href="./doctor-profile.php" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
@@ -1101,7 +1101,7 @@
             </div>
 
             <div class="flex justify-between">
-              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+              <a href="./twenty-four-seven-services.php" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
@@ -1121,7 +1121,7 @@
             </div>
 
             <div class="flex justify-between">
-              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+              <a href="./specialties.php" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>
@@ -1146,7 +1146,7 @@
             </div>
 
             <div class="flex justify-between">
-              <a href="#" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
+              <a href="./second-opinion.php" class="flex items-center gap-2 text-lg font-semibold text-gray-600 mt-6">
                 Know More
                 <span class="w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white text-xs">→</span>
               </a>

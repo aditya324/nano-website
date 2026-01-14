@@ -105,9 +105,11 @@
 
                 <!-- SHARE LOCATION BUTTON -->
                 <button
-                    class="absolute top-4 right-6 z-10 bg-white px-5 py-2.5 rounded-full
-                       text-sm text-red-500 font-medium shadow-md hover:shadow-lg 
-                       transition-shadow flex items-center gap-2 border border-gray-100">
+
+                    id="openShareModal"
+                    class="absolute top-4 right-6 z-10 bg-red-500 px-5 py-2.5 rounded-full
+           text-base text-white font-medium shadow-md hover:shadow-lg 
+           transition-shadow flex items-center gap-2 border border-gray-100">
                     Share Location
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -677,8 +679,115 @@
 
             </div>
         </div>
-    </section>
 
+         <div id="shareModal"
+        class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40">
+
+        <div class="bg-white rounded-2xl w-[380px] p-6 relative shadow-xl">
+            <!-- Close -->
+            <button id="closeShareModal"
+                class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-xl">
+                ×
+            </button>
+
+            <h3 class="text-center text-lg font-semibold text-gray-700 mb-5">
+                Share Profile Via
+            </h3>
+
+            <div class="flex justify-center gap-4">
+
+                <!-- Copy Link -->
+                <button id="copyLink"
+                    class="w-11 h-11 rounded-full bg-gray-700 flex items-center justify-center hover:scale-105 transition">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            d="M10 13a5 5 0 007.07 0l1.41-1.41a5 5 0 00-7.07-7.07L10 5m4 6a5 5 0 01-7.07 0L5.5 9.5a5 5 0 017.07-7.07L14 3" />
+                    </svg>
+                </button>
+
+                <!-- Facebook -->
+                <a id="fbShare" target="_blank"
+                    class="w-11 h-11 rounded-full bg-blue-600 flex items-center justify-center hover:scale-105 transition">
+                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V11h2.3l-.4 3h-1.9v7A10 10 0 0022 12" />
+                    </svg>
+                </a>
+
+                <!-- LinkedIn -->
+                <a id="liShare" target="_blank"
+                    class="w-11 h-11 rounded-full bg-blue-700 flex items-center justify-center hover:scale-105 transition">
+                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.4 20.4h-3.5v-5.4c0-1.3 0-3-1.8-3s-2 1.4-2 2.9v5.5H9.6V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.4v6.2zM5.3 7.4a2 2 0 110-4 2 2 0 010 4zM7 20.4H3.6V9H7v11.4z" />
+                    </svg>
+                </a>
+
+                <!-- X / Twitter -->
+                <a id="xShare" target="_blank"
+                    class="w-11 h-11 rounded-full bg-black flex items-center justify-center hover:scale-105 transition">
+                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18.9 2H22l-7.4 8.5L23 22h-6.6l-5.2-6.5L5.7 22H2l7.9-9.1L1 2h6.8l4.7 5.9L18.9 2z" />
+                    </svg>
+                </a>
+
+                <!-- WhatsApp -->
+                <!-- WhatsApp -->
+                <a id="waShare" target="_blank"
+                    class="w-11 h-11 rounded-full bg-green-500 flex items-center justify-center hover:scale-105 transition">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 32 32"
+                        class="w-6 h-6 fill-white">
+                        <path d="M19.11 17.53c-.27-.14-1.61-.79-1.86-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.34-.01-.52-.01-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.93 2.95 4.69 4.14.66.28 1.17.45 1.57.57.66.21 1.26.18 1.73.11.53-.08 1.61-.66 1.84-1.3.23-.64.23-1.19.16-1.3-.07-.11-.25-.18-.52-.32zM16 3C8.82 3 3 8.82 3 16c0 2.3.6 4.45 1.65 6.31L3 29l6.86-1.61A12.9 12.9 0 0016 29c7.18 0 13-5.82 13-13S23.18 3 16 3z" />
+                    </svg>
+
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    </section>
+ <script>
+        const openBtn = document.getElementById('openShareModal');
+        const closeBtn = document.getElementById('closeShareModal');
+        const modal = document.getElementById('shareModal');
+
+        const pageUrl = encodeURIComponent(window.location.href);
+        const text = encodeURIComponent("Check out this hospital location");
+
+        // Set share links
+        document.getElementById('waShare').href =
+            `https://wa.me/?text=${text}%20${pageUrl}`;
+
+        document.getElementById('twShare').href =
+            `https://twitter.com/intent/tweet?text=${text}&url=${pageUrl}`;
+
+        document.getElementById('fbShare').href =
+            `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+
+        document.getElementById('mailShare').href =
+            `mailto:?subject=${text}&body=${pageUrl}`;
+
+        // Open modal
+        openBtn.addEventListener('click', () => {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        });
+
+        // Close modal
+        closeBtn.addEventListener('click', () => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        });
+
+        // Close on background click
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const doctorSwiper = new Swiper(".doctorSwiper", {
@@ -745,6 +854,7 @@
             },
         });
     </script>
+    
 </body>
 
 </html>

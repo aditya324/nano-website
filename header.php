@@ -177,7 +177,7 @@
       position: absolute;
       left: 0;
       top: 100%;
-       right: 0;
+      right: 0;
       transform: translateX(-8rem);
       margin-top: 5px;
       width: 1100px;
@@ -308,6 +308,31 @@
         display: none !important;
       }
     }
+
+
+    /* hide extra items */
+.condition-col .view-more {
+  display: block;              /* break out of flex row behavior */
+  margin-top: 8px;
+  margin-left: 0;              /* force left alignment */
+  padding-left: 0;
+  text-align: left;
+
+  font-size: 13px;
+  color: #e11d48;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Ensure icons do NOT affect View More */
+.condition-col .view-more img {
+  display: none;
+}
+
+.mega-conditions {
+  transform: translateX(-35rem); /* increase value to move more LEFT */
+}
+
   </style>
 
 
@@ -409,7 +434,33 @@
             <li><a href="./international-patients.php">International Patients</a></li>
             <li><a href="./careers.php">Careers</a></li>
             <li><a href="./news-media.php">News & Awards</a></li>
-            <li><a href="./he">Health Corner ▾</a></li>
+            <li class="relative group">
+              <a href="javascript:void(0)"
+                class="flex items-center gap-1">
+                Health Corner
+                <span class="text-xs">▾</span>
+              </a>
+
+              <!-- Desktop Dropdown -->
+              <ul
+                class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md
+           shadow-lg opacity-0 invisible
+           group-hover:opacity-100 group-hover:visible
+           transition-all duration-200 z-[9999]">
+                <li>
+                  <a href="./blogs.php" class="block px-4 py-2 hover:bg-gray-100">
+                    Blogs
+                  </a>
+                </li>
+                <li>
+                  <a href="./patient-testimonials.php" class="block px-4 py-2 hover:bg-gray-100">
+                    patient testimonials
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -424,9 +475,9 @@
           <div class="flex items-center gap-4">
             <a href="./">
               <img
-              src="./assets/logo/logo.png"
-              alt="Nano Hospitals"
-              class="h-14 w-auto object-contain" />
+                src="./assets/logo/logo.png"
+                alt="Nano Hospitals"
+                class="h-14 w-auto object-contain" />
             </a>
 
             <div class="relative inline-block lg:ml-10">
@@ -492,57 +543,129 @@
                 Specialities
               </a>
 
-             <div class="mega mega-specialities">
+              <div class="mega mega-specialities">
 
-  <!-- COLUMN 1 -->
-  <ul class="mega-col">
-    <li><img src="./assets/icons/bone.svg"> Bone & Joint Care </li>
-    <li><img src="./assets/icons/child.svg"> Child Care </li>
-    <li><img src="./assets/icons/women.svg"> Women’s Care </li>
-    <li><img src="./assets/icons/general.svg"> General Medicine </li>
-    <li><img src="./assets/icons/heart.svg"> Heart Care </li>
-    <li><img src="./assets/icons/brain.svg"> Brain & Spine Care </li>
-    <li><img src="./assets/icons/lung.svg"> Lung Care </li>
-  </ul>
+                <!-- COLUMN 1 -->
+                <ul class="mega-col">
+                  <li><img src="./assets/icons/bone.svg"> Bone & Joint Care </li>
+                  <li><img src="./assets/icons/child.svg"> Child Care </li>
+                  <li><img src="./assets/icons/women.svg"> Women’s Care </li>
+                  <li><img src="./assets/icons/general.svg"> General Medicine </li>
+                  <li><img src="./assets/icons/heart.svg"> Heart Care </li>
+                  <li><img src="./assets/icons/brain.svg"> Brain & Spine Care </li>
+                  <li><img src="./assets/icons/lung.svg"> Lung Care </li>
+                </ul>
 
-  <!-- COLUMN 2 -->
-  <ul class="mega-col">
-    <li><img src="./assets/icons/renal.svg"> Kidney Care </li>
-    <li><img src="./assets/icons/urology.svg"> Urology Care </li>
-    <li><img src="./assets/icons/gastro.svg"> Digestive Care </li>
-    <li><img src="./assets/icons/diabetes.svg"> Diabetes & Hormone Care </li>
-    <li><img src="./assets/icons/cancer.svg"> Cancer Care </li>
-    <li><img src="./assets/icons/vascular.svg"> Vascular Care </li>
-    <li><img src="./assets/icons/skin.svg"> Skin Care </li>
-  </ul>
+                <!-- COLUMN 2 -->
+                <ul class="mega-col">
+                  <li><img src="./assets/icons/renal.svg"> Kidney Care </li>
+                  <li><img src="./assets/icons/urology.svg"> Urology Care </li>
+                  <li><img src="./assets/icons/gastro.svg"> Digestive Care </li>
+                  <li><img src="./assets/icons/diabetes.svg"> Diabetes & Hormone Care </li>
+                  <li><img src="./assets/icons/cancer.svg"> Cancer Care </li>
+                  <li><img src="./assets/icons/vascular.svg"> Vascular Care </li>
+                  <li><img src="./assets/icons/skin.svg"> Skin Care </li>
+                </ul>
 
-  <!-- COLUMN 3 -->
-  <ul class="mega-col">
-    <li><img src="./assets/icons/eye.svg"> Eye Care </li>
-    <li><img src="./assets/icons/ent.svg"> ENT Care </li>
-    <li><img src="./assets/icons/mind.svg"> Mental Health & Mind Care </li>
-    <li><img src="./assets/icons/rheumatology.svg"> Rheumatology </li>
-    <li><img src="./assets/icons/reconstructive.svg"> Plastic, Reconstructive & Burn Care </li>
-    <li><img src="./assets/icons/oral.svg"> Oral & Facial Surgery </li>
-  </ul>
+                <!-- COLUMN 3 -->
+                <ul class="mega-col">
+                  <li><img src="./assets/icons/eye.svg"> Eye Care </li>
+                  <li><img src="./assets/icons/ent.svg"> ENT Care </li>
+                  <li><img src="./assets/icons/mind.svg"> Mental Health & Mind Care </li>
+                  <li><img src="./assets/icons/rheumatology.svg"> Rheumatology </li>
+                  <li><img src="./assets/icons/reconstructive.svg"> Plastic, Reconstructive & Burn Care </li>
+                  <li><img src="./assets/icons/oral.svg"> Oral & Facial Surgery </li>
+                </ul>
 
-  <!-- COLUMN 4 -->
-  <ul class="mega-col">
-    <li><img src="./assets/icons/surgery.svg"> General Surgery </li>
-    <li><img src="./assets/icons/emergency.svg"> Emergency & Critical Care </li>
-    <li><img src="./assets/icons/rehab.svg"> Rehabilitation & Physiotherapy </li>
-    <li><img src="./assets/icons/elder.svg"> Elder Care </li>
-    <li><img src="./assets/icons/radiology.svg"> Radiology & Imaging </li>
-    <li><img src="./assets/icons/lab.svg"> Laboratory & Diagnostic Services </li>
-  </ul>
+                <!-- COLUMN 4 -->
+                <ul class="mega-col">
+                  <li><img src="./assets/icons/surgery.svg"> General Surgery </li>
+                  <li><img src="./assets/icons/emergency.svg"> Emergency & Critical Care </li>
+                  <li><img src="./assets/icons/rehab.svg"> Rehabilitation & Physiotherapy </li>
+                  <li><img src="./assets/icons/elder.svg"> Elder Care </li>
+                  <li><img src="./assets/icons/radiology.svg"> Radiology & Imaging </li>
+                  <li><img src="./assets/icons/lab.svg"> Laboratory & Diagnostic Services </li>
+                </ul>
 
-</div>
+              </div>
 
 
             </li>
 
             <li><a href="#">Procedures </a></li>
-            <li><a href="#">Conditions </a></li>
+            <li class="special relative">
+              <a href="#" class="hover:text-red-500">
+                Conditions
+              </a>
+
+              <div class="mega mega-specialities mega-conditions">
+
+                <!-- COLUMN 1 -->
+                <ul class="mega-col condition-col">
+                  <li><img src="./assets/icons/heart.svg"> Hypertension</li>
+                  <li><img src="./assets/icons/diabetes.svg"> Diabetes</li>
+                  <li><img src="./assets/icons/heart.svg"> Heart Disease</li>
+                  <li><img src="./assets/icons/brain.svg"> Stroke</li>
+
+                  <!-- HIDDEN ITEMS -->
+                  <li class="more-item"><img src="./assets/icons/lab.svg"> High Cholesterol</li>
+                  <li class="more-item"><img src="./assets/icons/obesity.svg"> Obesity</li>
+
+                  <!-- VIEW MORE -->
+                  <li class="view-more">View More</li>
+                </ul>
+
+
+                <!-- COLUMN 2 -->
+                <ul class="mega-col condition-col">
+                  <li><img src="./assets/icons/lung.svg"> Asthma</li>
+                  <li><img src="./assets/icons/lung.svg"> COPD / Chronic Bronchitis</li>
+                  <li><img src="./assets/icons/infection.svg"> Pneumonia</li>
+                  <li><img src="./assets/icons/tb.svg"> Tuberculosis</li>
+
+                  <li class="more-item"><img src="./assets/icons/uti.svg"> Urinary Tract Infection</li>
+
+                  <li class="view-more">View More</li>
+                </ul>
+
+
+                <!-- COLUMN 3 -->
+                <ul class="mega-col condition-col">
+                  <li><img src="./assets/icons/lung.svg"> Asthma</li>
+                  <li><img src="./assets/icons/lung.svg"> COPD / Chronic Bronchitis</li>
+                  <li><img src="./assets/icons/infection.svg"> Pneumonia</li>
+                  <li><img src="./assets/icons/tb.svg"> Tuberculosis</li>
+
+                  <li class="more-item"><img src="./assets/icons/uti.svg"> Urinary Tract Infection</li>
+
+                  <li class="view-more">View More</li>
+                </ul>
+
+
+                <!-- COLUMN 4 -->
+                
+
+
+                <!-- COLUMN 5 -->
+                <ul class="mega-col condition-col">
+                  <li><img src="./assets/icons/cancer.svg"> Breast Cancer</li>
+                  <li><img src="./assets/icons/cancer.svg"> Lung Cancer</li>
+                  <li><img src="./assets/icons/cancer.svg"> Colorectal Cancer</li>
+                  <li><img src="./assets/icons/cancer.svg"> Cervical Cancer</li>
+
+                  <li class="more-item"><img src="./assets/icons/blood.svg"> Anaemia</li>
+
+                  <li class="view-more">View More</li>
+                </ul>
+
+
+                <!-- COLUMN 6 -->
+                
+
+
+              </div>
+            </li>
+
             <li><a href="./health-packages.php">Health Packages </a></li>
           </ul>
 
@@ -603,16 +726,16 @@
           <a href="./doctor-profile.php">
             <div class="flex flex-col items-center gap-2">
               <div class="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
-                <img src="./assets/icons/doctor.svg" class="w-6">
+                <img src="./assets/icons/doctor.png" class="w-6">
               </div>
               Doctors
             </div>
           </a>
 
-          <a href="#">
+          <a href="./specialties.php">
             <div class="flex flex-col items-center gap-2">
               <div class="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
-                <img src="./assets/icons/specialities.svg" class="w-6">
+                <img src="./assets/icons/24-hours.png" class="w-6">
               </div>
               Specialities
             </div>
@@ -621,7 +744,7 @@
           <a href="#">
             <div class="flex flex-col items-center gap-2">
               <div class="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
-                <img src="./assets/icons/procedures.svg" class="w-6">
+                <img src="./assets/icons/specialities.png" class="w-6">
               </div>
               Procedures
             </div>
@@ -630,7 +753,7 @@
           <a href="#">
             <div class="flex flex-col items-center gap-2">
               <div class="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
-                <img src="./assets/icons/conditions.svg" class="w-6">
+                <img src="./assets/icons/knife (2).png" class="w-6">
               </div>
               Conditions
             </div>
@@ -639,7 +762,7 @@
           <a href="./health-packages.php">
             <div class="flex flex-col items-center gap-2">
               <div class="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
-                <img src="./assets/icons/packages.svg" class="w-6">
+                <img src="./assets/icons/health-packages.png" class="w-6">
               </div>
               Health Packages
             </div>
@@ -654,34 +777,36 @@
       <!-- LIST LINKS -->
       <ul class="px-6 py-4 text-sm text-gray-800 space-y-4">
 
-        <li class="flex items-center justify-between">
-          Hospital Facilities 
-        </li>
+        <a href="./health-facilities.php">
+          <li class="flex items-center justify-between">
+            Hospital Facilities
+          </li>
+        </a>
 
         <a href="./second-opinion.php">
           <li class="flex items-center justify-between">
-            Second Opinion 
+            Second Opinion
           </li>
         </a>
 
         <a href="./international-patients.php">
           <li class="flex items-center justify-between">
-            International Patients 
+            International Patients
           </li>
         </a>
 
         <a href="./careers.php">
           <li class="flex items-center justify-between">
-            Careers 
+            Careers
           </li>
         </a>
 
         <li class="flex items-center justify-between">
-          News and Awards 
+          News and Awards
         </li>
 
         <li class="flex items-center justify-between">
-          Health Corner 
+          Health Corner
         </li>
 
       </ul>
@@ -775,6 +900,13 @@ nav li.special .mega .col-middle { overflow-y: auto !important; }
   })();
 </script>
 
+<script>
+  document.querySelectorAll('.condition-col .view-more').forEach(btn => {
+    btn.addEventListener('click', function () {
+      this.closest('.condition-col').classList.add('expanded');
+    });
+  });
+</script>
 
 
 </html>

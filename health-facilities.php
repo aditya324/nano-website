@@ -123,7 +123,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Round-the-clock emergency medical care for critical situations.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./twenty-four-seven-services.php" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -143,7 +143,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         High-resolution MRI imaging for accurate diagnosis.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./mri-scan.php" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -163,7 +163,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Continuous dialysis care with modern equipment.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./dialysis.php" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -183,7 +183,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Round-the-clock availability of prescribed medicines.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./t" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -203,7 +203,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Specialized intensive care for orthopedic patients.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./icu.php" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -223,7 +223,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Advanced intensive and neonatal critical care units.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./icu.php" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -243,7 +243,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Modern labour suites designed for safe and comfortable childbirth.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="./labour-room.php" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>
@@ -263,7 +263,7 @@
                     <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
                         Fully automated laboratory services for accurate and timely reports.
                     </p>
-                    <a href="#" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
+                    <a href="" class="mt-5 inline-flex items-center gap-2 text-red-500 text-sm font-medium hover:underline">
                         Know More <span class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs">→</span>
                     </a>
                 </div>

@@ -127,7 +127,8 @@
                 specialty: "Orthopaedics",
                 role: "Consultant Orthopaedics and Reconstructive Surgeon",
                 location: "Both",
-                image: "./assets/doctors/doctor-mohan.png"
+                image: "./assets/doctors/doctor-mohan.png",
+                url:"./dr-mohan.php"
             },
             {
                 name: "Dr Belehallli Pavan",
@@ -136,7 +137,8 @@
                 specialty: "Orthopaedics",
                 role: "Consultant Orthopaedics Surgeon",
                 location: "Both",
-                image: "./assets/doctors/dr-behhehalli-pavan.webp"
+                image: "./assets/doctors/dr-behhehalli-pavan.webp",
+                url:"./dr-belehallli-pavan.php"
             },
             {
                 name: "Dr Keshava Murthy D",
@@ -145,7 +147,8 @@
                 specialty: "Orthopaedics",
                 role: "Specialist in Complex Trauma and Paediatric Orthopaedic",
                 location: "Both",
-                image: "./assets/doctors/dr-keshava-murthy.webp"
+                image: "./assets/doctors/dr-keshava-murthy.webp",
+                url:"./dr-keshava-murthy.php"
             },
             {
                 name: "Dr Prashanth S Gorur",
@@ -154,7 +157,8 @@
                 specialty: "Orthopaedics",
                 role: "Fellowship in Arthroscopy & Sport Injuries & Shoulder Surgery",
                 location: "Both",
-                image: "./assets/doctors/Dr  Prashanth S Gorur - Ortho.png"
+                image: "./assets/doctors/Dr  Prashanth S Gorur - Ortho.png",
+                url:"./dr-prashant-s-gorur.php"
             },
             {
                 name: "Dr Suhas Raj S",
@@ -172,7 +176,7 @@
                 specialty: "Neurology",
                 role: "Consultant Neurologist",
                 location: "Both",
-                image: ""
+                image: "./assets/doctors/Dr Manish Pai.webp"
             },
             {
                 name: "Dr Muruli Krishna",
@@ -199,7 +203,8 @@
                 specialty: "Radiology",
                 role: "Consultant Radiologist",
                 location: "Both",
-                image: "./assets/doctors/dr-sailendra.webp"
+                image: "./assets/doctors/dr-sailendra.webp",
+
             },
             {
                 name: "Dr Kruthika Prasad",
@@ -812,7 +817,7 @@
                         </div>
                         <div class="flex border-t border-gray-200">
                             <a href="#" class="w-1/2 bg-red-500 text-white text-sm font-medium py-3 hover:bg-red-600">Book Appointment</a>
-                            <a href="./profile.php" class="w-1/2 text-red-500 text-sm font-medium py-3 hover:bg-red-50">View Profile</a>
+                            <a href=${doctor.url} class="w-1/2 text-red-500 text-sm font-medium py-3 hover:bg-red-50">View Profile</a>
                         </div>
                     </div>
                 </div>
