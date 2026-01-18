@@ -9,7 +9,8 @@
 
 <body class="bg-[#EFEFEF]">
   <?php require "./header.php" ?>
-
+  <?php require "./components/call-nano.php" ?>
+  <?php require "./components/scroll-to-top.php" ?>
   <section class="w-full py-20 bg-[#EFEFEF]">
     <div class="max-w-fit mx-auto lg:px-10 px-5">
 
@@ -44,7 +45,7 @@
                 Request An Estimate
               </h3>
 
-              <form class="space-y-4">
+              <!-- <form class="space-y-4">
 
                 <div>
                   <label class="text-sm text-gray-500">Name *</label>
@@ -99,7 +100,8 @@
                   Submit
                 </button>
 
-              </form>
+              </form> -->
+              <?php require "./components/form-upload.php" ?>
             </div>
           </div>
 
@@ -368,7 +370,7 @@
 
           <!-- Item 1 -->
           <div class="flex items-start gap-3 mt-12">
-          
+
             <div>
               <h4 class="font-semibold text-gray-500">
                 Passport and Visa:
@@ -384,7 +386,7 @@
 
           <!-- Item 2 -->
           <div class="flex items-start gap-3">
-           
+
             <div>
               <h4 class="font-semibold text-gray-500">
                 Medical Records:
@@ -400,7 +402,7 @@
 
           <!-- Item 3 -->
           <div class="flex items-start gap-3">
-            
+
             <div>
               <p class="text-sm text-gray-500 leading-relaxed font-semibold">
                 Passport and Visa are a must:

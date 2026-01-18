@@ -9,7 +9,8 @@
 
 <body>
     <?php require "./header.php" ?>
-
+    <?php require "./components/call-nano.php" ?>
+    <?php require "./components/scroll-to-top.php" ?>
     <section class="relative w-full min-h-[520px]">
         <!-- Background Image -->
         <img

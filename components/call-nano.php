@@ -24,12 +24,12 @@
           bg-white px-4 py-3 shadow-xl md:hidden w-full justify-center">
 
   <!-- Book Appointment -->
-  <button
+  <a href="https://nanohospitals.karexpert.com/account-management/login"
     class="flex items-center gap-2 rounded-full border border-red-400
            bg-red-50 px-6 py-2 text-sm font-medium text-red-500">
     <img src="../assets/icons/calendar.png" class="w-4" />
     Book An Appointment
-  </button>
+  </a>
 
   <!-- Call -->
   <button
@@ -54,7 +54,7 @@
 
     <!-- Item 1 -->
     <a id="item1"
-       class="flex items-center justify-between px-5 py-4 border-b hover:bg-gray-50">
+      class="flex items-center justify-between px-5 py-4 border-b hover:bg-gray-50">
       <div class="flex items-center gap-4">
         <div class="w-9 h-9 rounded-full bg-red-100 flex items-center justify-center">
           <img id="icon1" class="w-4" />
@@ -69,7 +69,7 @@
 
     <!-- Item 2 -->
     <a id="item2"
-       class="flex items-center justify-between px-5 py-4 hover:bg-gray-50">
+      class="flex items-center justify-between px-5 py-4 hover:bg-gray-50">
       <div class="flex items-center gap-4">
         <div class="w-9 h-9 rounded-full bg-red-100 flex items-center justify-center">
           <img id="icon2" class="w-4" />
