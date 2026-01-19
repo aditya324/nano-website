@@ -36,61 +36,7 @@
           Request a Call Back
         </h3>
 
-        <form class="space-y-4">
-          <div>
-            <label class="text-sm text-gray-600">Name *</label>
-            <input
-              type="text"
-              placeholder="Enter Your Name"
-              class="w-full border-b border-gray-300 focus:outline-none focus:border-red-500 py-2 text-sm" />
-          </div>
-
-          <div>
-            <label class="text-sm text-gray-600">Mobile Number *</label>
-            <input
-              type="tel"
-              placeholder="Enter Your Mobile Number"
-              class="w-full border-b border-gray-300 focus:outline-none focus:border-red-500 py-2 text-sm" />
-          </div>
-
-          <div>
-            <label class="text-sm text-gray-600">Email *</label>
-            <input
-              type="email"
-              placeholder="Enter Your Email"
-              class="w-full border-b border-gray-300 focus:outline-none focus:border-red-500 py-2 text-sm" />
-          </div>
-
-          <div>
-            <label class="text-sm text-gray-600">Message *</label>
-            <textarea
-              rows="2"
-              placeholder="Enter Your Message"
-              class="w-full border-b border-gray-300 focus:outline-none focus:border-red-500 py-2 text-sm resize-none"></textarea>
-          </div>
-
-          <div>
-            <label class="text-sm text-gray-600 block mb-1">
-              Upload Reports*
-              <span class="text-xs text-gray-400">(accepted only pdf, docx)</span>
-            </label>
-
-            <input
-              type="file"
-              class="block w-full text-sm text-gray-500
-                   file:mr-4 file:py-2 file:px-4
-                   file:rounded-full file:border-0
-                   file:text-sm file:font-medium
-                   file:bg-gray-200 file:text-gray-700
-                   hover:file:bg-gray-300" />
-          </div>
-
-          <button
-            type="submit"
-            class="w-full bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 rounded-full transition">
-            Submit
-          </button>
-        </form>
+        <?php require "./components/form-upload.php" ?>
       </div>
 
     </div>
@@ -239,7 +185,7 @@
           <ul class="space-y-3 text-gray-500 text-sm md:text-base">
 
             <li class="flex items-start gap-3">
-             
+
               <span>Diagnosed with a critical ailment</span>
             </li>
 
@@ -427,7 +373,8 @@
 
   </section>
 
-
+  <?php require "./components/call-nano.php" ?>
+  <?php require "./components/scroll-to-top.php" ?>
 
 </body>
 

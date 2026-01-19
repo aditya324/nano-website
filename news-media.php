@@ -216,7 +216,8 @@
         });
     </script>
 
-
+    <?php require "./components/call-nano.php" ?>
+    <?php require "./components/scroll-to-top.php" ?>
 </body>
 
 </html>

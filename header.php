@@ -311,28 +311,30 @@
 
 
     /* hide extra items */
-.condition-col .view-more {
-  display: block;              /* break out of flex row behavior */
-  margin-top: 8px;
-  margin-left: 0;              /* force left alignment */
-  padding-left: 0;
-  text-align: left;
+    .condition-col .view-more {
+      display: block;
+      /* break out of flex row behavior */
+      margin-top: 8px;
+      margin-left: 0;
+      /* force left alignment */
+      padding-left: 0;
+      text-align: left;
 
-  font-size: 13px;
-  color: #e11d48;
-  cursor: pointer;
-  font-weight: 500;
-}
+      font-size: 13px;
+      color: #e11d48;
+      cursor: pointer;
+      font-weight: 500;
+    }
 
-/* Ensure icons do NOT affect View More */
-.condition-col .view-more img {
-  display: none;
-}
+    /* Ensure icons do NOT affect View More */
+    .condition-col .view-more img {
+      display: none;
+    }
 
-.mega-conditions {
-  transform: translateX(-35rem); /* increase value to move more LEFT */
-}
-
+    .mega-conditions {
+      transform: translateX(-35rem);
+      /* increase value to move more LEFT */
+    }
   </style>
 
 
@@ -457,7 +459,11 @@
                     patient testimonials
                   </a>
                 </li>
-
+                <li>
+                  <a href="./doctor-videos.php" class="block px-4 py-2 hover:bg-gray-100">
+                    doctor videos
+                  </a>
+                </li>
               </ul>
             </li>
 
@@ -643,7 +649,7 @@
 
 
                 <!-- COLUMN 4 -->
-                
+
 
 
                 <!-- COLUMN 5 -->
@@ -660,7 +666,7 @@
 
 
                 <!-- COLUMN 6 -->
-                
+
 
 
               </div>
@@ -672,7 +678,7 @@
           <!-- CTA -->
           <div class="hidden md:flex items-center gap-3">
             <a
-              href="#"
+              href="https://nanohospitals.karexpert.com/account-management/login"
               class="bg-red-500 text-white px-5 py-2 rounded-full text-sm font-semibold">
               Book Appointment
             </a>
@@ -902,7 +908,7 @@ nav li.special .mega .col-middle { overflow-y: auto !important; }
 
 <script>
   document.querySelectorAll('.condition-col .view-more').forEach(btn => {
-    btn.addEventListener('click', function () {
+    btn.addEventListener('click', function() {
       this.closest('.condition-col').classList.add('expanded');
     });
   });

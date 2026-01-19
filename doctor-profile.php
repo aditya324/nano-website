@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doctors Listing</title>
 
-
+    <?php require "./components/call-nano.php" ?>
+    <?php require "./components/scroll-to-top.php" ?>
     <style>
         .pill {
             padding: 8px 24px;
@@ -51,7 +52,7 @@
 </head>
 
 <body class="bg-white">
-<?php require "./header.php" ?>
+    <?php require "./header.php" ?>
     <!-- FILTER BAR -->
     <div class="max-w-[1200px] mx-auto px-4 mt-10">
         <div class="flex items-center justify-between gap-4 flex-wrap mb-10">
@@ -128,7 +129,7 @@
                 role: "Consultant Orthopaedics and Reconstructive Surgeon",
                 location: "Both",
                 image: "./assets/doctors/doctor-mohan.png",
-                url:"./dr-mohan.php"
+                url: "./dr-mohan.php"
             },
             {
                 name: "Dr Belehallli Pavan",
@@ -138,7 +139,7 @@
                 role: "Consultant Orthopaedics Surgeon",
                 location: "Both",
                 image: "./assets/doctors/dr-behhehalli-pavan.webp",
-                url:"./dr-belehallli-pavan.php"
+                url: "./dr-belehallli-pavan.php"
             },
             {
                 name: "Dr Keshava Murthy D",
@@ -148,7 +149,7 @@
                 role: "Specialist in Complex Trauma and Paediatric Orthopaedic",
                 location: "Both",
                 image: "./assets/doctors/dr-keshava-murthy.webp",
-                url:"./dr-keshava-murthy.php"
+                url: "./dr-keshava-murthy.php"
             },
             {
                 name: "Dr Prashanth S Gorur",
@@ -158,7 +159,7 @@
                 role: "Fellowship in Arthroscopy & Sport Injuries & Shoulder Surgery",
                 location: "Both",
                 image: "./assets/doctors/Dr  Prashanth S Gorur - Ortho.png",
-                url:"./dr-prashant-s-gorur.php"
+                url: "./dr-prashant-s-gorur.php"
             },
             {
                 name: "Dr Suhas Raj S",

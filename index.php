@@ -115,7 +115,7 @@
           </p>
 
           <!-- APPOINTMENT CARD -->
-          <div class="inline-block bg-white rounded-xl overflow-hidden w-full max-w-[420px] mx-auto lg:mx-0">
+          <!-- <div class="inline-block bg-white rounded-xl overflow-hidden w-full max-w-[420px] mx-auto lg:mx-0">
             <div
               class="text-white font-bold py-3 px-6 text-center text-sm sm:text-lg"
               style="background: linear-gradient(90deg, #FF4848 0%, #992B2B 100%);">
@@ -147,7 +147,7 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- RIGHT IMAGE -->
@@ -199,11 +199,11 @@
                 flex items-center justify-between">
 
         <!-- LEFT CONTENT -->
-        <div class="w-[56%]">
+        <!-- <div class="w-[56%]">
 
 
 
-          <!-- APPOINTMENT CARD -->
+       
           <div class="mt-3 bg-white rounded-md shadow-md overflow-hidden">
             <div class="bg-[#FF4B4B] text-white text-xs font-bold px-3 py-1.5">
               FOR APPOINTMENTS
@@ -235,14 +235,14 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- RIGHT IMAGE -->
         <div class="  flex justify-end items-end ">
           <img
             src="./assets/banners/family-home (2).png"
             alt="Family"
-            class="h-fullx w-[398px]  object-contain">
+            class="h-full w-[398px]  object-contain">
         </div>
 
       </div>
@@ -258,7 +258,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 gap-x-5">
 
         <!-- Book Appointment (Primary Card) -->
-        <a href="#"
+        <a href="https://nanohospitals.karexpert.com/account-management/login"
           class="group bg-[#FF4B4B] rounded-2xl p-6 flex justify-between items-center
                 shadow-lg
                 hover:-translate-y-2 hover:shadow-2xl
@@ -405,7 +405,7 @@
     <div class="flex flex-col gap-4 max-w-md mx-auto">
 
       <!-- Book Appointment -->
-      <a href="/hospitals"
+      <a href="https://nanohospitals.karexpert.com/account-management/login"
         class="group flex items-center gap-4
               w-full h-14 px-6
               rounded-2xl border border-gray-300

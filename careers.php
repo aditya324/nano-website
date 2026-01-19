@@ -218,7 +218,7 @@
                         <img src="./assets/Frame 720.png" class="w-full h-44 object-cover" />
                         <div class="absolute inset-0 bg-black/25"></div>
 
-                        
+
                     </div>
                 </div>
                 <!-- LEFT COLUMN -->
@@ -229,7 +229,7 @@
                         <div class="absolute inset-0 bg-black/25"></div>
 
                         <!-- Play -->
-                        
+
                     </div>
 
                     <!-- Pain Free -->
@@ -237,7 +237,7 @@
                         <img src="./assets/Frame 720.png" class="w-full h-44 object-cover" />
                         <div class="absolute inset-0 bg-black/25"></div>
 
-                        
+
                     </div>
                 </div>
                 <!-- CENTER LARGE CARD -->
@@ -245,7 +245,7 @@
                     <img src="./assets/Frame 718.png" class="w-full h-[450px] object-cover" />
                     <div class="absolute inset-0 bg-black/20"></div>
 
-                    
+
                 </div>
 
                 <!-- MID RIGHT COLUMN -->
@@ -256,7 +256,7 @@
                         <div class="absolute inset-0 bg-black/25"></div>
 
                         <!-- Play -->
-                       
+
                     </div>
 
                     <!-- Pain Free -->
@@ -264,7 +264,7 @@
                         <img src="./assets/Frame 723 (1).png" class="w-full h-44 object-cover" />
                         <div class="absolute inset-0 bg-black/25"></div>
 
-                        
+
                     </div>
                 </div>
 
@@ -275,7 +275,7 @@
                         <img src="./assets/Frame 717.png" class="w-full h-56 object-cover" />
                         <div class="absolute inset-0 bg-black/25"></div>
 
-                        
+
                     </div>
                 </div>
 
@@ -521,6 +521,9 @@
             </div>
         </div>
     </section>
+
+    <?php require "./components/call-nano.php" ?>
+    <?php require "./components/scroll-to-top.php" ?>
 </body>
 
 </html>
