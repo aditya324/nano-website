@@ -58,32 +58,38 @@
         const CONDITIONS = [{
                 id: 1,
                 title: "Hypertension (high blood pressure)",
-                description: "A condition where blood pressure remains consistently high, increasing the risk of heart disease and stroke."
+                description: "A condition where blood pressure remains consistently high, increasing the risk of heart disease and stroke.",
+                url: "./hyper-tension.php"
             },
             {
                 id: 2,
                 title: "Diabetes",
-                description: "A chronic condition in which the body cannot properly regulate blood sugar levels."
+                description: "A chronic condition in which the body cannot properly regulate blood sugar levels.",
+                url: "./diabetes.php"
             },
             {
                 id: 3,
                 title: "Stroke",
-                description: "A medical emergency caused by interrupted blood supply to the brain, leading to brain damage."
+                description: "A medical emergency caused by interrupted blood supply to the brain, leading to brain damage.",
+                url: "./stroke.php"
             },
             {
                 id: 4,
                 title: "High Cholesterol",
-                description: "An imbalance of blood fats that increases the risk of heart disease."
+                description: "An imbalance of blood fats that increases the risk of heart disease.",
+                url: "./high-cholestrol.php"
             },
             {
                 id: 5,
                 title: "Osteoarthritis",
-                description: "A degenerative joint condition causing pain, stiffness, and reduced movement."
+                description: "A degenerative joint condition causing pain, stiffness, and reduced movement.",
+                url: "./osteoarthritis.php"
             },
             {
                 id: 6,
                 title: "Back and Neck Pain",
-                description: "Pain caused by strain, injury, or disc problems affecting the spine."
+                description: "Pain caused by strain, injury, or disc problems affecting the spine.",
+                url: "./back-and-neck-pain.php"
             },
             {
                 id: 7,
@@ -93,27 +99,86 @@
             {
                 id: 8,
                 title: "Osteoporosis",
-                description: "A condition where bones become weak and brittle, increasing fracture risk."
+                description: "A condition where bones become weak and brittle, increasing fracture risk.",
+                url: "./ostioporosys.php"
             },
             {
                 id: 9,
                 title: "Asthma",
-                description: "A chronic lung condition causing airway inflammation and breathing difficulty."
+                description: "A chronic lung condition causing airway inflammation and breathing difficulty.",
+                url: "./astama.php"
             },
             {
                 id: 10,
                 title: "COPD / Chronic Bronchitis",
-                description: "Long-term lung diseases that block airflow and cause persistent breathing problems."
+                description: "Long-term lung diseases that block airflow and cause persistent breathing problems.",
+                url: "./chronic-brachotis.php"
             },
             {
                 id: 11,
                 title: "Pneumonia",
-                description: "Infections of the lungs that cause cough, fever, and breathing difficulty."
+                description: "Infections of the lungs that cause cough, fever, and breathing difficulty.",
+                url: "./pnemonia.php"
             },
             {
                 id: 12,
                 title: "Fractures and Injury / Trauma",
-                description: "Broken bones or bodily injuries caused by accidents or physical impact."
+                description: "Broken bones or bodily injuries caused by accidents or physical impact.",
+                url: "./fractures.php"
+            },
+            {
+                id: 13,
+                title: "Tuberculosis ",
+                description: "Tuberculosis (TB) is a bacterial infection caused by Mycobacterium tuberculosis.",
+                url: "./tuberculosis.php"
+            },
+            {
+                id: 14,
+                title: "Acid Reflux",
+                description: "Acid reflux and gastritis are common digestive conditions.",
+                url: "./acid-reflex.php"
+            },
+            {
+                id: 16,
+                title: "Peptic Ulcer Disease",
+                description: "Peptic ulcer disease refers to open sores in the lining of the stomach or duodenum",
+                url: "./peptic-ulcer-disesase.php"
+            },
+            {
+                id: 17,
+                title: "Gallstones",
+                description: "Gallstones are hardened deposits in the gallbladder",
+                url: "./gallstones.php"
+            },
+            {
+                id: 18,
+                title: "Fatty Liver Disease",
+                description: "Fatty liver disease occurs when excess fat accumulates in liver cells",
+                url: "./fatty-liver.php"
+            },
+            {
+                id: 19,
+                title: "Irritable Bowel Syndrome",
+                description: "IBS is a functional bowel disorder causing abdominal pain",
+                url: "./bowl-syndrome.php"
+            },
+            {
+                id: 20,
+                title: "Breast Cancer",
+                description: "Breast cancer is the most common cancer in women",
+                url: "./breast-cancer.php"
+            },
+            {
+                id: 21,
+                title: "Peptic Ulcer Disease",
+                description: "Peptic ulcer disease (PUD) refers to open sores in the lining of the stomach",
+                url: "./peptic-ulcer-disesase.php"
+            },
+            {
+                id: 22,
+                title: "Gallstones",
+                description: "Gallstones are hardened deposits of cholesterol or bile pigments in the gallbladder",
+                url: "./gallstones.php"
             }
         ];
 
@@ -164,7 +229,7 @@
       <div class="bg-white rounded-xl shadow p-5">
         <h3 class="font-semibold text-gray-800">${item.title}</h3>
         <p class="text-sm text-gray-600 mt-2">${item.description}</p>
-        <a href="#" class="inline-flex items-center text-sm mt-4">
+        <a href="${item.url}" class="inline-flex items-center text-sm mt-4">
           Know More
           <span class="ml-2 w-4 h-4 bg-red-500 text-white rounded-full flex items-center justify-center text-xs">+</span>
         </a>

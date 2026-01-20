@@ -31,6 +31,7 @@ try {
 
     // SMTP CONFIG
     $mail->isSMTP();
+    $mail->SMTPDebug = 2;
     $mail->Host       = $_ENV['MAIL_HOST'];
     $mail->SMTPAuth   = true;
     $mail->Username   = $_ENV['MAIL_USERNAME'];

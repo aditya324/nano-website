@@ -89,11 +89,13 @@
                         <li class="specialty-option" data-value="Radiology">Radiology</li>
                         <li class="specialty-option" data-value="Laboratory">Laboratory Medicine</li>
                         <li class="specialty-option" data-value="Reconstructive">Reconstructive Surgery</li>
+                         <li class="specialty-option" data-value="Gastroentrology">Gastroentrology</li>
                         <li class="specialty-option" data-value="Oncology">Cancer Care</li>
                         <li class="specialty-option" data-value="Paediatrics">Child Care</li>
                         <li class="specialty-option" data-value="Pulmonology">Lung Care</li>
                         <li class="specialty-option" data-value="Gynaecology">Women Care</li>
                         <li class="specialty-option" data-value="General Medicine">General Medicine</li>
+                        <li class="specialty-option" data-value="Nephrology">Nephrology</li>
                         <li class="specialty-option" data-value="Psychiatry">Mind Care</li>
                         <li class="specialty-option" data-value="ENT">ENT</li>
                         <li class="specialty-option" data-value="Dermatology">Skin Care</li>
@@ -102,6 +104,7 @@
                         <li class="specialty-option" data-value="General Surgery">General Surgery</li>
                         <li class="specialty-option" data-value="Rheumatology">Rheumatology</li>
                     </ul>
+                    
                 </div>
             </div>
 
@@ -185,8 +188,8 @@
                 qualification: "MBBS, MS - Vascular Surgery",
                 specialty: "Vascular",
                 role: "Consultant Vascular Surgeon",
-                location: "Both",
-                image: ""
+                location: "Hulimavu",
+                image: "./assets/doctors/dr-murli-krishna.webp"
             },
             {
                 name: "Dr Arun Kumar A",
@@ -208,6 +211,26 @@
 
             },
             {
+                name: "Dr Subhash",
+                kmc: "TMN20080001331KTK",
+                qualification: "MBBS, DNB - Radiology",
+                specialty: "Radiology",
+                role: "Consultant Radiologist",
+                location: "Hulimavu",
+                image: "./assets/doctors/dr-subash.webp",
+
+            },
+            {
+                name: "Dr Sailaja",
+                kmc: "85385",
+                qualification: "M.B.B.S, D.C.H (Dnb)",
+                specialty: "Paediatrics",
+                role: "Consultant Paediatrician And Neonatologist",
+                location: "Both",
+                image: "./assets/doctors/dr-sailaja.webp",
+
+            },
+            {
                 name: "Dr Kruthika Prasad",
                 kmc: "82886",
                 qualification: "MBBS, MD - Pathology",
@@ -215,6 +238,15 @@
                 role: "Consultant Pathologist",
                 location: "Both",
                 image: ""
+            },
+            {
+                name: "Dr Pratibha Setty",
+                kmc: "53359",
+                qualification: "MBBS, DNB, DM (Gastroenterology)",
+                specialty: "Gastroentrology",
+                role: "Consultant Gastroenterologist",
+                location: "Hulimavu",
+                image: "./assets/doctors/dr-prathibha.webp",
             },
             {
                 name: "Dr Dhanalaxmi Aniyappanavar",
@@ -241,7 +273,7 @@
                 specialty: "Reconstructive",
                 role: "Reconstructive Surgeon",
                 location: "Both",
-                image: ""
+                image: "./assets/doctors/dr-shama.webp"
             },
             {
                 name: "Dr Niti Raizada",
@@ -324,7 +356,16 @@
                 specialty: "Pulmonology",
                 role: "Consultant Pulmonologist",
                 location: "Uttarahalli",
-                image: ""
+                image: "./assets/doctors/dr-arjun.webp"
+            },
+             {
+                name: "Dr Adarsh M S",
+                kmc: "89509",
+                qualification: "MBBS, MS (Gen Surgery) DNB ",
+                specialty: "Vascular",
+                role: "Consultant Vascular & Endovascular Surgeon",
+                location: "Uttarahalli",
+                image: "./assets/doctors/dr-adarsh.webp"
             },
             {
                 name: "Dr Vivek K U",
@@ -370,6 +411,16 @@
                 role: "Consultant Neurologist",
                 location: "Uttarahalli",
                 image: ""
+            },
+
+            {
+                name: "Dr Harsha Kumar",
+                kmc: "76636",
+                qualification: "MBBS, MD (INTERNAL MEDICINE)(NEPHROLOGY PGI)",
+                specialty: "Nephrology",
+                role: "CONSULTANT NEPHROLOGIST AND TRANSPLANT PHYSICIAN",
+                location: "Hulimavu",
+                image: "./assets/doctors/dr-harsha-kumar.webp"
             },
             {
                 name: "Dr Vishwas H V",
@@ -623,7 +674,7 @@
                 specialty: "Neurology",
                 role: "Consultant Neurologist",
                 location: "Hulimavu",
-                image: ""
+                image: "./assets/doctors/dr-padukode.webp"
             },
             {
                 name: "Dr Sachin",
@@ -644,6 +695,15 @@
                 image: ""
             },
             {
+                name: "Dr  Rahul Jain ",
+                kmc: "75432",
+                qualification: "MBBS, MS,OPTHOLMOLOGY",
+                specialty: "Ophthalmology",
+                role: "CONSULTANT OPTHOLMOLOGIST",
+                location: "Hulimavu",
+                image: "./assets/doctors/dr-rahul-jain.webp"
+            },
+            {
                 name: "Dr Deepa",
                 kmc: "70644",
                 qualification: "MBBS, MD - Pulmonology",
@@ -661,15 +721,15 @@
                 location: "Hulimavu",
                 image: ""
             },
-            {
-                name: "Dr Niranjan P",
-                kmc: "72600",
-                qualification: "MBBS, MS - General Surgery",
-                specialty: "General Surgery",
-                role: "Consultant General Surgeon",
-                location: "Hulimavu",
-                image: ""
-            },
+            // {
+            //     name: "Dr Niranjan P",
+            //     kmc: "72600",
+            //     qualification: "MBBS, MS - General Surgery",
+            //     specialty: "General Surgery",
+            //     role: "Consultant General Surgeon",
+            //     location: "Hulimavu",
+            //     image: ""
+            // },
             {
                 name: "Dr Gautham S L",
                 kmc: "80405",
@@ -758,7 +818,7 @@
                 specialty: "Psychiatry",
                 role: "Consultant Psychiatrist",
                 location: "Hulimavu",
-                image: ""
+                image: "./assets/doctors/Dr Neeraj.webp"
             },
             {
                 name: "Dr Chandra Shekaran R",
@@ -812,8 +872,9 @@
                         </button>
                         <div class="px-5 pb-6">
                             <h3 class="text-lg font-semibold text-gray-900">${doctor.name}</h3>
-                            <p class="text-xs text-gray-400 mt-1">KMC: ${doctor.kmc}</p>
+                           
                             <p class="text-sm text-gray-500 mt-1">${doctor.qualification}</p>
+                             <p class="text-xs text-gray-400 mt-1">KMC: ${doctor.kmc}</p>
                             <p class="text-sm text-red-500 font-medium mt-3 leading-snug">${doctor.role}</p>
                         </div>
                         <div class="flex border-t border-gray-200">
