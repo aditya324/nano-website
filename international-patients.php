@@ -11,7 +11,7 @@
   <?php require "./header.php" ?>
   <?php require "./components/call-nano.php" ?>
   <?php require "./components/scroll-to-top.php" ?>
-  <section class="w-full py-20 bg-[#EFEFEF]">
+  <section class="w-full  bg-[#EFEFEF]">
     <div class="max-w-fit mx-auto lg:px-10 px-5">
 
       <!-- Red Wrapper -->

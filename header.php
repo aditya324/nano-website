@@ -335,6 +335,11 @@
       transform: translateX(-35rem);
       /* increase value to move more LEFT */
     }
+
+    .mega-packages {
+      transform: translateX(-45rem);
+      /* increase value to move more LEFT */
+    }
   </style>
 
 
@@ -672,7 +677,90 @@
               </div>
             </li>
 
-            <li><a href="./health-packages.php">Health Packages </a></li>
+            <li class="special relative">
+              <a href="#" class="hover:text-red-500">
+                health packages
+              </a>
+
+              <div class="mega mega-specialities mega-packages">
+
+                <!-- COLUMN 1 -->
+                <ul class="mega-col condition-col">
+                  <a href="./basic-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Basic Health Package </li>
+                  </a>
+                  <a href="./pre-employment.php">
+                    <li><img src="./assets/icons/heart.svg"> Pre Employment Package  </li>
+                  </a>
+
+                  <a href="./master-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Master Health Package   </li>
+                  </a>
+                  
+               
+                </ul>
+
+
+                <!-- COLUMN 2 -->
+                <ul class="mega-col condition-col">
+                  <a href="./master-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Executive Health Package </li>
+                  </a>
+                  <a href="./diabetic-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Diabetic Package  </li>
+                  </a>
+
+                  <a href="./diabetic-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Senior Citizen Package    </li>
+                  </a>
+                  
+               
+                </ul>
+
+
+                <!-- COLUMN 3 -->
+                <ul class="mega-col condition-col">
+                  <a href="./master-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Healthy Heart Package </li>
+                  </a>
+                  <a href="./diabetic-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Diabetic Package  </li>
+                  </a>
+
+                  <a href="./diabetic-health-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Senior Citizen Package    </li>
+                  </a>
+                  
+               
+                </ul>
+
+                <!-- COLUMN 4 -->
+
+
+
+                <!-- COLUMN 5 -->
+                <ul class="mega-col condition-col">
+                  <a href="./cancer-pacakge.php">
+                    <li><img src="./assets/icons/heart.svg"> Cancer Package  </li>
+                  </a>
+                  <a href="./fitness-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Fitness Package   </li>
+                  </a>
+
+                  <a href="./fertility-package.php">
+                    <li><img src="./assets/icons/heart.svg"> Fertility Package    </li>
+                  </a>
+                  
+               
+                </ul>
+
+
+                <!-- COLUMN 6 -->
+
+
+
+              </div>
+            </li>
           </ul>
 
           <!-- CTA -->

@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bloating, Acidity & Gut Health: Complete Guide to Better Digestive System</title>
 
   <!-- Tailwind CSS -->
-  
+
 
   <!-- SEO -->
   <meta name="description" content="A complete guide to bloating, acidity, and gut health. Learn warning signs, digestive issues, natural remedies, and when to consult a gastroenterologist in Bengaluru." />
 </head>
+
 <body class="bg-gray-50 text-gray-800">
 
   <!-- Header -->
@@ -19,13 +21,13 @@
   <!-- Blog Wrapper -->
   <main class="container mx-auto px-4 py-10">
 
-    <h1 class="text-3xl md:text-4xl font-bold text-red-700 mb-6">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-700 mb-6">
       Bloating, Acidity & Gut Health: Complete Guide to Better Digestive System
     </h1>
 
-     <div class="mb-8 flex justify-center w-full">
-            <img src="./assets/blogs/pending" alt="Mental health stress and burnout in Bengaluru" class="w-1/2 h-1/2 rounded-xl shadow align-middle" />
-        </div>
+    <div class="mb-8 flex justify-center w-full">
+      <img src="./assets/blogs/pending" alt="Mental health stress and burnout in Bengaluru" class="w-1/2 h-1/2 rounded-xl shadow align-middle" />
+    </div>
 
     <p class="mb-6">
       Your gut is much more than just a food-processing unit — it is your body’s control center for digestion, immunity, and even mental health. Often called the “second brain,” the gut is home to trillions of microbes that directly impact how you feel, how well you absorb nutrients, and how strong your immunity remains.
@@ -169,4 +171,5 @@
   <!-- Footer -->
 
 </body>
+
 </html>

@@ -9,10 +9,10 @@
 
 <body class="bg-[#f5f5f5] font-sans">
     <?php require "./header.php" ?>
-    <section class="relative w-full min-h-[520px]">
+    <section class="relative w-full min-h-[650px]">
         <!-- Background Image -->
         <img
-            src="./assets/banners/health-package-banner.png"
+            src="./assets/banners/carrier-banner.webp"
             alt="Complete Health Packages"
             class="absolute inset-0 w-full h-full object-cover" />
 
@@ -477,7 +477,7 @@
 
     <section class="w-full bg-[#f4f4f4] py-20">
         <h2 class="text-2xl md:text-3xl font-semibold text-gray-600 text-center p-5">
-            Patient-First Care Team
+            Internship and Campus Programs
         </h2>
         <div class="container mx-auto px-6">
 
@@ -490,8 +490,7 @@
 
                     <p class="text-gray-500  font-semibold  md:text-xl">
 
-                        Fellowships are period bound opportunities, for academic/ professional development. They can be focused on professional, academic and/or personal development. These programs typically last one to three years and require applicants to demonstrate exceptional skills, knowledge, and a commitment to their chosen field. Fellowships are sponsored by a specific association, organization, or institution, as per their set eligibility requirements.
-                    </p>
+                        Fellowships are period bound opportunities, for academic/ professional development. They can be focused on professional, academic and/or personal development. These programs typically last one to three years and require applicants to demonstrate exceptional skills, knowledge, and a commitment to their chosen field. Fellowships are sponsored by a specific association, organization, or institution, as per their set eligibility requirements. </p>
 
                     <a
                         href="#"
