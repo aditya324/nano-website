@@ -869,41 +869,76 @@
       <div class="border-t"></div>
 
       <!-- LIST LINKS -->
-      <ul class="px-6 py-4 text-sm text-gray-800 space-y-4">
+      <ul class="px-6 py-4 text-sm text-gray-800 divide-y">
 
-        <a href="./health-facilities.php">
-          <li class="flex items-center justify-between">
-            Hospital Facilities
-          </li>
-        </a>
+  <li>
+    <a href="./health-facilities.php"
+       class="flex items-center justify-between py-4 hover:text-red-600 transition">
+      <div class="flex items-center gap-3">
+        <img src="./icons/hospital.svg" class="w-5 h-5" alt="">
+        <span>Hospital Facilities</span>
+      </div>
+      <span class="text-gray-400">›</span>
+    </a>
+  </li>
 
-        <a href="./second-opinion.php">
-          <li class="flex items-center justify-between">
-            Second Opinion
-          </li>
-        </a>
+  <li>
+    <a href="./second-opinion.php"
+       class="flex items-center justify-between py-4 hover:text-red-600 transition">
+      <div class="flex items-center gap-3">
+        <img src="./icons/second-opinion.svg" class="w-5 h-5" alt="">
+        <span>Second Opinion</span>
+      </div>
+      <span class="text-gray-400">›</span>
+    </a>
+  </li>
 
-        <a href="./international-patients.php">
-          <li class="flex items-center justify-between">
-            International Patients
-          </li>
-        </a>
+  <li>
+    <a href="./international-patients.php"
+       class="flex items-center justify-between py-4 hover:text-red-600 transition">
+      <div class="flex items-center gap-3">
+        <img src="./icons/international.svg" class="w-5 h-5" alt="">
+        <span>International Patients</span>
+      </div>
+      <span class="text-gray-400">›</span>
+    </a>
+  </li>
 
-        <a href="./careers.php">
-          <li class="flex items-center justify-between">
-            Careers
-          </li>
-        </a>
+  <li>
+    <a href="./careers.php"
+       class="flex items-center justify-between py-4 hover:text-red-600 transition">
+      <div class="flex items-center gap-3">
+        <img src="./icons/careers.svg" class="w-5 h-5" alt="">
+        <span>Careers</span>
+      </div>
+      <span class="text-gray-400">›</span>
+    </a>
+  </li>
 
-        <li class="flex items-center justify-between">
-          News and Awards
-        </li>
+  <li>
+    <a href="./news-awards.php"
+       class="flex items-center justify-between py-4 hover:text-red-600 transition">
+      <div class="flex items-center gap-3">
+        <img src="./icons/news.svg" class="w-5 h-5" alt="">
+        <span>News and Awards</span>
+      </div>
+      <span class="text-gray-400">›</span>
+    </a>
+  </li>
 
-        <li class="flex items-center justify-between">
-          Health Corner
-        </li>
+  <li>
+    <a href="./health-corner.php"
+       class="flex items-center justify-between py-4 hover:text-red-600 transition">
+      <div class="flex items-center gap-3">
+        <img src="./icons/health.svg" class="w-5 h-5" alt="">
+        <span>Health Corner</span>
+      </div>
+      <span class="text-gray-400">›</span>
+    </a>
+  </li>
 
-      </ul>
+</ul>
+
     </div>
   </div>
 

@@ -95,7 +95,7 @@
                 shortTitle: "Diabetes &<br/>Hormone Care",
                 image: "./assets/specialities/diabetes.webp",
                 desc: "Comprehensive endocrinology care for diabetes and hormonal disorders.",
-                 url:""
+                 url:"./diabetes-harmone-care.php"
             },
             {
                 title: "Cancer Care",
@@ -137,28 +137,28 @@
                 shortTitle: "Mind<br/>Care",
                 image: "./assets/specialities/mind-care.webp",
                 desc: "Holistic mental health services supporting emotional and psychological well-being.",
-                 url:""
+                 url:"./mental-health.php"
             },
             {
                 title: "Rheumatology (Joint & Autoimmune Care)",
                 shortTitle: "Rheumatology<br/>Care",
                 image: "./assets/specialities/bone-and-joint.webp",
                 desc: "Specialized care for autoimmune and inflammatory joint disorders.",
-                 url:""
+                 url:"./rhemetology.php"
             },
             {
                 title: "Plastic, Reconstructive & Burn Care",
                 shortTitle: "Plastic &<br/>Reconstructive Care",
                 image: "./assets/specialities/reconstructive-surgery.webp",
                 desc: "Advanced reconstructive and cosmetic procedures including burn management.",
-                 url:""
+                 url:"./plastic-reconstructive-care.php"
             },
             {
                 title: "Oral & Facial Surgery",
                 shortTitle: "Oral &<br/>Facial Surgery",
                 image: DEFAULT_IMAGE,
                 desc: "Specialized surgical care for oral, facial, and maxillofacial conditions.",
-                 url:""
+                 url:"./oral-facial-surgery.php"
             },
             {
                 title: "General Surgery",
@@ -172,35 +172,35 @@
                 shortTitle: "Emergency &<br/>Critical Care",
                 image: "./assets/specialities/emergrncy-care.webp",
                 desc: "24/7 emergency and critical care services with rapid response teams.",
-                url:""
+                url:"./emergency-care.php"
             },
             {
                 title: "Rehabilitation & Physiotherapy",
                 shortTitle: "Rehab &<br/>Physiotherapy",
                 image: "./assets/specialities/physical-rehab.webp",
                 desc: "Rehabilitation services restoring mobility, strength, and quality of life.",
-                 url:""
+                 url:"./rehabilitation.php"
             },
             {
                 title: "Elder Care",
                 shortTitle: "Elder<br/>Care",
                 image: "./assets/specialities/elder-care.webp",
                 desc: "Dedicated healthcare services focused on the needs of senior citizens.",
-                 url:""
+                 url:"./elder-care.php"
             },
             {
                 title: "Radiology & Imaging",
                 shortTitle: "Radiology &<br/>Imaging",
                 image: "./assets/specialities/radiology.webp",
                 desc: "Advanced diagnostic imaging including CT, MRI, ultrasound, and X-ray.",
-                 url:""
+                 url:"./radiology.php"
             },
             {
                 title: "Laboratory & Diagnostic Services",
                 shortTitle: "Laboratory &<br/>Diagnostics",
                 image: "./assets/specialities/laboratory-medicine.webp",
                 desc: "Accurate and timely laboratory testing supporting clinical decisions.",
-                 url:""
+                 url:"./labrotory-diagnostic-services.php"
             }
         ];
     </script>
