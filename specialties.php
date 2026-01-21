@@ -74,21 +74,21 @@
                 shortTitle: "Kidney<br/>Care",
                 image: "./assets/specialities/kidney-care.webp",
                 desc: "Expert nephrology services for acute and chronic kidney conditions.",
-                 url:""
+                 url:"./kidney-care.php"
             },
             {
                 title: "Urology Care",
                 shortTitle: "Urology<br/>Care",
                 image: "./assets/specialities/urology.webp",
                 desc: "Advanced urological care for urinary tract and male reproductive health issues.",
-                 url:""
+                 url:"./kidney-care.php"
             },
             {
                 title: "Digestive Care",
                 shortTitle: "Digestive<br/>Care",
                 image: "./assets/specialities/gastro-care.webp",
                 desc: "Specialized care for digestive system disorders including liver and pancreas.",
-                 url:""
+                 url:"./digestive-care.php"
             },
             {
                 title: "Diabetes & Hormone Care",
@@ -109,28 +109,28 @@
                 shortTitle: "Vascular<br/>Care",
                 image: "./assets/specialities/vascular-care.webp",
                 desc: "Diagnosis and treatment of vascular diseases affecting arteries and veins.",
-                 url:""
+                 url:"./heart-care.php"
             },
             {
                 title: "Skin Care",
                 shortTitle: "Skin<br/>Care",
                 image: "./assets/specialities/skin-care.webp",
                 desc: "Medical, cosmetic, and surgical dermatology services for healthy skin.",
-                 url:""
+                 url:"./skin-care.php"
             },
             {
                 title: "Eye Care",
                 shortTitle: "Eye<br/>Care",
                 image: "./assets/specialities/eye-care.webp",
                 desc: "Advanced ophthalmology services for vision care and eye health.",
-                 url:""
+                 url:"./eye-care.php"
             },
             {
                 title: "ENT Care (Ear, Nose & Throat)",
                 shortTitle: "ENT<br/>Care",
                 image: "./assets/specialities/ent.webp",
                 desc: "Comprehensive ENT services for ear, nose, throat, and sinus conditions.",
-                 url:""
+                 url:"./ent-care.php"
             },
             {
                 title: "Mental Health & Mind Care",

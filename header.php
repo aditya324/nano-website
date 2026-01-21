@@ -561,46 +561,98 @@
 
                 <!-- COLUMN 1 -->
                 <ul class="mega-col">
-                  <li><i class="fa-regular fa-bone"></i> Bone & Joint Care</li>
-                  <li><i class="fa-solid fa-baby"></i> Child Care</li>
-                  <li><i class="fa-solid fa-person-dress"></i> Women’s Care</li>
-                  <li><i class="fa-solid fa-stethoscope"></i> General Medicine</li>
-                  <li><i class="fa-regular fa-heart"></i> Heart Care</li>
-                  <li><i class="fa-solid fa-brain"></i> Brain & Spine Care</li>
-                  <li><i class="fa-solid fa-lungs"></i> Lung Care</li>
+                  <a href="./bone-and-joint.php">
+                    <li><i class="fa-solid fa-bone"></i> Bone & Joint Care</li>
+                  </a>
+                  <a href="./child-care.php">
+                    <li><i class="fa-solid fa-baby"></i> Child Care</li>
+                  </a>
+                  <a href="./women-care.php">
+                    <li><i class="fa-solid fa-person-dress"></i> Women’s Care</li>
+                  </a>
+                  <a href="./general-medicine.php">
+                    <li><i class="fa-solid fa-stethoscope"></i> General Medicine</li>
+                  </a>
+                  <a href="./heart-care.php">
+                    <li><i class="fa-regular fa-heart"></i> Heart Care</li>
+                  </a>
+                  <a href="./brain-care.php">
+                    <li><i class="fa-solid fa-brain"></i> Brain & Spine Care</li>
+                  </a>
+                  <a href="./lung-care.php">
+                    <li><i class="fa-solid fa-lungs"></i> Lung Care</li>
+                  </a>
                 </ul>
 
                 <!-- COLUMN 2 -->
                 <ul class="mega-col">
-                  <li><i class="fa-solid fa-kidneys"></i> Kidney Care</li>
-                  <li><i class="fa-solid fa-toilet"></i> Urology Care</li>
-                  <li><i class="fa-solid fa-stomach"></i> Digestive Care</li>
-                  <li><i class="fa-solid fa-vial-circle-check"></i> Diabetes & Hormone Care</li>
-                  <li><i class="fa-solid fa-ribbon"></i> Cancer Care</li>
-                  <li><i class="fa-solid fa-wave-square"></i> Vascular Care</li>
-                  <li><i class="fa-solid fa-hand-dots"></i> Skin Care</li>
+                  <a href="./kidney-care.php">
+                    <li><i class="fa-solid fa-kidneys"></i> Kidney Care</li>
+                  </a>
+                  <a href="./kidney-care.php">
+                    <li><i class="fa-solid fa-toilet"></i> Urology Care</li>
+                  </a>
+                  <a href="./digestive-care.php">
+                    <li><i class="fa-solid fa-stomach"></i> Digestive Care</li>
+                  </a>
+                  <a href="./diabetes-harmone-care.php">
+                    <li><i class="fa-solid fa-vial-circle-check"></i> Diabetes & Hormone Care</li>
+                  </a>
+                  <a href="./cancer-care.php">
+                    <li><i class="fa-solid fa-ribbon"></i> Cancer Care</li>
+                  </a>
+                  <a href="./heart-care.php">
+                    <li><i class="fa-solid fa-wave-square"></i> Vascular Care</li>
+                  </a>
+                  <a href="./skin-care.php">
+                    <li><i class="fa-solid fa-hand-dots"></i> Skin Care</li>
+                  </a>
 
                 </ul>
 
                 <!-- COLUMN 3 -->
                 <ul class="mega-col">
-                  <li><i class="fa-regular fa-eye"></i> Eye Care</li>
-                  <li><i class="fa-solid fa-ear-listen"></i> ENT Care</li>
-                  <li><i class="fa-solid fa-head-side-virus"></i> Mental Health & Mind Care</li>
-                  <li><i class="fa-solid fa-joint"></i> Rheumatology</li>
-                  <li><i class="fa-solid fa-fire-flame-simple"></i> Plastic, Reconstructive & Burn Care</li>
-                  <li><i class="fa-solid fa-teeth"></i> Oral & Facial Surgery</li>
+                  <a href="./eye-care.php">
+                    <li><i class="fa-regular fa-eye"></i> Eye Care</li>
+                  </a>
+                  <a href="./ent-care.php">
+                    <li><i class="fa-solid fa-ear-listen"></i> ENT Care</li>
+                  </a>
+                  <a href="./mental-health.php">
+                    <li><i class="fa-solid fa-head-side-virus"></i> Mental Health & Mind Care</li>
+                  </a>
+                  <a href="./rhemetology.php">
+                    <li><i class="fa-solid fa-joint"></i> Rheumatology</li>
+                  </a>
+                  <a href="./plastic-reconstructive-care.php">
+                    <li><i class="fa-solid fa-fire-flame-simple"></i> Plastic, Reconstructive & Burn Care</li>
+                  </a>
+                  <a href="./oral-facial-surgery.php">
+                    <li><i class="fa-solid fa-teeth"></i> Oral & Facial Surgery</li>
+                  </a>
 
                 </ul>
 
                 <!-- COLUMN 4 -->
                 <ul class="mega-col">
-                  <li><i class="fa-solid fa-scalpel"></i> General Surgery</li>
-                  <li><i class="fa-solid fa-truck-medical"></i> Emergency & Critical Care</li>
-                  <li><i class="fa-solid fa-person-walking"></i> Rehabilitation & Physiotherapy</li>
-                  <li><i class="fa-solid fa-person-cane"></i> Elder Care</li>
-                  <li><i class="fa-solid fa-x-ray"></i> Radiology & Imaging</li>
-                  <li><i class="fa-solid fa-flask-vial"></i> Laboratory & Diagnostic Services</li>
+                  <a href="./general-surgery.php">
+                    <li><i class="fa-solid fa-scalpel"></i> General Surgery</li>
+                  </a>
+                  <a href="./emergency-care.php">
+                    <li><i class="fa-solid fa-truck-medical"></i> Emergency & Critical Care</li>
+                  </a>
+                  <a href="./rehabilitation.php">
+                    <li><i class="fa-solid fa-person-walking"></i> Rehabilitation & Physiotherapy</li>
+                  </a>
+                  <a href="./elder-care.php">
+                    <li><i class="fa-solid fa-person-cane"></i> Elder Care</li>
+                  </a>
+                  <a href="./radiology.php">
+                    <li><i class="fa-solid fa-x-ray"></i> Radiology & Imaging</li>
+                  </a>
+                  <a href="./labrotory-diagnostic-services.php">
+                    <li><i class="fa-solid fa-flask-vial"></i> Laboratory & Diagnostic Services</li>
+                  </a>
 
                 </ul>
 
@@ -617,56 +669,56 @@
 
               <div class="mega mega-specialities mega-conditions">
 
-  <!-- COLUMN 1 : CARDIO / METABOLIC -->
-  <ul class="mega-col condition-col">
-    <li><i class="fa-solid fa-heart-pulse"></i> Hypertension</li>
-    <li><i class="fa-solid fa-vial-circle-check"></i> Diabetes</li>
-    <li><i class="fa-solid fa-heart"></i> Heart Disease</li>
-    <li><i class="fa-solid fa-brain"></i> Stroke</li>
+                <!-- COLUMN 1 : CARDIO / METABOLIC -->
+                <ul class="mega-col condition-col">
+                  <li><i class="fa-solid fa-heart-pulse"></i> Hypertension</li>
+                  <li><i class="fa-solid fa-vial-circle-check"></i> Diabetes</li>
+                  <li><i class="fa-solid fa-heart"></i> Heart Disease</li>
+                  <li><i class="fa-solid fa-brain"></i> Stroke</li>
 
-    <li class="more-item"><i class="fa-solid fa-flask"></i> High Cholesterol</li>
-    <li class="more-item"><i class="fa-solid fa-weight-scale"></i> Obesity</li>
+                  <li class="more-item"><i class="fa-solid fa-flask"></i> High Cholesterol</li>
+                  <li class="more-item"><i class="fa-solid fa-weight-scale"></i> Obesity</li>
 
-    <li class="view-more">View More</li>
-  </ul>
+                  <li class="view-more">View More</li>
+                </ul>
 
-  <!-- COLUMN 2 : RESPIRATORY -->
-  <ul class="mega-col condition-col">
-    <li><i class="fa-solid fa-lungs"></i> Asthma</li>
-    <li><i class="fa-solid fa-lungs"></i> COPD / Chronic Bronchitis</li>
-    <li><i class="fa-solid fa-virus"></i> Pneumonia</li>
-    <li><i class="fa-solid fa-bacteria"></i> Tuberculosis</li>
+                <!-- COLUMN 2 : RESPIRATORY -->
+                <ul class="mega-col condition-col">
+                  <li><i class="fa-solid fa-lungs"></i> Asthma</li>
+                  <li><i class="fa-solid fa-lungs"></i> COPD / Chronic Bronchitis</li>
+                  <li><i class="fa-solid fa-virus"></i> Pneumonia</li>
+                  <li><i class="fa-solid fa-bacteria"></i> Tuberculosis</li>
 
-    <li class="more-item"><i class="fa-solid fa-lungs-virus"></i> Respiratory Infections</li>
+                  <li class="more-item"><i class="fa-solid fa-lungs-virus"></i> Respiratory Infections</li>
 
-    <li class="view-more">View More</li>
-  </ul>
+                  <li class="view-more">View More</li>
+                </ul>
 
-  <!-- COLUMN 3 : INFECTIONS -->
-  <ul class="mega-col condition-col">
-    <li><i class="fa-solid fa-virus"></i> Viral Fever</li>
-    <li><i class="fa-solid fa-virus"></i> Dengue</li>
-    <li><i class="fa-solid fa-virus"></i> Malaria</li>
-    <li><i class="fa-solid fa-virus"></i> Typhoid</li>
+                <!-- COLUMN 3 : INFECTIONS -->
+                <ul class="mega-col condition-col">
+                  <li><i class="fa-solid fa-virus"></i> Viral Fever</li>
+                  <li><i class="fa-solid fa-virus"></i> Dengue</li>
+                  <li><i class="fa-solid fa-virus"></i> Malaria</li>
+                  <li><i class="fa-solid fa-virus"></i> Typhoid</li>
 
-    <li class="more-item"><i class="fa-solid fa-bacteria"></i> Urinary Tract Infection</li>
+                  <li class="more-item"><i class="fa-solid fa-bacteria"></i> Urinary Tract Infection</li>
 
-    <li class="view-more">View More</li>
-  </ul>
+                  <li class="view-more">View More</li>
+                </ul>
 
-  <!-- COLUMN 5 : CANCER / BLOOD -->
-  <ul class="mega-col condition-col">
-    <li><i class="fa-solid fa-ribbon"></i> Breast Cancer</li>
-    <li><i class="fa-solid fa-ribbon"></i> Lung Cancer</li>
-    <li><i class="fa-solid fa-ribbon"></i> Colorectal Cancer</li>
-    <li><i class="fa-solid fa-ribbon"></i> Cervical Cancer</li>
+                <!-- COLUMN 5 : CANCER / BLOOD -->
+                <ul class="mega-col condition-col">
+                  <li><i class="fa-solid fa-ribbon"></i> Breast Cancer</li>
+                  <li><i class="fa-solid fa-ribbon"></i> Lung Cancer</li>
+                  <li><i class="fa-solid fa-ribbon"></i> Colorectal Cancer</li>
+                  <li><i class="fa-solid fa-ribbon"></i> Cervical Cancer</li>
 
-    <li class="more-item"><i class="fa-solid fa-droplet"></i> Anaemia</li>
+                  <li class="more-item"><i class="fa-solid fa-droplet"></i> Anaemia</li>
 
-    <li class="view-more">View More</li>
-  </ul>
+                  <li class="view-more">View More</li>
+                </ul>
 
-</div>
+              </div>
 
             </li>
 
@@ -677,103 +729,103 @@
 
               <div class="mega mega-specialities mega-packages">
 
-  <!-- COLUMN 1 -->
-  <ul class="mega-col condition-col">
-    <li>
-      <a href="./basic-package.php">
-        <i class="fa-solid fa-clipboard-check"></i>
-        Basic Health Package
-      </a>
-    </li>
+                <!-- COLUMN 1 -->
+                <ul class="mega-col condition-col">
+                  <li>
+                    <a href="./basic-package.php">
+                      <i class="fa-solid fa-clipboard-check"></i>
+                      Basic Health Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./pre-employment.php">
-        <i class="fa-solid fa-user-check"></i>
-        Pre Employment Package
-      </a>
-    </li>
+                  <li>
+                    <a href="./pre-employment.php">
+                      <i class="fa-solid fa-user-check"></i>
+                      Pre Employment Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./master-health-package.php">
-        <i class="fa-solid fa-file-medical"></i>
-        Master Health Package
-      </a>
-    </li>
-  </ul>
+                  <li>
+                    <a href="./master-health-package.php">
+                      <i class="fa-solid fa-file-medical"></i>
+                      Master Health Package
+                    </a>
+                  </li>
+                </ul>
 
-  <!-- COLUMN 2 -->
-  <ul class="mega-col condition-col">
-    <li>
-      <a href="./master-health-package.php">
-        <i class="fa-solid fa-user-tie"></i>
-        Executive Health Package
-      </a>
-    </li>
+                <!-- COLUMN 2 -->
+                <ul class="mega-col condition-col">
+                  <li>
+                    <a href="./master-health-package.php">
+                      <i class="fa-solid fa-user-tie"></i>
+                      Executive Health Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./diabetic-health-package.php">
-        <i class="fa-solid fa-vial-circle-check"></i>
-        Diabetic Package
-      </a>
-    </li>
+                  <li>
+                    <a href="./diabetic-health-package.php">
+                      <i class="fa-solid fa-vial-circle-check"></i>
+                      Diabetic Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./diabetic-health-package.php">
-        <i class="fa-solid fa-person-cane"></i>
-        Senior Citizen Package
-      </a>
-    </li>
-  </ul>
+                  <li>
+                    <a href="./diabetic-health-package.php">
+                      <i class="fa-solid fa-person-cane"></i>
+                      Senior Citizen Package
+                    </a>
+                  </li>
+                </ul>
 
-  <!-- COLUMN 3 -->
-  <ul class="mega-col condition-col">
-    <li>
-      <a href="./master-health-package.php">
-        <i class="fa-solid fa-heart-pulse"></i>
-        Healthy Heart Package
-      </a>
-    </li>
+                <!-- COLUMN 3 -->
+                <ul class="mega-col condition-col">
+                  <li>
+                    <a href="./master-health-package.php">
+                      <i class="fa-solid fa-heart-pulse"></i>
+                      Healthy Heart Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./diabetic-health-package.php">
-        <i class="fa-solid fa-vial-circle-check"></i>
-        Diabetic Package
-      </a>
-    </li>
+                  <li>
+                    <a href="./diabetic-health-package.php">
+                      <i class="fa-solid fa-vial-circle-check"></i>
+                      Diabetic Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./diabetic-health-package.php">
-        <i class="fa-solid fa-person-cane"></i>
-        Senior Citizen Package
-      </a>
-    </li>
-  </ul>
+                  <li>
+                    <a href="./diabetic-health-package.php">
+                      <i class="fa-solid fa-person-cane"></i>
+                      Senior Citizen Package
+                    </a>
+                  </li>
+                </ul>
 
-  <!-- COLUMN 5 -->
-  <ul class="mega-col condition-col">
-    <li>
-      <a href="./cancer-pacakge.php">
-        <i class="fa-solid fa-ribbon"></i>
-        Cancer Package
-      </a>
-    </li>
+                <!-- COLUMN 5 -->
+                <ul class="mega-col condition-col">
+                  <li>
+                    <a href="./cancer-pacakge.php">
+                      <i class="fa-solid fa-ribbon"></i>
+                      Cancer Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./fitness-package.php">
-        <i class="fa-solid fa-dumbbell"></i>
-        Fitness Package
-      </a>
-    </li>
+                  <li>
+                    <a href="./fitness-package.php">
+                      <i class="fa-solid fa-dumbbell"></i>
+                      Fitness Package
+                    </a>
+                  </li>
 
-    <li>
-      <a href="./fertility-package.php">
-        <i class="fa-solid fa-seedling"></i>
-        Fertility Package
-      </a>
-    </li>
-  </ul>
+                  <li>
+                    <a href="./fertility-package.php">
+                      <i class="fa-solid fa-seedling"></i>
+                      Fertility Package
+                    </a>
+                  </li>
+                </ul>
 
-</div>
+              </div>
 
             </li>
           </ul>
