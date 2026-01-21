@@ -553,7 +553,7 @@
             <li><a href="./doctor-profile.php">Doctors </a></li>
 
             <li class="special relative">
-              <a href="" id="specialToggle" class="hover:text-red-500">
+              <a href="#" id="specialToggle" class="hover:text-red-500">
                 Specialities
               </a>
 
