@@ -438,22 +438,6 @@
         Conditions
       </a> -->
 
-      <!-- Specialities -->
-      <a href="./specialties.php"
-        class="group flex items-center gap-4
-              w-full h-14 px-6
-              rounded-2xl border border-gray-300
-              text-gray-500 font-medium
-              transition-all duration-200 ease-out
-              active:-translate-y-1 active:scale-[0.98]
-              active:shadow-lg focus-visible:shadow-lg">
-
-        <img
-          src="./assets/icons/specialities.png"
-          alt=""
-          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
-        Specialities
-      </a>
 
       <!-- Doctors -->
       <a href="./doctor-profile.php"
@@ -471,6 +455,25 @@
           class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
         Doctors
       </a>
+
+      <!-- Specialities -->
+      <a href="./specialties.php"
+        class="group flex items-center gap-4
+              w-full h-14 px-6
+              rounded-2xl border border-gray-300
+              text-gray-500 font-medium
+              transition-all duration-200 ease-out
+              active:-translate-y-1 active:scale-[0.98]
+              active:shadow-lg focus-visible:shadow-lg">
+
+        <img
+          src="./assets/icons/specialities.png"
+          alt=""
+          class="group-hover:scale-110 transition-transform duration-300 w-10 h-10">
+        Specialities
+      </a>
+
+      
 
       <!-- Facilities -->
       <a href="#"
@@ -801,7 +804,7 @@
     <!-- ================= SPECIALITIES ================= -->
     <div id="specialities"
       class="tab-content show flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28"> <!-- 1. Anaesthesia -->
-      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+      <a href="./bone-and-joint.php" class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
 
         <div class="absolute inset-0 bg-cover bg-no-repeat"
           style="background-image: url('./assets/background/Frame 134.png');"></div>
@@ -840,8 +843,8 @@
           </div>
         </div>
 
-      </div> <!-- 2. Invasive & Non-Invasive Cardiology -->
-      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+      </a> <!-- 2. Invasive & Non-Invasive Cardiology -->
+      <a href="./child-care.php" class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
 
         <div class="absolute inset-0 bg-cover bg-no-repeat"
           style="background-image: url('./assets/background/Frame 134.png');"></div>
@@ -880,8 +883,8 @@
           </div>
         </div>
 
-      </div> <!-- 3. Cardiac Thoracic Surgery -->
-      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+      </a> <!-- 3. Cardiac Thoracic Surgery -->
+      <a href="./women-care.php" class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
 
         <div class="absolute inset-0 bg-cover bg-no-repeat"
           style="background-image: url('./assets/background/Frame 134.png');"></div>
@@ -920,8 +923,8 @@
           </div>
         </div>
 
-      </div> <!-- 4. Critical Care Medicine -->
-      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+      </a> <!-- 4. Critical Care Medicine -->
+      <a href="./general-medicine.php" class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
 
         <div class="absolute inset-0 bg-cover bg-no-repeat"
           style="background-image: url('./assets/background/Frame 134.png');"></div>
@@ -960,8 +963,8 @@
           </div>
         </div>
 
-      </div> <!-- 5. Dermatology -->
-      <div class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+      </a> <!-- 5. Dermatology -->
+      <a href="./heart-care.php" class="group relative w-[260px] h-[360px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
 
         <div class="absolute inset-0 bg-cover bg-no-repeat"
           style="background-image: url('./assets/background/Frame 134.png');"></div>
@@ -1001,7 +1004,7 @@
         </div>
 
 
-      </div>
+      </a>
 
       <a href="./specialties.php" class="flex justify-center items-center font-semibold text-2xl text-[#848484] gap-2 pt-12">
         <h3>View all Specialities</h3>
