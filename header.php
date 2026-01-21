@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link href="./src/output.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <style>
     /* ------------ CONFIG: change this value if you want different panel height */
     :root {
@@ -558,44 +561,47 @@
 
                 <!-- COLUMN 1 -->
                 <ul class="mega-col">
-                  <li><img src="./assets/icons/bone.svg"> Bone & Joint Care </li>
-                  <li><img src="./assets/icons/child.svg"> Child Care </li>
-                  <li><img src="./assets/icons/women.svg"> Women’s Care </li>
-                  <li><img src="./assets/icons/general.svg"> General Medicine </li>
-                  <li><img src="./assets/icons/heart.svg"> Heart Care </li>
-                  <li><img src="./assets/icons/brain.svg"> Brain & Spine Care </li>
-                  <li><img src="./assets/icons/lung.svg"> Lung Care </li>
+                  <li><i class="fa-regular fa-bone"></i> Bone & Joint Care</li>
+                  <li><i class="fa-solid fa-baby"></i> Child Care</li>
+                  <li><i class="fa-solid fa-person-dress"></i> Women’s Care</li>
+                  <li><i class="fa-solid fa-stethoscope"></i> General Medicine</li>
+                  <li><i class="fa-regular fa-heart"></i> Heart Care</li>
+                  <li><i class="fa-solid fa-brain"></i> Brain & Spine Care</li>
+                  <li><i class="fa-solid fa-lungs"></i> Lung Care</li>
                 </ul>
 
                 <!-- COLUMN 2 -->
                 <ul class="mega-col">
-                  <li><img src="./assets/icons/renal.svg"> Kidney Care </li>
-                  <li><img src="./assets/icons/urology.svg"> Urology Care </li>
-                  <li><img src="./assets/icons/gastro.svg"> Digestive Care </li>
-                  <li><img src="./assets/icons/diabetes.svg"> Diabetes & Hormone Care </li>
-                  <li><img src="./assets/icons/cancer.svg"> Cancer Care </li>
-                  <li><img src="./assets/icons/vascular.svg"> Vascular Care </li>
-                  <li><img src="./assets/icons/skin.svg"> Skin Care </li>
+                  <li><i class="fa-solid fa-kidneys"></i> Kidney Care</li>
+                  <li><i class="fa-solid fa-toilet"></i> Urology Care</li>
+                  <li><i class="fa-solid fa-stomach"></i> Digestive Care</li>
+                  <li><i class="fa-solid fa-vial-circle-check"></i> Diabetes & Hormone Care</li>
+                  <li><i class="fa-solid fa-ribbon"></i> Cancer Care</li>
+                  <li><i class="fa-solid fa-wave-square"></i> Vascular Care</li>
+                  <li><i class="fa-solid fa-hand-dots"></i> Skin Care</li>
+
                 </ul>
 
                 <!-- COLUMN 3 -->
                 <ul class="mega-col">
-                  <li><img src="./assets/icons/eye.svg"> Eye Care </li>
-                  <li><img src="./assets/icons/ent.svg"> ENT Care </li>
-                  <li><img src="./assets/icons/mind.svg"> Mental Health & Mind Care </li>
-                  <li><img src="./assets/icons/rheumatology.svg"> Rheumatology </li>
-                  <li><img src="./assets/icons/reconstructive.svg"> Plastic, Reconstructive & Burn Care </li>
-                  <li><img src="./assets/icons/oral.svg"> Oral & Facial Surgery </li>
+                  <li><i class="fa-regular fa-eye"></i> Eye Care</li>
+                  <li><i class="fa-solid fa-ear-listen"></i> ENT Care</li>
+                  <li><i class="fa-solid fa-head-side-virus"></i> Mental Health & Mind Care</li>
+                  <li><i class="fa-solid fa-joint"></i> Rheumatology</li>
+                  <li><i class="fa-solid fa-fire-flame-simple"></i> Plastic, Reconstructive & Burn Care</li>
+                  <li><i class="fa-solid fa-teeth"></i> Oral & Facial Surgery</li>
+
                 </ul>
 
                 <!-- COLUMN 4 -->
                 <ul class="mega-col">
-                  <li><img src="./assets/icons/surgery.svg"> General Surgery </li>
-                  <li><img src="./assets/icons/emergency.svg"> Emergency & Critical Care </li>
-                  <li><img src="./assets/icons/rehab.svg"> Rehabilitation & Physiotherapy </li>
-                  <li><img src="./assets/icons/elder.svg"> Elder Care </li>
-                  <li><img src="./assets/icons/radiology.svg"> Radiology & Imaging </li>
-                  <li><img src="./assets/icons/lab.svg"> Laboratory & Diagnostic Services </li>
+                  <li><i class="fa-solid fa-scalpel"></i> General Surgery</li>
+                  <li><i class="fa-solid fa-truck-medical"></i> Emergency & Critical Care</li>
+                  <li><i class="fa-solid fa-person-walking"></i> Rehabilitation & Physiotherapy</li>
+                  <li><i class="fa-solid fa-person-cane"></i> Elder Care</li>
+                  <li><i class="fa-solid fa-x-ray"></i> Radiology & Imaging</li>
+                  <li><i class="fa-solid fa-flask-vial"></i> Laboratory & Diagnostic Services</li>
+
                 </ul>
 
               </div>
@@ -611,70 +617,57 @@
 
               <div class="mega mega-specialities mega-conditions">
 
-                <!-- COLUMN 1 -->
-                <ul class="mega-col condition-col">
-                  <li><img src="./assets/icons/heart.svg"> Hypertension</li>
-                  <li><img src="./assets/icons/diabetes.svg"> Diabetes</li>
-                  <li><img src="./assets/icons/heart.svg"> Heart Disease</li>
-                  <li><img src="./assets/icons/brain.svg"> Stroke</li>
+  <!-- COLUMN 1 : CARDIO / METABOLIC -->
+  <ul class="mega-col condition-col">
+    <li><i class="fa-solid fa-heart-pulse"></i> Hypertension</li>
+    <li><i class="fa-solid fa-vial-circle-check"></i> Diabetes</li>
+    <li><i class="fa-solid fa-heart"></i> Heart Disease</li>
+    <li><i class="fa-solid fa-brain"></i> Stroke</li>
 
-                  <!-- HIDDEN ITEMS -->
-                  <li class="more-item"><img src="./assets/icons/lab.svg"> High Cholesterol</li>
-                  <li class="more-item"><img src="./assets/icons/obesity.svg"> Obesity</li>
+    <li class="more-item"><i class="fa-solid fa-flask"></i> High Cholesterol</li>
+    <li class="more-item"><i class="fa-solid fa-weight-scale"></i> Obesity</li>
 
-                  <!-- VIEW MORE -->
-                  <li class="view-more">View More</li>
-                </ul>
+    <li class="view-more">View More</li>
+  </ul>
 
+  <!-- COLUMN 2 : RESPIRATORY -->
+  <ul class="mega-col condition-col">
+    <li><i class="fa-solid fa-lungs"></i> Asthma</li>
+    <li><i class="fa-solid fa-lungs"></i> COPD / Chronic Bronchitis</li>
+    <li><i class="fa-solid fa-virus"></i> Pneumonia</li>
+    <li><i class="fa-solid fa-bacteria"></i> Tuberculosis</li>
 
-                <!-- COLUMN 2 -->
-                <ul class="mega-col condition-col">
-                  <li><img src="./assets/icons/lung.svg"> Asthma</li>
-                  <li><img src="./assets/icons/lung.svg"> COPD / Chronic Bronchitis</li>
-                  <li><img src="./assets/icons/infection.svg"> Pneumonia</li>
-                  <li><img src="./assets/icons/tb.svg"> Tuberculosis</li>
+    <li class="more-item"><i class="fa-solid fa-lungs-virus"></i> Respiratory Infections</li>
 
-                  <li class="more-item"><img src="./assets/icons/uti.svg"> Urinary Tract Infection</li>
+    <li class="view-more">View More</li>
+  </ul>
 
-                  <li class="view-more">View More</li>
-                </ul>
+  <!-- COLUMN 3 : INFECTIONS -->
+  <ul class="mega-col condition-col">
+    <li><i class="fa-solid fa-virus"></i> Viral Fever</li>
+    <li><i class="fa-solid fa-virus"></i> Dengue</li>
+    <li><i class="fa-solid fa-virus"></i> Malaria</li>
+    <li><i class="fa-solid fa-virus"></i> Typhoid</li>
 
+    <li class="more-item"><i class="fa-solid fa-bacteria"></i> Urinary Tract Infection</li>
 
-                <!-- COLUMN 3 -->
-                <ul class="mega-col condition-col">
-                  <li><img src="./assets/icons/lung.svg"> Asthma</li>
-                  <li><img src="./assets/icons/lung.svg"> COPD / Chronic Bronchitis</li>
-                  <li><img src="./assets/icons/infection.svg"> Pneumonia</li>
-                  <li><img src="./assets/icons/tb.svg"> Tuberculosis</li>
+    <li class="view-more">View More</li>
+  </ul>
 
-                  <li class="more-item"><img src="./assets/icons/uti.svg"> Urinary Tract Infection</li>
+  <!-- COLUMN 5 : CANCER / BLOOD -->
+  <ul class="mega-col condition-col">
+    <li><i class="fa-solid fa-ribbon"></i> Breast Cancer</li>
+    <li><i class="fa-solid fa-ribbon"></i> Lung Cancer</li>
+    <li><i class="fa-solid fa-ribbon"></i> Colorectal Cancer</li>
+    <li><i class="fa-solid fa-ribbon"></i> Cervical Cancer</li>
 
-                  <li class="view-more">View More</li>
-                </ul>
+    <li class="more-item"><i class="fa-solid fa-droplet"></i> Anaemia</li>
 
+    <li class="view-more">View More</li>
+  </ul>
 
-                <!-- COLUMN 4 -->
+</div>
 
-
-
-                <!-- COLUMN 5 -->
-                <ul class="mega-col condition-col">
-                  <li><img src="./assets/icons/cancer.svg"> Breast Cancer</li>
-                  <li><img src="./assets/icons/cancer.svg"> Lung Cancer</li>
-                  <li><img src="./assets/icons/cancer.svg"> Colorectal Cancer</li>
-                  <li><img src="./assets/icons/cancer.svg"> Cervical Cancer</li>
-
-                  <li class="more-item"><img src="./assets/icons/blood.svg"> Anaemia</li>
-
-                  <li class="view-more">View More</li>
-                </ul>
-
-
-                <!-- COLUMN 6 -->
-
-
-
-              </div>
             </li>
 
             <li class="special relative">
@@ -684,82 +677,104 @@
 
               <div class="mega mega-specialities mega-packages">
 
-                <!-- COLUMN 1 -->
-                <ul class="mega-col condition-col">
-                  <a href="./basic-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Basic Health Package </li>
-                  </a>
-                  <a href="./pre-employment.php">
-                    <li><img src="./assets/icons/heart.svg"> Pre Employment Package  </li>
-                  </a>
+  <!-- COLUMN 1 -->
+  <ul class="mega-col condition-col">
+    <li>
+      <a href="./basic-package.php">
+        <i class="fa-solid fa-clipboard-check"></i>
+        Basic Health Package
+      </a>
+    </li>
 
-                  <a href="./master-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Master Health Package   </li>
-                  </a>
-                  
-               
-                </ul>
+    <li>
+      <a href="./pre-employment.php">
+        <i class="fa-solid fa-user-check"></i>
+        Pre Employment Package
+      </a>
+    </li>
 
+    <li>
+      <a href="./master-health-package.php">
+        <i class="fa-solid fa-file-medical"></i>
+        Master Health Package
+      </a>
+    </li>
+  </ul>
 
-                <!-- COLUMN 2 -->
-                <ul class="mega-col condition-col">
-                  <a href="./master-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Executive Health Package </li>
-                  </a>
-                  <a href="./diabetic-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Diabetic Package  </li>
-                  </a>
+  <!-- COLUMN 2 -->
+  <ul class="mega-col condition-col">
+    <li>
+      <a href="./master-health-package.php">
+        <i class="fa-solid fa-user-tie"></i>
+        Executive Health Package
+      </a>
+    </li>
 
-                  <a href="./diabetic-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Senior Citizen Package    </li>
-                  </a>
-                  
-               
-                </ul>
+    <li>
+      <a href="./diabetic-health-package.php">
+        <i class="fa-solid fa-vial-circle-check"></i>
+        Diabetic Package
+      </a>
+    </li>
 
+    <li>
+      <a href="./diabetic-health-package.php">
+        <i class="fa-solid fa-person-cane"></i>
+        Senior Citizen Package
+      </a>
+    </li>
+  </ul>
 
-                <!-- COLUMN 3 -->
-                <ul class="mega-col condition-col">
-                  <a href="./master-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Healthy Heart Package </li>
-                  </a>
-                  <a href="./diabetic-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Diabetic Package  </li>
-                  </a>
+  <!-- COLUMN 3 -->
+  <ul class="mega-col condition-col">
+    <li>
+      <a href="./master-health-package.php">
+        <i class="fa-solid fa-heart-pulse"></i>
+        Healthy Heart Package
+      </a>
+    </li>
 
-                  <a href="./diabetic-health-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Senior Citizen Package    </li>
-                  </a>
-                  
-               
-                </ul>
+    <li>
+      <a href="./diabetic-health-package.php">
+        <i class="fa-solid fa-vial-circle-check"></i>
+        Diabetic Package
+      </a>
+    </li>
 
-                <!-- COLUMN 4 -->
+    <li>
+      <a href="./diabetic-health-package.php">
+        <i class="fa-solid fa-person-cane"></i>
+        Senior Citizen Package
+      </a>
+    </li>
+  </ul>
 
+  <!-- COLUMN 5 -->
+  <ul class="mega-col condition-col">
+    <li>
+      <a href="./cancer-pacakge.php">
+        <i class="fa-solid fa-ribbon"></i>
+        Cancer Package
+      </a>
+    </li>
 
+    <li>
+      <a href="./fitness-package.php">
+        <i class="fa-solid fa-dumbbell"></i>
+        Fitness Package
+      </a>
+    </li>
 
-                <!-- COLUMN 5 -->
-                <ul class="mega-col condition-col">
-                  <a href="./cancer-pacakge.php">
-                    <li><img src="./assets/icons/heart.svg"> Cancer Package  </li>
-                  </a>
-                  <a href="./fitness-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Fitness Package   </li>
-                  </a>
+    <li>
+      <a href="./fertility-package.php">
+        <i class="fa-solid fa-seedling"></i>
+        Fertility Package
+      </a>
+    </li>
+  </ul>
 
-                  <a href="./fertility-package.php">
-                    <li><img src="./assets/icons/heart.svg"> Fertility Package    </li>
-                  </a>
-                  
-               
-                </ul>
+</div>
 
-
-                <!-- COLUMN 6 -->
-
-
-
-              </div>
             </li>
           </ul>
 
@@ -869,75 +884,76 @@
       <div class="border-t"></div>
 
       <!-- LIST LINKS -->
-      <ul class="px-6 py-4 text-sm text-gray-800 divide-y">
+      <ul class="px-3 py-4 text-sm text-gray-800 divide-y">
 
-  <li>
-    <a href="./health-facilities.php"
-       class="flex items-center justify-between py-4 hover:text-red-600 transition">
-      <div class="flex items-center gap-3">
-        <img src="./icons/hospital.svg" class="w-5 h-5" alt="">
-        <span>Hospital Facilities</span>
-      </div>
-      <span class="text-gray-400">›</span>
-    </a>
-  </li>
+        <li>
+          <a href="./health-facilities.php"
+            class="flex items-center justify-between py-4 hover:text-red-600 transition">
+            <div class="flex items-center gap-3">
+              <i class="fa-regular fa-hospital text-gray-400 w-5"></i>
+              <span>Hospital Facilities</span>
+            </div>
+            <i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>
+          </a>
+        </li>
 
-  <li>
-    <a href="./second-opinion.php"
-       class="flex items-center justify-between py-4 hover:text-red-600 transition">
-      <div class="flex items-center gap-3">
-        <img src="./icons/second-opinion.svg" class="w-5 h-5" alt="">
-        <span>Second Opinion</span>
-      </div>
-      <span class="text-gray-400">›</span>
-    </a>
-  </li>
+        <li>
+          <a href="./second-opinion.php"
+            class="flex items-center justify-between py-4 hover:text-red-600 transition">
+            <div class="flex items-center gap-3">
+              <i class="fa-regular fa-comments text-gray-400 w-5"></i>
+              <span>Second Opinion</span>
+            </div>
+            <i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>
+          </a>
+        </li>
 
-  <li>
-    <a href="./international-patients.php"
-       class="flex items-center justify-between py-4 hover:text-red-600 transition">
-      <div class="flex items-center gap-3">
-        <img src="./icons/international.svg" class="w-5 h-5" alt="">
-        <span>International Patients</span>
-      </div>
-      <span class="text-gray-400">›</span>
-    </a>
-  </li>
+        <li>
+          <a href="./international-patients.php"
+            class="flex items-center justify-between py-4 hover:text-red-600 transition">
+            <div class="flex items-center gap-3">
+              <i class="fa-regular fa-globe text-gray-400 w-5"></i>
+              <span>International Patients</span>
+            </div>
+            <i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>
+          </a>
+        </li>
 
-  <li>
-    <a href="./careers.php"
-       class="flex items-center justify-between py-4 hover:text-red-600 transition">
-      <div class="flex items-center gap-3">
-        <img src="./icons/careers.svg" class="w-5 h-5" alt="">
-        <span>Careers</span>
-      </div>
-      <span class="text-gray-400">›</span>
-    </a>
-  </li>
+        <li>
+          <a href="./careers.php"
+            class="flex items-center justify-between py-4 hover:text-red-600 transition">
+            <div class="flex items-center gap-3">
+              <i class="fa-regular fa-briefcase text-gray-400 w-5"></i>
+              <span>Careers</span>
+            </div>
+            <i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>
+          </a>
+        </li>
 
-  <li>
-    <a href="./news-awards.php"
-       class="flex items-center justify-between py-4 hover:text-red-600 transition">
-      <div class="flex items-center gap-3">
-        <img src="./icons/news.svg" class="w-5 h-5" alt="">
-        <span>News and Awards</span>
-      </div>
-      <span class="text-gray-400">›</span>
-    </a>
-  </li>
+        <li>
+          <a href="./news-awards.php"
+            class="flex items-center justify-between py-4 hover:text-red-600 transition">
+            <div class="flex items-center gap-3">
+              <i class="fa-regular fa-newspaper text-gray-400 w-5"></i>
+              <span>News and Awards</span>
+            </div>
+            <i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>
+          </a>
+        </li>
 
-  <li>
-    <a href="./health-corner.php"
-       class="flex items-center justify-between py-4 hover:text-red-600 transition">
-      <div class="flex items-center gap-3">
-        <img src="./icons/health.svg" class="w-5 h-5" alt="">
-        <span>Health Corner</span>
-      </div>
-      <span class="text-gray-400">›</span>
-    </a>
-  </li>
+        <li>
+          <a href="./health-corner.php"
+            class="flex items-center justify-between py-4 hover:text-red-600 transition">
+            <div class="flex items-center gap-3">
+              <i class="fa-regular fa-heart text-gray-400 w-5"></i>
+              <span>Health Corner</span>
+            </div>
+            <i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>
+          </a>
+        </li>
 
-</ul>
+      </ul>
+
 
     </div>
   </div>
