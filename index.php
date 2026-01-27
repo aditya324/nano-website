@@ -1906,7 +1906,7 @@
     </div>
   </section>
 
-
+<?php include './footer.php'; ?>
   <!-- Instagram Video Modal -->
   <!-- Video Modal -->
   <!-- Video Modal -->
@@ -2070,7 +2070,7 @@
 
   <?php include __DIR__ . '/components/scroll-to-top.php'; ?>
 
-
+ 
 
 
 

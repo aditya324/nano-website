@@ -375,7 +375,7 @@
 
   <?php require "./components/call-nano.php" ?>
   <?php require "./components/scroll-to-top.php" ?>
-
+  <?php include './footer.php'; ?>
 </body>
 
 </html>
